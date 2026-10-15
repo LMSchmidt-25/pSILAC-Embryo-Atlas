@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+
+# Generated website (until public release)
+site/
+docs/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
