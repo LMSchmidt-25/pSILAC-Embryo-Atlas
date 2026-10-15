@@ -5,7 +5,6 @@
 
 # Generated website (until public release)
 site/
-docs/
 
 # Temporary files
 *.tmp
