@@ -1,0 +1,2369 @@
+"UniProtID","Residue","Position","Highest abundance stage","QC_status","N_datasets"
+"A0JNT9","S",310,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A2A432","S",250,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"A2A432","S",110,,"Only one condition measured",1
+"A2A432","T",106,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2A432","T",140,,"Only one condition measured",1
+"A2A5R2","S",227,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"A2ADY9","S",120,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2ADY9","S",121,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"A2ADY9","S",128,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2ADY9","S",194,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2AHC3","S",1069,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2AHC3","S",1109,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A2AHC3","S",1185,,"Only one condition measured",1
+"A2AHC3","S",417,,"Only one condition measured",1
+"A2AHC3","T",511,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2AHC3","S",1115,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"A2AJA7","S",925,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"A2AKX3","S",1597,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"A2ALU4","S",935,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2AN08","S",181,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2AN08","S",2716,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"A2AN08","S",1759,,"Insufficient biological replicates",1
+"A2AN08","S",178,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2AN08","S",362,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"A2AN08","T",1760,,"Insufficient biological replicates",1
+"A2AN08","S",620,,"Insufficient biological replicates",1
+"A2AN08","T",363,,"Insufficient biological replicates",1
+"A2ANU3","T",28,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A2APB8","S",486,,"Only one condition measured",1
+"A2APB8","S",60,,"Only one condition measured",1
+"A2APB8","S",737,,"Only one condition measured",1
+"A2APB8","T",369,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2APB8","T",72,,"Only one condition measured",1
+"A2APB8","T",113,,"Insufficient biological replicates",1
+"A2AQ25","T",1248,,"Insufficient biological replicates",1
+"A2ARV4","S",4624,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"A2ARZ3","S",460,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A2ASS6","T",4828,,"Only one condition measured",1
+"A2AVJ5","S",28,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"A2BH40","S",365,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"A2TJV2","S",139,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"A2TJV2","S",270,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A6BLY7","S",151,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A6BLY7","S",152,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A6BLY7","T",153,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A6H8H2","S",1329,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"A6H8H2","S",1240,,"Only one condition measured",1
+"A6H8H2","S",1310,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A6H8H2","S",1328,,"Only one condition measured",1
+"A6H8H2","S",971,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A6H8H2","T",973,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"A6H8H2","T",966,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"A7XUY5","S",359,,"Only one condition measured",1
+"A7XUY5","S",363,,"Only one condition measured",1
+"B1AVD1","S",499,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"B1AXD8","S",18,,"Insufficient biological replicates",1
+"B1AXD8","S",21,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"B1AY13","S",1607,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"B1AY13","S",1609,,"Insufficient biological replicates",1
+"B1AY13","S",1612,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"B1AY13","S",2044,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"B1AZA5","S",12,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1AZA5","S",16,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"B1AZA5","T",32,,"Only one condition measured",1
+"B1AZI6","S",1417,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"B1AZP2","T",915,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1AZP2","T",975,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1AZP2","S",973,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","S",20,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",224,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","S",235,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",300,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",306,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",327,"LH","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",332,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",358,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",367,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",386,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",391,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","S",41,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","S",479,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",511,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",527,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","T",104,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","T",17,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","T",204,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","T",256,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B1B0V2","S",201,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",329,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","S",352,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",355,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",385,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",390,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",464,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","S",491,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",493,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","T",377,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B1B0V2","S",142,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",326,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",353,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"B1B0V2","S",392,,"Insufficient biological replicates",1
+"B2RQC6","S",1859,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B2RQC6","T",1331,,"Only one condition measured",1
+"B2RRL2","S",321,,"Only one condition measured",1
+"B2RUJ5","T",333,,"Only one condition measured",1
+"B2RUJ5","S",317,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"B2RY56","S",672,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B9EJ86","S",342,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B9EJ86","T",39,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"B9EJ86","S",328,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"B9EJ86","S",65,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"B9EJ86","S",814,,"No valid abundance measurement",0
+"B9EJ86","T",774,,"Only one condition measured",1
+"C3VD30","S",183,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"D3YXK2","S",366,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"D3YZP9","S",237,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"D3YZP9","S",247,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"D3YZP9","S",388,,"Insufficient biological replicates",1
+"D3YZP9","S",406,,"Insufficient biological replicates",1
+"D3YZP9","S",360,,"Insufficient biological replicates",1
+"D3YZP9","S",45,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"D3Z6Q9","S",443,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"E9PYK3","S",96,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"E9PYK3","S",1683,,"Insufficient biological replicates",1
+"E9PYK3","T",121,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"E9Q286","S",676,,"Only one condition measured",1
+"E9Q2Z1","S",1207,,"Only one condition measured",1
+"E9Q2Z1","S",1210,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"E9Q2Z1","S",1280,,"Only one condition measured",1
+"E9Q2Z1","S",983,,"Only one condition measured",1
+"E9Q394","S",1253,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"E9Q3C1","S",649,"HL","Within-dataset maximum (not cross-dataset)",1
+"E9Q3C1","S",647,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"E9Q414","S",1045,,"Insufficient biological replicates",1
+"E9Q5C9","S",563,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"E9Q5C9","T",504,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"E9Q5C9","T",600,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"E9Q5C9","S",394,,"Only one condition measured",1
+"E9Q5C9","S",183,,"Insufficient biological replicates",1
+"E9Q5F9","T",766,"LH","Within-dataset maximum (not cross-dataset)",1
+"E9Q5G3","S",860,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"E9Q5G3","S",735,,"Only one condition measured",1
+"E9Q5G3","S",904,,"Only one condition measured",1
+"E9Q5G3","S",905,,"Only one condition measured",1
+"E9Q5K9","S",309,,"Only one condition measured",1
+"E9Q5K9","S",418,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"E9Q6W4","S",269,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"E9Q7G0","S",1844,,"Only one condition measured",1
+"E9Q7G0","T",2037,,"Only one condition measured",1
+"E9QAM5","T",2796,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"E9QAT4","S",1028,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"E9QAT4","S",1384,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"E9QAT4","S",311,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"E9QAT4","T",64,,"Only one condition measured",1
+"F6XLV1","S",1516,,"Insufficient biological replicates",1
+"F6ZDS4","S",1746,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"F6ZDS4","S",1761,,"Only one condition measured",1
+"F6ZDS4","S",2141,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"F6ZDS4","T",1747,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"F6ZDS4","T",1762,,"Only one condition measured",1
+"F6ZDS4","T",2184,,"No valid abundance measurement",0
+"F6ZDS4","T",727,,"Only one condition measured",1
+"F6ZDS4","S",2223,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"F8VPN2","S",906,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"F8VPN2","T",2254,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"F8VPU2","T",24,,"Insufficient biological replicates",1
+"F8VQB6","S",1546,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"G3X9K3","S",1566,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"G3X9K3","S",52,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"G5E870","S",310,,"Insufficient biological replicates",1
+"L0N7N1","T",262,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O08547","S",137,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O08601","S",225,,"Only one condition measured",1
+"O08638","S",1954,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O08638","S",23,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O08672","S",249,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O08715","S",103,"LH","Within-dataset maximum (not cross-dataset)",1
+"O08715","S",101,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O08715","S",176,,"Only one condition measured",1
+"O08715","S",378,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O08715","T",487,,"Insufficient biological replicates",1
+"O08715","S",104,,"Insufficient biological replicates",1
+"O08759","S",8,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"O08784","S",1071,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"O08784","S",593,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"O08784","T",165,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"O08796","S",444,,"Insufficient biological replicates",1
+"O08796","S",469,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O08796","S",434,,"No valid abundance measurement",0
+"O08808","S",22,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O09000","S",847,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"O09044","S",110,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O09130","S",83,,"Insufficient biological replicates",1
+"O09172","S",59,,"Only one condition measured",1
+"O35280","S",280,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O35280","S",301,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O35344","S",60,,"Insufficient biological replicates",1
+"O35609","S",78,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O35618","S",343,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O35618","S",367,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O35618","S",341,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"O35618","S",339,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"O35640","T",49,,"Insufficient biological replicates",1
+"O35685","S",139,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O35685","T",99,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O35710","S",43,,"Only one condition measured",1
+"O35711","S",328,,"Only one condition measured",1
+"O35711","S",440,,"Only one condition measured",1
+"O35737","S",104,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O35737","T",100,,"Insufficient biological replicates",1
+"O35887","Y",47,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O35904","S",519,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O54692","S",438,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O54786","S",314,,"Only one condition measured",1
+"O54826","S",436,,"Only one condition measured",1
+"O54916","S",708,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O54916","T",538,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"O54931","S",975,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O54946","S",313,"HL","Within-dataset maximum (not cross-dataset)",1
+"O55022","S",181,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O55022","Y",180,,"Insufficient biological replicates",1
+"O55028","S",31,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O55029","S",859,"LH","Within-dataset maximum (not cross-dataset)",1
+"O55029","S",860,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O55029","Y",574,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"O55029","Y",585,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"O55060","S",34,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O55106","S",259,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O55106","S",378,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O55106","S",245,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O55106","S",373,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"O55143","S",663,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O55201","T",1028,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"O70133","S",132,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"O70152","S",13,,"Insufficient biological replicates",1
+"O70161","S",554,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"O70318","S",38,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O70318","S",698,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O70318","S",789,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O70373","S",723,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O70400","S",130,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O70400","S",90,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O70435","S",250,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O70479","S",273,,"Only one condition measured",1
+"O70480","S",30,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"O70492","S",72,,"Only one condition measured",1
+"O70493","S",73,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O70583","S",96,,"Insufficient biological replicates",1
+"O88413","S",167,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O88413","S",169,,"No valid abundance measurement",0
+"O88413","S",65,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O88487","S",81,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"O88487","T",154,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O88487","T",89,,"Only one condition measured",1
+"O88487","S",88,,"Only one condition measured",1
+"O88543","S",410,"HH","Within-dataset maximum (not cross-dataset)",1
+"O88543","S",423,,"Only one condition measured",1
+"O88559","S",487,,"Only one condition measured",1
+"O88559","T",595,,"Only one condition measured",1
+"O88569","S",259,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O88622","S",135,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"O88643","T",212,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O88643","T",230,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"O88643","T",229,,"Only one condition measured",1
+"O88783","T",284,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"O88878","S",128,,"Only one condition measured",1
+"O88907","S",506,,"No valid abundance measurement",0
+"P02535","T",210,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"P02535","T",369,,"Insufficient biological replicates",1
+"P04187","T",159,,"Only one condition measured",1
+"P04202","S",240,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P05064","S",36,,"Insufficient biological replicates",1
+"P05555","S",305,,"Only one condition measured",1
+"P05784","S",35,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"P05784","S",7,,"Insufficient biological replicates",1
+"P06240","T",198,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"P06334","Y",47,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P06745","S",41,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P06745","S",198,,"Only one condition measured",1
+"P07901","S",231,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P07901","S",263,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P08113","S",306,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P08113","S",172,,"No valid abundance measurement",0
+"P08113","Y",527,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P08775","S",1913,,"Insufficient biological replicates",1
+"P08775","S",1927,,"Insufficient biological replicates",1
+"P09405","S",403,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P09405","T",121,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P09405","T",76,,"Only one condition measured",1
+"P0CG14","S",201,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","S",133,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","S",209,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","S",285,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","S",57,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","T",131,,"Insufficient biological replicates",1
+"P0CG49","T",207,,"Insufficient biological replicates",1
+"P0CG49","T",283,,"Insufficient biological replicates",1
+"P0CG49","T",55,,"Insufficient biological replicates",1
+"P0CG49","Y",135,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","Y",211,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","Y",287,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG49","Y",59,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",133,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",209,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",285,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",361,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",437,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",513,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",57,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",589,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",665,"LH","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","T",131,,"Insufficient biological replicates",1
+"P0CG50","T",207,,"Insufficient biological replicates",1
+"P0CG50","T",283,,"Insufficient biological replicates",1
+"P0CG50","T",359,,"Insufficient biological replicates",1
+"P0CG50","T",435,,"Insufficient biological replicates",1
+"P0CG50","T",511,,"Insufficient biological replicates",1
+"P0CG50","T",55,,"Insufficient biological replicates",1
+"P0CG50","T",587,,"Insufficient biological replicates",1
+"P0CG50","T",663,,"Insufficient biological replicates",1
+"P0CG50","Y",135,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",211,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",287,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",363,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",439,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",515,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",59,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",591,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","Y",667,"HL","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",141,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",217,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",293,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",369,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",445,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",521,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",597,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",65,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P0CG50","S",673,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P10126","T",88,"LH","Within-dataset maximum (not cross-dataset)",1
+"P10126","Y",86,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P10126","Y",85,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P10711","S",100,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P10711","S",81,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P10711","T",82,"LH","Within-dataset maximum (not cross-dataset)",1
+"P10761","Y",111,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P10761","T",105,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P11031","S",55,,"No valid abundance measurement",0
+"P11031","S",92,,"Insufficient biological replicates",1
+"P11157","S",20,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P11157","T",33,,"Only one condition measured",1
+"P11440","T",14,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P11440","T",161,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P11440","Y",15,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P11440","Y",160,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P11499","S",226,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P11499","S",255,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P11679","S",24,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"P11862","Y",22,,"Insufficient biological replicates",1
+"P11881","T",945,,"Only one condition measured",1
+"P11983","S",544,,"Only one condition measured",1
+"P13864","S",1108,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",140,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",1421,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P13864","S",150,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",182,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",187,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",190,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",331,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",338,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",717,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",981,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","T",149,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","T",164,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","T",308,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P13864","S",208,,"Insufficient biological replicates",1
+"P13864","S",389,,"No valid abundance measurement",0
+"P13864","S",958,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P13864","T",245,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P13864","T",333,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P13864","S",1128,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P13864","S",146,,"Insufficient biological replicates",1
+"P13864","Y",1295,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P14152","S",242,,"Insufficient biological replicates",1
+"P14602","S",86,,"Insufficient biological replicates",1
+"P14873","S",1013,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P14873","S",1815,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P14873","S",2051,,"Only one condition measured",1
+"P14873","S",2267,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P14873","T",1277,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P14873","T",1945,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P14873","T",1962,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P14873","T",527,,"Insufficient biological replicates",1
+"P14873","S",1789,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P14873","T",1806,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P14873","T",1942,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P14873","T",1943,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P14873","T",1960,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P15265","S",128,"HH","Within-dataset maximum (not cross-dataset)",1
+"P15327","T",122,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P15920","S",695,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P16125","S",11,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P16125","S",44,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P16125","T",249,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P16125","T",75,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P16125","Y",248,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P16858","S",208,"LH","Within-dataset maximum (not cross-dataset)",1
+"P16858","T",209,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P17879","T",295,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P17879","T",298,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P17879","Y",294,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P18654","S",386,,"No valid abundance measurement",0
+"P18654","S",715,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P19096","T",1341,"HH","Within-dataset maximum (not cross-dataset)",1
+"P19437","S",219,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P19437","S",225,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P19437","S",248,,"Only one condition measured",1
+"P19437","S",29,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P20239","T",568,"LH","Within-dataset maximum (not cross-dataset)",1
+"P20239","T",569,"LH","Within-dataset maximum (not cross-dataset)",1
+"P21271","T",1091,,"Only one condition measured",1
+"P21619","S",427,,"Insufficient biological replicates",1
+"P22599","T",198,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"P23242","S",328,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P23242","S",365,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P23475","S",518,,"Only one condition measured",1
+"P24288","T",36,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P24604","T",338,,"Only one condition measured",1
+"P24860","S",53,,"No valid abundance measurement",0
+"P25206","S",668,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P25206","S",672,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P25206","T",719,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P25911","T",398,,"Only one condition measured",1
+"P26043","T",564,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P26043","S",532,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P26231","S",655,,"Insufficient biological replicates",1
+"P26645","S",27,,"Insufficient biological replicates",1
+"P26645","T",143,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"P27546","S",1046,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P27546","S",475,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P27546","S",517,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P27546","S",667,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P27546","S",914,,"Insufficient biological replicates",1
+"P27546","T",658,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P27546","S",345,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P27546","S",617,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P27546","S",684,,"Only one condition measured",1
+"P27546","S",760,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P27546","S",785,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P27546","S",798,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P27546","S",901,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P27546","T",657,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P27546","T",777,,"Only one condition measured",1
+"P27546","T",846,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P27546","T",847,,"Insufficient biological replicates",1
+"P27546","S",795,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P27546","S",99,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P27612","S",50,,"No valid abundance measurement",0
+"P27773","Y",196,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P28028","S",432,,"Insufficient biological replicates",1
+"P28656","T",62,,"Only one condition measured",1
+"P28667","S",22,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"P28738","S",933,,"Insufficient biological replicates",1
+"P28867","S",643,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P28867","S",662,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P29341","S",315,,"Only one condition measured",1
+"P30115","Y",74,"HH","Within-dataset maximum (not cross-dataset)",1
+"P30658","S",303,,"No valid abundance measurement",0
+"P30677","Y",76,,"Only one condition measured",1
+"P30999","S",920,,"Only one condition measured",1
+"P30999","S",252,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"P30999","S",268,,"Insufficient biological replicates",1
+"P35276","S",199,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P35276","S",196,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P35283","S",20,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P35486","S",232,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P35486","S",293,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P35486","S",300,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P35486","Y",301,,"Insufficient biological replicates",1
+"P35564","S",553,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P35564","S",563,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P35564","S",582,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P35564","T",561,,"Insufficient biological replicates",1
+"P35761","S",366,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P35761","S",435,,"Only one condition measured",1
+"P35761","S",820,,"Insufficient biological replicates",1
+"P35761","S",277,,"Only one condition measured",1
+"P35979","S",38,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P37913","S",49,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P37913","S",51,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P37913","S",188,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P37913","T",232,,"Only one condition measured",1
+"P40124","T",306,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P40124","S",307,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P40124","S",309,,"Only one condition measured",1
+"P40336","S",315,,"Insufficient biological replicates",1
+"P40336","S",318,,"Only one condition measured",1
+"P42208","S",218,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P42567","S",816,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P42567","S",107,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P42567","S",108,,"Only one condition measured",1
+"P42567","S",324,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P45376","T",266,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P46460","S",40,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P46467","S",102,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P46938","S",261,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P46938","S",352,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P46938","S",94,"LH","Within-dataset maximum (not cross-dataset)",1
+"P46938","T",104,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P46938","T",95,,"No valid abundance measurement",0
+"P47806","Y",628,,"No valid abundance measurement",0
+"P47806","Y",631,,"No valid abundance measurement",0
+"P48678","S",22,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P48678","S",653,,"Insufficient biological replicates",1
+"P48722","S",819,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P48972","T",542,,"Only one condition measured",1
+"P49025","S",2021,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P49025","S",439,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P49025","T",1332,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P49025","S",1966,,"Insufficient biological replicates",1
+"P49070","T",61,"LH","Within-dataset maximum (not cross-dataset)",1
+"P49312","S",6,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P50446","S",240,"LH","Within-dataset maximum (not cross-dataset)",1
+"P51125","S",219,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P51125","T",467,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P51125","T",479,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P51125","S",163,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P51125","S",466,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P51125","S",81,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P51125","T",224,,"Only one condition measured",1
+"P51125","T",624,,"Only one condition measured",1
+"P51150","S",111,,"Only one condition measured",1
+"P51660","S",308,,"Only one condition measured",1
+"P51660","T",312,,"Insufficient biological replicates",1
+"P51859","S",165,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P52293","S",62,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P52480","T",328,"HH","Within-dataset maximum (not cross-dataset)",1
+"P52480","S",519,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P52480","S",77,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P53690","S",285,"HH","Within-dataset maximum (not cross-dataset)",1
+"P53986","S",210,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P53986","S",213,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P53986","S",230,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P54227","S",25,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P54227","S",38,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P54276","S",63,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P54276","S",827,,"Insufficient biological replicates",1
+"P54276","T",139,,"Insufficient biological replicates",1
+"P54276","S",137,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"P54728","S",160,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P54728","T",155,,"Only one condition measured",1
+"P54728","T",159,,"Insufficient biological replicates",1
+"P54823","S",49,,"Only one condition measured",1
+"P54823","T",55,,"Only one condition measured",1
+"P55096","S",424,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P55194","S",262,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"P55258","S",181,,"Only one condition measured",1
+"P55258","S",185,,"Only one condition measured",1
+"P56183","S",434,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"P56212","S",62,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P56212","S",23,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P56390","S",51,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P56390","Y",57,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P56394","S",8,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P56501","T",12,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P56812","S",119,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P57776","S",133,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P57776","S",162,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P57776","T",147,,"Only one condition measured",1
+"P57780","S",129,"HL","Within-dataset maximum (not cross-dataset)",1
+"P58252","T",57,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P58468","S",38,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P58660","S",518,,"Only one condition measured",1
+"P58660","S",521,,"Only one condition measured",1
+"P58742","S",495,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P58871","S",1063,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P58871","S",1131,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P58871","S",1375,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P58871","S",1611,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P58871","S",1612,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P58871","S",1643,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P58871","S",1645,,"Insufficient biological replicates",1
+"P58871","S",1657,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P58871","S",1706,,"Only one condition measured",1
+"P58871","S",602,,"Insufficient biological replicates",1
+"P58871","S",793,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P58871","S",796,,"Insufficient biological replicates",1
+"P58871","S",887,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P58871","T",1065,,"Only one condition measured",1
+"P58871","T",1275,,"Only one condition measured",1
+"P59242","S",250,,"Only one condition measured",1
+"P59242","S",84,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P59242","S",89,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P59242","S",149,,"Insufficient biological replicates",1
+"P59242","S",268,,"Only one condition measured",1
+"P59242","T",272,,"Insufficient biological replicates",1
+"P59328","S",821,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P59470","T",412,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P59759","S",153,,"Insufficient biological replicates",1
+"P59759","S",154,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P59759","S",207,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P60335","S",264,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P60710","S",365,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P60710","Y",198,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P60710","Y",362,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P60840","S",67,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P60853","S",233,,"Insufficient biological replicates",1
+"P60904","S",10,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P61087","S",159,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P61087","S",158,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P61979","S",216,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P61979","S",284,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P61982","S",59,,"Insufficient biological replicates",1
+"P62137","T",320,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P62141","T",316,,"Insufficient biological replicates",1
+"P62492","S",190,,"Only one condition measured",1
+"P62908","T",221,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P62908","S",224,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"P62960","S",163,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P62960","S",174,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P62960","S",207,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P62960","Y",206,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P62983","S",57,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P62983","T",55,,"Insufficient biological replicates",1
+"P62983","Y",59,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P62984","S",57,"LH","Within-dataset maximum (not cross-dataset)",1
+"P62984","T",55,,"Insufficient biological replicates",1
+"P62984","Y",59,"HL","Within-dataset maximum (not cross-dataset)",1
+"P62996","S",264,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P62996","S",266,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P62996","T",201,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P62996","T",203,,"Insufficient biological replicates",1
+"P63017","S",537,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P63038","S",410,,"No valid abundance measurement",0
+"P63085","T",183,,"No valid abundance measurement",0
+"P63085","Y",185,,"No valid abundance measurement",0
+"P63260","S",365,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P63260","Y",198,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P63260","Y",362,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P63276","T",130,,"Only one condition measured",1
+"P67871","S",209,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P68134","S",62,,"No valid abundance measurement",0
+"P68134","Y",135,,"Insufficient biological replicates",1
+"P68368","T",73,,"Only one condition measured",1
+"P68368","Y",83,,"Only one condition measured",1
+"P70166","S",81,,"No valid abundance measurement",0
+"P70166","S",85,,"No valid abundance measurement",0
+"P70296","S",52,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P70296","T",42,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P70296","S",113,,"Insufficient biological replicates",1
+"P70324","S",438,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P70362","S",247,,"Only one condition measured",1
+"P70372","S",197,,"Only one condition measured",1
+"P70398","S",2547,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P70399","S",1653,,"Only one condition measured",1
+"P70399","S",1670,,"Insufficient biological replicates",1
+"P70441","S",275,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P70441","S",297,,"Insufficient biological replicates",1
+"P70698","S",575,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"P80318","S",252,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P83741","S",1256,,"Only one condition measured",1
+"P83741","S",1973,,"Insufficient biological replicates",1
+"P83741","T",17,,"Insufficient biological replicates",1
+"P84084","T",85,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P84084","Y",81,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P84089","Y",82,,"Insufficient biological replicates",1
+"P97291","T",516,,"Only one condition measured",1
+"P97310","S",27,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97310","S",139,,"Insufficient biological replicates",1
+"P97310","S",21,,"Insufficient biological replicates",1
+"P97310","T",25,,"Insufficient biological replicates",1
+"P97311","S",704,,"Insufficient biological replicates",1
+"P97329","S",527,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97364","S",49,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97379","T",227,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P97386","S",211,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97440","S",182,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P97440","S",7,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97440","T",62,,"Only one condition measured",1
+"P97440","T",171,,"Only one condition measured",1
+"P97772","T",487,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P97772","Y",486,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P97792","S",332,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97792","T",334,,"Only one condition measured",1
+"P97814","S",318,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97817","S",308,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P97817","S",310,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"P97820","S",629,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97820","T",909,,"Only one condition measured",1
+"P97825","S",131,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97825","S",79,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"P97825","S",87,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"P97825","T",54,,"Only one condition measured",1
+"P97855","S",231,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"P97855","T",230,,"Insufficient biological replicates",1
+"P97931","S",57,,"Only one condition measured",1
+"P98078","S",401,,"Insufficient biological replicates",1
+"P98078","S",674,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"P98191","S",37,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"P98192","S",19,,"Only one condition measured",1
+"P99027","S",16,,"Insufficient biological replicates",1
+"P99027","S",17,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q00PI9","S",159,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q01320","T",1350,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q01853","S",702,,"Insufficient biological replicates",1
+"Q01853","T",127,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q01853","Y",134,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q02053","S",810,,"Insufficient biological replicates",1
+"Q02053","S",46,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q02248","S",191,,"Insufficient biological replicates",1
+"Q02248","S",552,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q02248","S",675,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q03141","S",469,,"Only one condition measured",1
+"Q03147","T",170,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q03265","T",505,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q04447","T",224,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q04447","S",199,,"Insufficient biological replicates",1
+"Q04750","S",114,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q04899","Y",132,,"Insufficient biological replicates",1
+"Q05512","S",390,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q05512","S",40,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q05512","S",408,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q05512","S",409,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q05512","S",453,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q05512","S",532,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q05512","S",566,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q05512","S",590,,"Only one condition measured",1
+"Q05512","S",592,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q05512","S",616,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q05512","S",663,,"Insufficient biological replicates",1
+"Q05512","T",42,,"Only one condition measured",1
+"Q05512","T",593,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q05512","S",392,,"Insufficient biological replicates",1
+"Q05512","S",568,,"Insufficient biological replicates",1
+"Q05816","T",83,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q05816","T",85,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q05816","T",88,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q05915","S",24,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q05915","S",51,,"Only one condition measured",1
+"Q05A80","S",782,,"Only one condition measured",1
+"Q05A80","S",853,,"No valid abundance measurement",0
+"Q05A80","S",391,,"Only one condition measured",1
+"Q05D44","S",137,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q05D44","S",215,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q05D44","S",139,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q06649","S",366,,"No valid abundance measurement",0
+"Q06649","S",442,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q07113","S",2393,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q07113","S",2401,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q07139","S",865,,"Insufficient biological replicates",1
+"Q08509","S",475,,"Only one condition measured",1
+"Q08509","S",658,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q08509","T",476,,"Only one condition measured",1
+"Q08639","S",23,,"Only one condition measured",1
+"Q08943","S",444,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q08943","S",659,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q08943","S",673,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q0P678","S",530,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q0VBV7","S",145,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q0VF58","S",883,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q0VGB7","S",226,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q0VGB7","S",159,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q148V7","S",422,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q148V7","S",56,,"Only one condition measured",1
+"Q148V8","T",36,,"No valid abundance measurement",0
+"Q14AX6","S",1079,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q14B48","S",995,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q14BP6","Y",106,,"No valid abundance measurement",0
+"Q14DH7","S",621,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q1HFZ0","S",723,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q2KN98","S",833,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q2TBE6","S",462,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3B7Z2","S",333,,"Insufficient biological replicates",1
+"Q3B7Z2","S",336,,"Insufficient biological replicates",1
+"Q3TCJ8","S",107,,"Only one condition measured",1
+"Q3TCJ8","Y",105,,"Only one condition measured",1
+"Q3TDQ1","S",18,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3TDQ1","S",495,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3TDQ1","S",496,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3THE2","T",19,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3THE2","S",20,,"Only one condition measured",1
+"Q3THK3","T",389,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q3THK7","S",332,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3TIX9","S",46,,"Insufficient biological replicates",1
+"Q3TLH4","S",102,,"Only one condition measured",1
+"Q3TLH4","T",2625,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3TLH4","T",797,,"Only one condition measured",1
+"Q3TLH4","S",2095,,"Insufficient biological replicates",1
+"Q3TSG4","S",65,,"Only one condition measured",1
+"Q3TWL2","S",169,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3TWW8","S",301,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q3TWW8","S",303,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q3TXS7","T",311,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3TZZ7","S",650,,"Only one condition measured",1
+"Q3U0P1","S",130,,"Only one condition measured",1
+"Q3U3E2","S",268,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3U3E2","S",302,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3U3E2","S",340,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q3U3E2","T",101,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3U3N0","S",180,,"Only one condition measured",1
+"Q3U3N0","T",182,,"Only one condition measured",1
+"Q3U4B4","T",362,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q3U5C8","S",231,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3U5C8","S",234,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3U5C8","T",230,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3U5C8","S",105,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3U5C8","S",111,,"Only one condition measured",1
+"Q3U7R1","S",951,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3U7R1","T",947,,"Only one condition measured",1
+"Q3U9G9","T",128,,"Insufficient biological replicates",1
+"Q3UDK1","S",450,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UDK1","S",551,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UE17","S",483,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UE17","T",491,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UE31","S",324,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UGC7","T",112,,"Only one condition measured",1
+"Q3UGM2","Y",583,,"Insufficient biological replicates",1
+"Q3UH66","S",107,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UH66","S",1706,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UH66","S",1661,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UH66","S",1770,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UH66","S",1923,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UH66","S",1797,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q3UH66","S",1926,,"Insufficient biological replicates",1
+"Q3UHK8","S",1496,,"No valid abundance measurement",0
+"Q3UHQ6","S",597,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UHQ6","S",678,,"Only one condition measured",1
+"Q3UHQ6","S",679,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q3UHQ6","S",703,,"Insufficient biological replicates",1
+"Q3UHQ6","S",718,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UHQ6","S",719,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UHQ6","S",710,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q3UIA2","T",659,,"Insufficient biological replicates",1
+"Q3UIL6","S",362,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q3UJB9","S",733,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UJD6","S",275,,"Only one condition measured",1
+"Q3UJD6","S",448,,"Only one condition measured",1
+"Q3UJU9","S",46,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UKC1","S",632,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UL36","S",75,,"Insufficient biological replicates",1
+"Q3UM45","S",24,,"Only one condition measured",1
+"Q3UM45","S",27,,"Only one condition measured",1
+"Q3UMC0","S",18,,"Only one condition measured",1
+"Q3UMF0","T",1217,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UMF0","S",1028,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UMF0","S",1092,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UMF0","S",1214,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q3UMF0","S",1215,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UMF0","S",666,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UMF0","S",897,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UMF0","S",993,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UMF0","T",1027,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q3UMF0","T",304,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UMF0","T",691,,"Only one condition measured",1
+"Q3UMF0","S",551,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q3UMR0","S",510,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q3UMR5","Y",157,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q3UMU9","S",366,,"Insufficient biological replicates",1
+"Q3UN04","S",210,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UN04","T",335,,"Insufficient biological replicates",1
+"Q3UPL0","S",526,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UPL0","S",801,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q3UPL0","Y",803,,"Only one condition measured",1
+"Q3UQS8","S",1167,,"No valid abundance measurement",0
+"Q3UQS8","Y",1165,,"No valid abundance measurement",0
+"Q3UQV5","S",349,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q3UTJ2","T",357,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UTJ2","S",358,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UW53","S",581,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q3UWS6","S",92,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UWW6","T",532,,"Insufficient biological replicates",1
+"Q3UX83","T",21,,"Only one condition measured",1
+"Q3UYC0","S",123,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q3UYC0","S",210,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UYC0","S",220,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UYC0","S",222,,"Only one condition measured",1
+"Q3UYC0","T",223,,"Insufficient biological replicates",1
+"Q3UZ39","S",547,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q3UZ39","S",614,,"Insufficient biological replicates",1
+"Q3V1H1","T",561,,"Only one condition measured",1
+"Q3V1L4","S",502,,"Insufficient biological replicates",1
+"Q45VK7","S",173,,"Insufficient biological replicates",1
+"Q45VK7","S",3477,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q4JIM5","T",938,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q4JIM5","S",621,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q4JIM5","S",936,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q4JIM5","S",1052,,"Only one condition measured",1
+"Q4JIM5","S",1054,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q4JIM5","S",876,,"Only one condition measured",1
+"Q4JK59","S",1615,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q4JK59","S",39,,"Insufficient biological replicates",1
+"Q4VA36","S",293,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q4VA53","S",1166,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q4VAA2","S",54,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q4VAA2","T",205,,"Only one condition measured",1
+"Q4VAA2","S",51,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q4VBD2","T",472,,"Only one condition measured",1
+"Q505F5","S",293,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q52KI8","S",220,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q52KI8","S",260,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q52KI8","S",616,,"Insufficient biological replicates",1
+"Q52KI8","S",635,,"Insufficient biological replicates",1
+"Q52KI8","S",714,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q52KI8","S",779,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q52KI8","S",781,,"Insufficient biological replicates",1
+"Q52KI8","S",810,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q52KI8","S",822,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q52KI8","S",915,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q52KI8","T",404,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q52KR3","T",2502,,"Only one condition measured",1
+"Q569L8","S",270,,"Only one condition measured",1
+"Q569L8","S",393,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q569Z6","T",870,,"Insufficient biological replicates",1
+"Q569Z6","S",243,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q569Z6","S",320,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q569Z6","S",679,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q571I9","S",538,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q5BL07","S",1212,,"Insufficient biological replicates",1
+"Q5BL07","Y",1208,,"Insufficient biological replicates",1
+"Q5BN45","T",133,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q5DTU0","S",344,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q5DTU0","S",772,,"Only one condition measured",1
+"Q5DTW7","S",1142,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q5DTW7","S",1480,,"No valid abundance measurement",0
+"Q5DTX6","S",498,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q5DU05","S",1417,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q5DU31","S",299,,"Only one condition measured",1
+"Q5EG47","S",356,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5F2E7","S",376,,"Only one condition measured",1
+"Q5F2E7","S",570,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q5F2E7","S",626,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q5F2E7","T",221,,"Insufficient biological replicates",1
+"Q5FWK3","S",51,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q5HZI1","S",1208,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5HZI1","T",230,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q5HZI1","T",529,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q5HZI1","S",1143,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5HZI1","S",1164,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q5HZI1","S",1185,,"Only one condition measured",1
+"Q5HZI1","S",1206,,"Only one condition measured",1
+"Q5HZI1","S",525,,"Only one condition measured",1
+"Q5HZI1","S",533,,"Only one condition measured",1
+"Q5HZI1","S",535,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5HZI1","S",612,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5HZI1","S",617,,"Only one condition measured",1
+"Q5HZI1","S",810,,"Only one condition measured",1
+"Q5HZI1","T",496,,"Only one condition measured",1
+"Q5M6W3","Y",78,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q5ND04","T",585,,"Only one condition measured",1
+"Q5RL79","T",124,,"Insufficient biological replicates",1
+"Q5SF07","S",11,,"No valid abundance measurement",0
+"Q5SF07","S",161,,"Only one condition measured",1
+"Q5SF07","S",162,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5SF07","S",164,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5SFM8","S",891,,"No valid abundance measurement",0
+"Q5SFM8","T",447,,"Only one condition measured",1
+"Q5SSL4","S",57,,"Only one condition measured",1
+"Q5SSL4","S",72,,"Insufficient biological replicates",1
+"Q5SSL4","T",636,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q5SV85","S",764,,"Only one condition measured",1
+"Q5SWY7","S",633,,"Insufficient biological replicates",1
+"Q5SWY7","S",664,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5SWY7","S",727,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q5SWY7","S",773,,"Only one condition measured",1
+"Q5U430","S",1199,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q5XFR0","S",76,,"Only one condition measured",1
+"Q5XG69","S",531,,"No valid abundance measurement",0
+"Q5XG73","S",418,,"Insufficient biological replicates",1
+"Q5XJY5","S",493,,"Insufficient biological replicates",1
+"Q60520","S",10,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q60520","S",1113,,"Only one condition measured",1
+"Q60520","S",941,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q60520","T",1111,,"Only one condition measured",1
+"Q60520","T",436,,"Only one condition measured",1
+"Q60662","S",812,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q60662","S",497,,"Insufficient biological replicates",1
+"Q60698","S",477,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q60710","T",310,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q60710","T",634,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q60751","S",1010,,"No valid abundance measurement",0
+"Q60805","Y",193,,"Insufficient biological replicates",1
+"Q60899","S",221,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q60902","S",229,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q60902","S",255,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q60902","S",108,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q60949","S",621,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q60949","T",739,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q60953","S",528,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q61029","T",159,,"Insufficient biological replicates",1
+"Q61029","T",317,,"Insufficient biological replicates",1
+"Q61033","T",159,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q61033","T",74,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q61087","T",641,,"Insufficient biological replicates",1
+"Q61140","S",143,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q61142","S",124,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q61142","S",199,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q61142","S",39,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61142","S",109,,"No valid abundance measurement",0
+"Q61152","S",300,,"Only one condition measured",1
+"Q61160","S",191,,"Insufficient biological replicates",1
+"Q61165","S",697,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q61188","T",487,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61233","S",257,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61233","S",5,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61316","S",503,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61316","T",540,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q61316","S",548,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q61410","S",446,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q61464","S",128,,"Only one condition measured",1
+"Q61595","S",75,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q61595","S",90,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61595","T",71,,"Only one condition measured",1
+"Q61655","S",85,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61687","S",590,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61687","S",92,,"Only one condition measured",1
+"Q61696","T",295,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q61696","T",298,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q61696","Y",294,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q61699","S",810,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q61699","T",486,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q61699","T",816,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61749","S",21,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q61768","S",933,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61937","S",252,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61937","T",217,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61937","S",70,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q61990","S",185,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q62093","S",26,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62093","Y",23,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q62093","T",25,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62101","S",203,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62101","S",407,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62136","S",492,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62136","S",590,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62136","S",637,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62136","S",658,,"Insufficient biological replicates",1
+"Q62136","S",777,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62136","S",799,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q62167","S",520,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q62247","S",4,,"Insufficient biological replicates",1
+"Q62261","S",2137,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q62261","S",2340,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62315","S",124,,"Insufficient biological replicates",1
+"Q62318","S",473,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62376","S",226,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q62383","S",125,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62393","S",36,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62393","S",40,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62393","T",35,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62393","S",14,,"No valid abundance measurement",0
+"Q62393","S",170,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62393","S",175,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q62417","Y",1198,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q62417","S",1201,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62417","S",1209,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62417","S",185,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62417","S",250,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62417","S",261,,"Only one condition measured",1
+"Q62417","S",432,,"Only one condition measured",1
+"Q62417","S",96,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62418","S",277,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62418","S",291,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q62418","T",299,,"Insufficient biological replicates",1
+"Q62426","Y",97,,"Insufficient biological replicates",1
+"Q62433","S",330,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q62433","S",367,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q62433","T",328,,"Insufficient biological replicates",1
+"Q62441","S",208,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q62446","S",34,,"Insufficient biological replicates",1
+"Q62448","T",507,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q63844","T",203,,"No valid abundance measurement",0
+"Q63844","Y",205,,"No valid abundance measurement",0
+"Q63850","S",412,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q63932","T",395,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q63ZW7","S",524,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q64010","S",83,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q64012","S",135,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q64012","S",270,,"Insufficient biological replicates",1
+"Q640Q5","S",192,,"Only one condition measured",1
+"Q64327","S",170,,"Only one condition measured",1
+"Q64337","T",272,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q64362","S",30,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q64GA5","T",492,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q64GA5","T",424,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q65Z40","S",77,,"Only one condition measured",1
+"Q66JS6","T",114,,"Only one condition measured",1
+"Q66JT0","S",105,,"Only one condition measured",1
+"Q66JT0","S",145,,"Only one condition measured",1
+"Q66JT0","S",71,,"Only one condition measured",1
+"Q66JT0","T",106,,"Only one condition measured",1
+"Q66JT0","T",133,,"Insufficient biological replicates",1
+"Q66JT0","T",153,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q66JY2","S",227,,"Only one condition measured",1
+"Q66L42","T",242,,"Insufficient biological replicates",1
+"Q66X05","T",87,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q66X22","S",672,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q68FE2","S",656,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q68FF6","S",371,,"Insufficient biological replicates",1
+"Q68FF7","S",420,,"Only one condition measured",1
+"Q68FF7","S",429,,"Only one condition measured",1
+"Q68FF7","T",215,,"Only one condition measured",1
+"Q68FH0","S",775,,"Insufficient biological replicates",1
+"Q68FL4","S",109,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q68FL6","S",827,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q69ZR2","S",632,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q69ZR2","S",1777,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q69ZR2","S",641,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q69ZR2","T",1347,,"Insufficient biological replicates",1
+"Q6A037","T",425,,"Only one condition measured",1
+"Q6A0A2","S",489,,"Insufficient biological replicates",1
+"Q6B966","S",13,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6B966","S",19,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6B966","T",17,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6B966","S",186,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q6B966","S",931,,"No valid abundance measurement",0
+"Q6B966","T",183,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q6DFV7","S",298,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q6DIA9","S",271,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q6DVA0","S",507,,"Insufficient biological replicates",1
+"Q6EDY6","S",1103,,"Only one condition measured",1
+"Q6EDY6","S",1289,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6EDY6","S",1294,,"Insufficient biological replicates",1
+"Q6EDY6","S",1295,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6GQV7","T",632,,"No valid abundance measurement",0
+"Q6NVE8","S",405,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6NXJ0","T",999,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q6NXJ0","S",1001,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6NXN1","S",107,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6NXN1","S",39,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q6NXN1","S",74,,"Only one condition measured",1
+"Q6NZA9","T",172,,"Only one condition measured",1
+"Q6NZC7","S",600,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6NZC7","S",735,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6NZC7","S",748,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6NZE7","S",23,,"Insufficient biological replicates",1
+"Q6NZF1","S",677,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q6NZJ6","S",1096,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6NZJ6","S",1211,,"Insufficient biological replicates",1
+"Q6NZJ6","S",1231,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6NZJ6","S",1597,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6NZJ6","S",347,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q6NZN0","S",127,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q6NZR5","S",253,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6NZR5","S",240,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q6P1G2","S",1004,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P1G2","S",1022,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6P1G2","S",26,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P1G2","S",418,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P1G2","S",447,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P1G2","S",566,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6P1G2","S",887,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P1G2","S",948,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6P1G2","S",991,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P1G2","T",420,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q6P1G2","T",422,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P1G2","S",1002,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6P1G2","S",470,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q6P1G2","S",821,,"Insufficient biological replicates",1
+"Q6P1G2","S",952,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q6P1G2","T",466,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q6P1H6","S",275,,"Insufficient biological replicates",1
+"Q6P1H6","S",537,,"Only one condition measured",1
+"Q6P4T0","T",0,,"No valid abundance measurement",0
+"Q6P4T2","T",2,,"No valid abundance measurement",0
+"Q6P542","S",194,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6P542","T",21,,"No valid abundance measurement",0
+"Q6P560","Y",501,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q6P8I4","T",139,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6PAM1","S",515,,"Only one condition measured",1
+"Q6PAM1","S",523,,"Insufficient biological replicates",1
+"Q6PCP5","S",131,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6PD29","S",85,,"Only one condition measured",1
+"Q6PDI5","S",1402,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q6PDM2","S",199,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q6PF93","T",752,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6PFD9","S",839,,"Only one condition measured",1
+"Q6PFD9","T",670,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6PFD9","S",888,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q6PFR5","T",200,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q6PG16","S",388,,"Insufficient biological replicates",1
+"Q6PG16","S",602,,"No valid abundance measurement",0
+"Q6PGE7","S",598,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6PGE7","S",600,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6PGH2","S",30,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6PGH2","S",97,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6PGH2","T",76,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6PGL7","S",747,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6PGL7","S",723,,"Only one condition measured",1
+"Q6PGL7","S",781,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6PGL7","S",832,,"Only one condition measured",1
+"Q6PGL7","T",833,,"No valid abundance measurement",0
+"Q6PGL7","T",938,,"Only one condition measured",1
+"Q6PGN3","S",361,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6PGN3","S",307,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6PGN3","S",359,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q6PIJ4","S",1288,,"Only one condition measured",1
+"Q6QI06","S",1352,,"Only one condition measured",1
+"Q6QI06","S",1395,,"Only one condition measured",1
+"Q6RHR9","S",930,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6RT24","S",815,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6RT24","S",2414,,"Only one condition measured",1
+"Q6RT24","Y",2166,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q6VYH9","T",38,,"Only one condition measured",1
+"Q6ZPF4","S",172,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q6ZPF4","S",174,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6ZPJ0","S",294,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q6ZPJ0","T",222,,"Only one condition measured",1
+"Q6ZPJ3","S",893,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6ZPJ3","S",833,,"Only one condition measured",1
+"Q6ZPJ3","S",836,,"Only one condition measured",1
+"Q6ZPY2","T",877,,"Insufficient biological replicates",1
+"Q6ZQ03","S",487,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q6ZQ38","S",1047,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q6ZQ58","Y",388,,"Insufficient biological replicates",1
+"Q6ZQ58","Y",389,,"Insufficient biological replicates",1
+"Q6ZQ58","S",604,,"Insufficient biological replicates",1
+"Q6ZQ58","Y",610,,"Only one condition measured",1
+"Q6ZQB6","T",1071,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q6ZWV3","Y",57,,"Insufficient biological replicates",1
+"Q76KJ5","S",170,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q76LL6","T",1475,,"Only one condition measured",1
+"Q76MZ3","S",116,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q78ZA7","S",125,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q78ZA7","T",51,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q78ZA7","S",294,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q7M753","S",55,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7M753","S",56,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7M753","S",75,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q7TMY8","S",1907,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7TMY8","S",2535,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q7TMY8","S",1084,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TMY8","S",3127,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TMY8","S",3758,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TN29","S",219,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q7TPE5","S",257,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q7TPE5","S",305,,"No valid abundance measurement",0
+"Q7TPE5","T",42,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TPM6","S",486,,"Only one condition measured",1
+"Q7TPS5","S",295,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q7TPS5","S",643,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q7TPS5","S",659,,"Insufficient biological replicates",1
+"Q7TPS5","T",285,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TPV4","S",1280,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TPV4","T",1232,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TPV4","S",1164,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q7TPV4","S",1253,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q7TPV4","S",742,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q7TPW1","S",16,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7TPW1","S",23,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7TPW1","S",296,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7TPW1","S",299,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7TPW1","S",436,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TPW1","S",22,,"No valid abundance measurement",0
+"Q7TPW1","S",281,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q7TPW1","S",288,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TPW1","T",294,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q7TPW1","T",301,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TPX8","S",135,,"Only one condition measured",1
+"Q7TQ95","S",222,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TQ95","S",404,,"Only one condition measured",1
+"Q7TQ95","S",177,,"Only one condition measured",1
+"Q7TQ95","S",194,,"Only one condition measured",1
+"Q7TQ95","S",411,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q7TQH0","S",597,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7TQH0","S",687,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q7TQH0","S",109,,"Only one condition measured",1
+"Q7TQH0","S",304,,"Only one condition measured",1
+"Q7TQH0","S",337,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q7TQH0","S",562,,"Only one condition measured",1
+"Q7TQH0","T",505,,"Only one condition measured",1
+"Q7TQH0","S",388,,"Insufficient biological replicates",1
+"Q7TQK0","S",477,,"Insufficient biological replicates",1
+"Q7TQK0","T",476,,"Insufficient biological replicates",1
+"Q7TQK5","S",507,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q7TSC1","S",1145,,"Insufficient biological replicates",1
+"Q7TSC1","T",1349,,"Only one condition measured",1
+"Q7TSC1","S",808,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q7TSI3","S",738,,"Only one condition measured",1
+"Q7TSI3","S",745,,"Only one condition measured",1
+"Q7TT50","S",1692,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q80SU3","S",161,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80SU3","S",164,,"No valid abundance measurement",0
+"Q80SU3","S",244,,"Only one condition measured",1
+"Q80SU3","S",247,,"No valid abundance measurement",0
+"Q80TL1","S",471,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q80U28","T",922,,"Insufficient biological replicates",1
+"Q80U62","S",655,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80U87","S",653,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80U87","S",392,,"Only one condition measured",1
+"Q80U93","S",655,,"Only one condition measured",1
+"Q80U93","S",1050,,"Only one condition measured",1
+"Q80U93","S",922,,"Only one condition measured",1
+"Q80UJ7","S",536,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80UJ7","S",540,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80UJ7","T",535,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80UJ7","S",399,,"Insufficient biological replicates",1
+"Q80UP8","S",268,,"Insufficient biological replicates",1
+"Q80UU9","T",205,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80UU9","Y",204,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q80UY2","S",189,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80VC9","S",1103,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80VC9","S",193,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80VC9","S",202,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80VC9","S",334,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q80VC9","S",380,,"Only one condition measured",1
+"Q80VC9","S",554,,"No valid abundance measurement",0
+"Q80VC9","S",555,,"Only one condition measured",1
+"Q80VC9","S",812,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80VC9","T",797,,"Only one condition measured",1
+"Q80VC9","S",431,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q80VC9","T",830,,"Insufficient biological replicates",1
+"Q80VL1","T",248,,"Only one condition measured",1
+"Q80W00","S",451,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80W47","S",394,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80W47","S",395,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q80W47","T",397,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q80W85","S",184,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80W85","S",5,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80W85","S",8,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80W85","S",95,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80W85","T",179,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80W85","S",165,,"Only one condition measured",1
+"Q80W85","S",189,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q80W85","S",7,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q80W85","T",6,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q80W93","S",1988,,"Insufficient biological replicates",1
+"Q80WE4","S",1694,,"Only one condition measured",1
+"Q80WE4","S",806,,"Only one condition measured",1
+"Q80WJ7","S",423,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80WJ7","T",96,,"Only one condition measured",1
+"Q80WQ2","T",11,,"Only one condition measured",1
+"Q80WQ6","Y",423,,"Only one condition measured",1
+"Q80X50","S",436,,"Only one condition measured",1
+"Q80X50","S",491,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q80X90","S",1316,,"Only one condition measured",1
+"Q80X90","S",1505,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80X90","S",1965,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q80X90","S",886,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80X90","S",932,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80X90","S",983,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80X90","S",2465,,"Insufficient biological replicates",1
+"Q80X90","S",730,,"Only one condition measured",1
+"Q80XU3","S",181,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q80XU3","S",214,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q80XU3","T",179,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q80XU3","S",19,,"Insufficient biological replicates",1
+"Q80Y61","Y",61,,"No valid abundance measurement",0
+"Q80Y81","Y",81,,"No valid abundance measurement",0
+"Q80YR5","S",387,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q80YV2","S",369,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q80YV2","S",393,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q80ZN5","Y",84,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q80ZQ9","T",191,,"No valid abundance measurement",0
+"Q80ZX8","S",351,,"No valid abundance measurement",0
+"Q80ZX8","S",703,,"Only one condition measured",1
+"Q811J3","S",158,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q812F8","T",94,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BFZ3","S",339,,"Insufficient biological replicates",1
+"Q8BFZ3","T",130,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8BG05","S",359,,"Insufficient biological replicates",1
+"Q8BG87","S",126,,"Only one condition measured",1
+"Q8BG87","S",497,,"Only one condition measured",1
+"Q8BG87","S",503,,"Only one condition measured",1
+"Q8BG87","T",1577,,"Only one condition measured",1
+"Q8BG87","T",583,,"Only one condition measured",1
+"Q8BG92","S",302,,"Only one condition measured",1
+"Q8BGC0","S",441,,"Insufficient biological replicates",1
+"Q8BGC0","S",679,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BGD4","S",15,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8BGD9","S",422,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGD9","S",425,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGD9","S",445,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGD9","S",497,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGD9","S",498,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGD9","S",504,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BGD9","Y",96,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8BGD9","S",93,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGD9","T",97,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8BGD9","S",418,,"Insufficient biological replicates",1
+"Q8BGD9","T",420,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q8BGF7","T",1187,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGF7","S",1188,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BGF7","S",474,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGF7","T",205,,"Only one condition measured",1
+"Q8BGI7","T",226,,"Only one condition measured",1
+"Q8BGQ1","S",119,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8BGQ1","T",130,,"Insufficient biological replicates",1
+"Q8BGQ1","T",81,,"Only one condition measured",1
+"Q8BGS1","T",387,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BGS7","T",40,,"Only one condition measured",1
+"Q8BH24","Y",129,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8BH24","Y",130,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8BH48","S",146,,"Only one condition measured",1
+"Q8BH50","S",66,,"Only one condition measured",1
+"Q8BH66","S",10,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BH66","S",22,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BH66","S",23,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BH74","S",11,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BH74","S",87,,"Only one condition measured",1
+"Q8BHL3","S",644,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8BHL3","S",664,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8BHL8","S",153,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BHN1","S",79,,"Insufficient biological replicates",1
+"Q8BHZ4","S",39,,"Only one condition measured",1
+"Q8BI84","S",1915,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BIG4","S",235,,"Insufficient biological replicates",1
+"Q8BIJ7","S",52,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BIL5","S",235,,"Only one condition measured",1
+"Q8BIZ6","S",18,,"Insufficient biological replicates",1
+"Q8BJ05","S",309,,"No valid abundance measurement",0
+"Q8BJ37","S",119,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BJF9","S",199,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BJH1","S",212,,"Only one condition measured",1
+"Q8BJH1","S",224,,"Only one condition measured",1
+"Q8BJL1","S",383,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BJU0","S",307,,"No valid abundance measurement",0
+"Q8BJU0","S",309,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BJU0","T",82,,"Insufficient biological replicates",1
+"Q8BK63","T",321,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BL99","S",1209,,"Only one condition measured",1
+"Q8BL99","S",1206,,"Insufficient biological replicates",1
+"Q8BLH7","S",546,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BLH7","S",545,,"Only one condition measured",1
+"Q8BLH7","S",559,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BLH7","S",564,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BLH7","S",575,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BLH7","T",167,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BLH7","T",547,,"Only one condition measured",1
+"Q8BMF4","T",308,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q8BMG7","S",448,,"Only one condition measured",1
+"Q8BMG7","T",29,,"Only one condition measured",1
+"Q8BMI0","S",912,,"Only one condition measured",1
+"Q8BMJ2","Y",770,,"Insufficient biological replicates",1
+"Q8BMP6","S",126,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BN58","S",685,,"Only one condition measured",1
+"Q8BP27","S",67,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BP27","S",83,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BP27","S",99,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BP27","S",103,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BP27","S",115,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8BP27","S",71,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BP27","S",87,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BP27","T",129,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BP27","T",102,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8BP27","T",70,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8BP27","T",86,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8BQ33","S",599,,"Insufficient biological replicates",1
+"Q8BR63","S",65,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BR63","T",66,,"Insufficient biological replicates",1
+"Q8BR63","Y",64,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BR65","S",234,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8BRF7","S",300,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BRN9","S",455,,"No valid abundance measurement",0
+"Q8BRN9","S",502,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BRN9","T",499,,"Only one condition measured",1
+"Q8BS90","T",504,,"Only one condition measured",1
+"Q8BTI8","S",1068,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",1151,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",1305,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BTI8","S",1360,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BTI8","T",2362,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BTI8","T",955,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","T",973,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BTI8","S",1077,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",1216,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",1278,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",1372,,"Only one condition measured",1
+"Q8BTI8","S",2224,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",2308,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",2335,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",2351,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",2360,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",2404,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",2535,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",964,,"Only one condition measured",1
+"Q8BTI8","T",2241,,"Only one condition measured",1
+"Q8BTI8","T",2310,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","T",2334,,"Only one condition measured",1
+"Q8BTI8","T",2350,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","T",2420,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTI8","S",2054,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",433,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",435,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8BTI8","S",962,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8BTM8","S",1084,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BTM8","S",1533,,"Only one condition measured",1
+"Q8BTM8","T",1089,,"Only one condition measured",1
+"Q8BTW9","S",476,,"Only one condition measured",1
+"Q8BU85","S",244,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BU85","S",242,,"Insufficient biological replicates",1
+"Q8BUK6","S",238,,"Only one condition measured",1
+"Q8BVI5","S",39,,"Insufficient biological replicates",1
+"Q8BVL3","S",335,,"Insufficient biological replicates",1
+"Q8BVY0","S",326,,"Only one condition measured",1
+"Q8BVY0","T",376,,"Only one condition measured",1
+"Q8BW70","S",575,,"Only one condition measured",1
+"Q8BWW4","S",642,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BWW4","T",644,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8BWW4","S",578,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8BWW4","S",717,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8BX09","Y",167,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BX10","S",79,,"Insufficient biological replicates",1
+"Q8BX22","S",122,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BX22","S",305,,"Only one condition measured",1
+"Q8BX22","T",159,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BY87","S",832,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8BY87","S",835,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BY89","T",14,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BYK8","S",476,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BYK8","S",1150,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8BYK8","S",565,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8BZ03","S",197,,"Insufficient biological replicates",1
+"Q8C079","S",335,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8C080","S",29,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8C0D4","S",101,,"Insufficient biological replicates",1
+"Q8C0D4","S",238,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8C0D4","S",431,,"Only one condition measured",1
+"Q8C0D4","T",229,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8C0I1","S",57,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q8C0I1","T",61,,"Only one condition measured",1
+"Q8C0I1","S",52,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q8C0J2","S",287,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8C0J2","S",70,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8C0J2","S",269,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8C0J2","S",80,,"Only one condition measured",1
+"Q8C0J6","S",211,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8C0P0","S",235,,"Only one condition measured",1
+"Q8C0P0","S",587,,"Only one condition measured",1
+"Q8C0P0","T",192,,"Only one condition measured",1
+"Q8C0P0","T",193,,"Only one condition measured",1
+"Q8C0P0","T",508,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8C0T5","T",5,,"No valid abundance measurement",0
+"Q8C142","T",194,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8C145","S",488,,"Only one condition measured",1
+"Q8C156","S",25,,"Only one condition measured",1
+"Q8C156","S",425,,"Only one condition measured",1
+"Q8C156","S",83,,"Insufficient biological replicates",1
+"Q8C166","T",525,,"Only one condition measured",1
+"Q8C190","T",104,,"Insufficient biological replicates",1
+"Q8C1B2","S",34,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8C1D8","S",345,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8C1S0","S",0,,"No valid abundance measurement",0
+"Q8C263","S",389,,"Only one condition measured",1
+"Q8C3F2","S",407,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8C4J7","T",496,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8C5L3","S",165,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8C5L6","S",301,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8C5P7","S",60,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8C5P7","S",62,,"Insufficient biological replicates",1
+"Q8C5R2","S",225,,"Insufficient biological replicates",1
+"Q8C7E7","S",137,,"Insufficient biological replicates",1
+"Q8C7E7","S",64,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8C811","S",37,,"Insufficient biological replicates",1
+"Q8C811","T",43,,"Insufficient biological replicates",1
+"Q8C9J3","S",1310,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8C9J3","T",1315,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8CA95","S",261,,"Insufficient biological replicates",1
+"Q8CAA7","S",175,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8CAA7","T",173,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8CAQ8","S",232,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8CAQ8","T",230,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8CB87","S",869,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q8CB87","T",868,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q8CB87","T",874,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q8CBW3","S",216,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CBW3","S",183,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8CD92","Y",285,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8CDA1","S",1103,,"Only one condition measured",1
+"Q8CDA1","Y",391,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8CDG3","S",996,,"Insufficient biological replicates",1
+"Q8CDJ3","T",11,,"Only one condition measured",1
+"Q8CEC0","S",710,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8CFE4","T",708,,"Only one condition measured",1
+"Q8CFI0","S",477,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8CFI0","S",478,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8CFK2","Y",500,,"Insufficient biological replicates",1
+"Q8CFV4","S",48,,"No valid abundance measurement",0
+"Q8CFV4","Y",52,,"No valid abundance measurement",0
+"Q8CG76","S",40,,"Only one condition measured",1
+"Q8CG79","S",736,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8CGA2","S",92,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8CGC4","S",154,,"Only one condition measured",1
+"Q8CGC4","S",165,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8CGI1","S",1151,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8CGM1","S",761,,"Insufficient biological replicates",1
+"Q8CGZ0","S",913,,"Insufficient biological replicates",1
+"Q8CH25","S",999,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8CHC4","S",1084,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CHC4","S",1175,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CHC4","S",1350,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CHC4","S",1445,,"Only one condition measured",1
+"Q8CHC4","T",1075,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CHS8","S",18,,"Only one condition measured",1
+"Q8CHW4","S",540,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8CHY6","S",96,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8CI08","S",48,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8CI11","S",505,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8CI75","S",31,,"No valid abundance measurement",0
+"Q8CI94","Y",727,,"Insufficient biological replicates",1
+"Q8CI95","S",186,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CI95","T",27,,"Insufficient biological replicates",1
+"Q8CIB5","S",666,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8CIE6","S",173,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CIG3","S",17,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8CIW6","S",643,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8CIW6","S",751,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8CJ19","S",1631,,"No valid abundance measurement",0
+"Q8JZK9","S",495,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8JZQ2","Y",332,,"Only one condition measured",1
+"Q8JZQ5","S",306,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8JZQ9","S",120,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8JZQ9","S",123,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8JZQ9","S",111,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8JZQ9","S",79,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8JZY4","S",295,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q8K012","S",295,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K012","S",501,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K012","S",488,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K012","T",507,,"Insufficient biological replicates",1
+"Q8K012","S",489,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8K012","Y",506,,"Only one condition measured",1
+"Q8K019","S",177,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K019","S",284,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8K019","S",289,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8K019","S",510,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q8K019","S",656,,"Insufficient biological replicates",1
+"Q8K019","T",400,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8K021","T",45,,"Only one condition measured",1
+"Q8K021","S",43,,"Insufficient biological replicates",1
+"Q8K039","S",50,,"Only one condition measured",1
+"Q8K0S2","S",2,,"No valid abundance measurement",0
+"Q8K0U4","S",24,,"Only one condition measured",1
+"Q8K0U4","S",23,,"Insufficient biological replicates",1
+"Q8K0V4","S",299,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K136","S",182,,"Only one condition measured",1
+"Q8K1A5","S",10,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K1A5","T",12,,"Only one condition measured",1
+"Q8K1A5","S",17,,"Insufficient biological replicates",1
+"Q8K1G2","T",192,,"Only one condition measured",1
+"Q8K1J5","S",269,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8K1L6","S",86,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K1M6","S",622,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K1X1","S",209,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K1X1","S",208,,"Insufficient biological replicates",1
+"Q8K212","S",23,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K212","S",493,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8K212","T",44,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K212","S",526,,"Insufficient biological replicates",1
+"Q8K212","S",529,,"Insufficient biological replicates",1
+"Q8K221","S",72,,"Insufficient biological replicates",1
+"Q8K245","S",497,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K298","S",293,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K298","S",444,,"Only one condition measured",1
+"Q8K298","S",637,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K298","S",180,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8K2C9","S",114,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K2C9","S",138,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8K2F8","S",192,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K2F8","S",183,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K2J4","S",869,,"Only one condition measured",1
+"Q8K2K6","S",181,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K2L8","S",309,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K2L8","S",314,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K2V1","S",443,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K2V1","S",482,,"Insufficient biological replicates",1
+"Q8K2W6","S",123,,"Only one condition measured",1
+"Q8K2Z2","S",239,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q8K310","S",188,,"Only one condition measured",1
+"Q8K310","S",195,,"Insufficient biological replicates",1
+"Q8K327","S",394,,"Only one condition measured",1
+"Q8K327","S",532,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K330","S",591,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8K330","S",627,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K330","S",88,,"Only one condition measured",1
+"Q8K330","S",594,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q8K341","S",315,,"Only one condition measured",1
+"Q8K382","S",520,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8K3V4","S",218,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K3V4","S",371,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K3V4","S",55,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8K3V4","S",68,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K3V4","S",83,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K3V4","T",360,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K3V4","T",383,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K3V4","S",53,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K3V4","S",54,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K3V4","Y",380,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8K3V4","Y",510,,"No valid abundance measurement",0
+"Q8K3V4","S",214,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8K3W3","S",263,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8K3X4","S",195,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q8K3Y3","Y",3,,"No valid abundance measurement",0
+"Q8K449","S",672,,"Insufficient biological replicates",1
+"Q8K482","S",599,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q8K4P0","S",1204,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8K4R9","S",70,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8K4R9","S",328,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8K4R9","S",598,,"Only one condition measured",1
+"Q8K4R9","S",620,,"Only one condition measured",1
+"Q8N7N5","S",100,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8N9S3","S",3,,"No valid abundance measurement",0
+"Q8QZY3","T",16,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R001","S",207,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R001","T",216,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R001","S",208,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8R001","S",215,,"Only one condition measured",1
+"Q8R001","S",222,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8R010","S",36,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R080","S",200,,"Only one condition measured",1
+"Q8R080","S",257,,"Only one condition measured",1
+"Q8R080","S",259,,"No valid abundance measurement",0
+"Q8R080","S",311,,"Insufficient biological replicates",1
+"Q8R080","S",534,,"Only one condition measured",1
+"Q8R080","S",736,,"Only one condition measured",1
+"Q8R080","T",107,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R080","T",420,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R080","T",656,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R0Z6","T",141,,"Only one condition measured",1
+"Q8R183","S",264,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8R1B4","S",166,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8R1B4","S",39,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8R1F6","S",593,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R1F6","T",584,,"Only one condition measured",1
+"Q8R1G6","S",199,,"Only one condition measured",1
+"Q8R1K1","S",296,,"Insufficient biological replicates",1
+"Q8R1K1","S",301,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8R1Q8","S",207,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8R1Q8","S",421,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8R1Q8","S",398,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R1Q8","S",510,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R1X6","S",126,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R2M2","T",342,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R310","S",216,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8R317","S",4,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8R317","S",7,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8R3C0","T",160,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8R3I2","S",472,,"Insufficient biological replicates",1
+"Q8R3Q2","S",670,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8R3Q2","T",672,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8R418","S",1016,,"Only one condition measured",1
+"Q8R4E9","T",165,,"Only one condition measured",1
+"Q8R4R6","S",73,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q8R4R6","S",100,,"Only one condition measured",1
+"Q8R4R6","S",257,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R4R6","S",258,,"Only one condition measured",1
+"Q8R4R6","S",303,,"Only one condition measured",1
+"Q8R4R6","S",99,,"Only one condition measured",1
+"Q8R4R6","T",106,,"Only one condition measured",1
+"Q8R4R6","T",265,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R4R6","T",307,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R4R6","T",48,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R550","S",631,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R550","S",78,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8R550","S",274,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8R550","S",491,,"Only one condition measured",1
+"Q8R574","S",227,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q8R5C5","S",3,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8R5C5","Y",4,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8R5H1","S",229,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8R5H1","S",242,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VBT9","S",279,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VBT9","S",230,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VBZ3","T",622,,"Only one condition measured",1
+"Q8VC52","T",114,,"Only one condition measured",1
+"Q8VCB1","S",434,,"Only one condition measured",1
+"Q8VCB1","T",415,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VCD6","S",152,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VCD6","S",210,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VCD6","S",150,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VCE2","S",314,,"Only one condition measured",1
+"Q8VCI5","S",35,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VCM3","S",17,,"Only one condition measured",1
+"Q8VCU0","S",38,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VD46","S",271,,"Only one condition measured",1
+"Q8VD63","S",89,,"Only one condition measured",1
+"Q8VD65","S",813,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VDF2","S",107,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q8VDF2","S",289,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VDF2","S",656,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VDF2","S",759,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VDF2","S",76,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VDF2","S",91,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VDF2","S",93,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VDF2","T",109,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VDF2","S",638,,"Insufficient biological replicates",1
+"Q8VDF2","S",655,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VDF2","S",660,,"Only one condition measured",1
+"Q8VDF2","S",95,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VDF2","T",173,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VDM4","T",20,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VDM4","T",86,,"Only one condition measured",1
+"Q8VDM6","Y",658,,"Insufficient biological replicates",1
+"Q8VDQ8","S",368,,"Insufficient biological replicates",1
+"Q8VDS7","S",45,,"Only one condition measured",1
+"Q8VDV3","S",169,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VDV3","S",180,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VE37","S",11,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VE88","S",119,,"Insufficient biological replicates",1
+"Q8VE99","T",90,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VEB3","S",24,,"Only one condition measured",1
+"Q8VED8","S",137,,"Only one condition measured",1
+"Q8VEK6","T",142,,"Only one condition measured",1
+"Q8VEL2","S",479,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VEL2","S",482,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q8VEL2","S",483,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VEL2","S",528,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VEL2","S",622,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q8VEL2","S",481,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VEL2","S",501,,"No valid abundance measurement",0
+"Q8VEL2","S",510,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VEL2","S",512,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VEL2","S",527,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VEL2","S",644,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VEL2","S",495,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q8VH51","S",97,,"Insufficient biological replicates",1
+"Q8VHG0","S",173,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q8VHH5","S",478,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VIH1","S",277,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q8VIH1","T",176,,"Only one condition measured",1
+"Q8VIJ6","T",679,,"Only one condition measured",1
+"Q91V04","S",365,,"Insufficient biological replicates",1
+"Q91V92","S",455,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q91VH2","S",175,,"Insufficient biological replicates",1
+"Q91VT8","S",79,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q91VW5","S",73,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q91VW5","T",626,,"Only one condition measured",1
+"Q91VX2","S",634,,"Insufficient biological replicates",1
+"Q91W45","S",23,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91W69","T",389,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q91W97","T",336,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q91WE1","S",227,,"Insufficient biological replicates",1
+"Q91WK0","S",111,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q91WK2","S",17,,"Only one condition measured",1
+"Q91WS7","S",152,,"Only one condition measured",1
+"Q91WS7","S",170,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91WS7","S",184,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91WS7","S",18,,"Insufficient biological replicates",1
+"Q91X58","S",163,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91XA2","S",319,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q91XU0","S",153,,"Insufficient biological replicates",1
+"Q91Y86","Y",86,,"No valid abundance measurement",0
+"Q91YD3","S",372,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91YD3","S",542,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91YD3","S",543,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91YD3","T",420,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q91YD3","S",545,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91YD3","T",366,,"Only one condition measured",1
+"Q91YD3","T",367,,"Only one condition measured",1
+"Q91YD3","T",449,,"Only one condition measured",1
+"Q91YD3","S",392,,"Insufficient biological replicates",1
+"Q91YE3","S",129,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91YE5","S",528,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q91YE5","S",1174,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q91Z31","S",308,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q91Z38","S",30,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q91ZV0","S",1143,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q91ZW3","S",802,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q921R4","T",629,,"Insufficient biological replicates",1
+"Q921T2","T",2,,"No valid abundance measurement",0
+"Q922D4","S",588,,"Only one condition measured",1
+"Q922D8","S",549,,"Insufficient biological replicates",1
+"Q922F4","T",18,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q922F4","Y",106,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q922U2","S",326,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q923A2","S",558,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q923Q2","T",471,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q923Q2","Y",468,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q924T3","T",3,,"No valid abundance measurement",0
+"Q925H1","S",1041,,"Only one condition measured",1
+"Q925H1","S",830,,"Only one condition measured",1
+"Q925H1","S",90,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q925H1","S",92,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q925H1","T",929,,"Only one condition measured",1
+"Q99104","S",600,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q99J36","S",86,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q99J36","S",88,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q99JF8","T",141,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99JF8","S",105,,"Insufficient biological replicates",1
+"Q99JF8","S",106,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q99JF8","S",176,,"Only one condition measured",1
+"Q99JX3","T",225,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99JX3","T",417,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99JX3","S",418,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99K01","S",748,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99K01","T",687,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99K01","S",652,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99K01","T",691,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q99K43","S",510,,"Only one condition measured",1
+"Q99K43","T",470,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99K70","T",393,,"Only one condition measured",1
+"Q99K85","Y",70,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q99KG3","S",723,,"Insufficient biological replicates",1
+"Q99KH8","T",178,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q99KH8","T",182,,"Insufficient biological replicates",1
+"Q99KX1","S",237,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99KY4","S",1116,,"Only one condition measured",1
+"Q99L43","S",32,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99L43","S",20,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q99L43","S",34,,"Insufficient biological replicates",1
+"Q99L47","S",180,,"Only one condition measured",1
+"Q99LD4","S",448,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99LD4","S",454,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99LD4","T",459,,"No valid abundance measurement",0
+"Q99LI2","S",429,,"Only one condition measured",1
+"Q99LI2","S",433,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99LI2","S",498,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q99M54","S",197,,"Only one condition measured",1
+"Q99M54","S",207,,"Only one condition measured",1
+"Q99M87","S",398,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q99M87","Y",399,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q99MD9","S",188,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99MD9","S",466,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99MD9","T",463,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99MD9","S",127,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99MD9","S",483,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q99MD9","S",617,,"Insufficient biological replicates",1
+"Q99MD9","T",256,,"No valid abundance measurement",0
+"Q99MD9","T",479,,"Only one condition measured",1
+"Q99MD9","S",489,,"Insufficient biological replicates",1
+"Q99MN1","S",592,,"No valid abundance measurement",0
+"Q99MP8","S",116,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99MR6","T",543,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99MV1","S",214,,"No valid abundance measurement",0
+"Q99N50","S",302,,"Only one condition measured",1
+"Q99N50","S",511,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q99N57","S",244,,"Only one condition measured",1
+"Q99NB9","T",211,,"Only one condition measured",1
+"Q99P72","S",105,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99P72","S",489,,"Insufficient biological replicates",1
+"Q99PI5","S",151,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q99PI5","S",243,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99PI5","T",120,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99PI5","S",106,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q99PI5","T",291,,"Only one condition measured",1
+"Q9CPN8","S",165,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CPT0","S",44,,"Insufficient biological replicates",1
+"Q9CPY3","S",222,,"Insufficient biological replicates",1
+"Q9CQ22","T",28,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CQ22","S",26,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9CQ37","S",193,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CQ73","S",102,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q9CQJ6","S",73,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CQJ7","S",162,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CQN6","S",111,,"No valid abundance measurement",0
+"Q9CQS8","S",17,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CQS8","S",13,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CQV4","S",320,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CQV4","S",360,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CQX2","Y",90,,"Only one condition measured",1
+"Q9CQX8","T",59,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q9CR00","S",128,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CR57","S",139,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9CR86","S",31,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CR86","S",33,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CR86","S",42,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CR86","S",53,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CR86","S",147,,"No valid abundance measurement",0
+"Q9CR95","T",211,,"Insufficient biological replicates",1
+"Q9CRD0","S",108,,"Only one condition measured",1
+"Q9CRD0","S",123,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9CRG1","T",561,,"Only one condition measured",1
+"Q9CW46","S",676,,"Only one condition measured",1
+"Q9CW46","S",677,,"Only one condition measured",1
+"Q9CW46","T",494,,"Only one condition measured",1
+"Q9CWE0","S",235,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CWE6","S",136,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CWE6","S",26,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CWE6","T",5,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CWF6","T",7,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9CWG9","Y",105,,"Insufficient biological replicates",1
+"Q9CWK3","S",46,,"Only one condition measured",1
+"Q9CWK3","S",49,,"Only one condition measured",1
+"Q9CWU5","T",346,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CWU5","S",188,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CWU5","S",349,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CWX9","Y",241,,"Insufficient biological replicates",1
+"Q9CWX9","Y",242,,"Insufficient biological replicates",1
+"Q9CX34","T",236,,"Only one condition measured",1
+"Q9CX66","S",177,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CX66","S",66,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CXF4","S",205,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CXZ1","T",54,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9CY58","S",234,,"Only one condition measured",1
+"Q9CY58","S",329,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CYA6","S",660,,"Insufficient biological replicates",1
+"Q9CYA6","T",376,,"Only one condition measured",1
+"Q9CYC5","S",331,,"Only one condition measured",1
+"Q9CYC5","S",344,,"Only one condition measured",1
+"Q9CYC5","S",79,,"Only one condition measured",1
+"Q9CYG7","S",186,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9CYG7","S",8,,"Insufficient biological replicates",1
+"Q9CYI0","S",18,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9CYY7","Y",112,,"Only one condition measured",1
+"Q9CYZ2","S",180,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9CZ28","S",37,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9CZ44","S",114,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CZ44","S",140,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CZ44","S",176,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9CZ44","T",270,,"Insufficient biological replicates",1
+"Q9CZ44","S",272,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9CZT4","S",161,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9CZV8","T",417,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9CZW5","S",94,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D0B0","S",212,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9D0F9","S",117,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D0L1","S",191,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D0L1","S",201,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D0L1","S",218,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D0L1","S",135,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9D0L7","S",41,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9D0L7","S",43,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9D0L8","S",66,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9D0R2","S",8,,"Only one condition measured",1
+"Q9D0S9","S",9,,"No valid abundance measurement",0
+"Q9D0V7","S",36,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D1E6","S",110,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9D1E6","S",163,,"Only one condition measured",1
+"Q9D1F4","S",184,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D1F5","S",140,,"Insufficient biological replicates",1
+"Q9D1J1","S",252,,"No valid abundance measurement",0
+"Q9D1L0","S",45,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D1L0","T",13,,"Only one condition measured",1
+"Q9D1R2","S",157,,"Insufficient biological replicates",1
+"Q9D2M8","Y",73,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9D4A5","T",282,,"Insufficient biological replicates",1
+"Q9D4G2","S",285,,"Only one condition measured",1
+"Q9D4H9","S",828,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9D5R2","S",432,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D5T0","T",0,,"No valid abundance measurement",0
+"Q9D620","S",236,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9D620","S",358,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q9D6E4","T",112,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9D6K7","T",252,,"Only one condition measured",1
+"Q9D6Z1","S",513,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q9D6Z1","S",554,,"No valid abundance measurement",0
+"Q9D6Z1","S",536,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q9D6Z1","S",543,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9D6Z1","T",546,,"Insufficient biological replicates",1
+"Q9D7X8","S",173,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D808","T",3,,"Only one condition measured",1
+"Q9D824","S",235,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9D824","S",280,,"Insufficient biological replicates",1
+"Q9D824","S",479,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9D824","S",487,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9D824","T",481,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9D842","S",149,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9D898","S",64,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9D8B3","S",184,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9D8S3","S",3,,"No valid abundance measurement",0
+"Q9D8S9","S",9,,"No valid abundance measurement",0
+"Q9D8W5","S",385,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9D8W5","S",389,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9D920","S",75,,"Only one condition measured",1
+"Q9D9K3","S",243,,"Only one condition measured",1
+"Q9DAK9","Y",46,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q9DAR0","S",170,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9DAS9","S",10,,"Insufficient biological replicates",1
+"Q9DAT2","S",195,,"Insufficient biological replicates",1
+"Q9DAZ9","S",219,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9DAZ9","S",280,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9DB43","T",197,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9DB85","T",183,,"Only one condition measured",1
+"Q9DB85","S",177,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q9DB94","T",190,,"Insufficient biological replicates",1
+"Q9DBC3","S",30,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q9DBC7","S",83,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9DBJ3","S",421,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9DBJ3","S",281,,"Only one condition measured",1
+"Q9DBJ3","S",332,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9DBT5","S",38,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9DBY1","S",608,,"Only one condition measured",1
+"Q9DC22","S",336,,"Only one condition measured",1
+"Q9DCL8","S",23,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9DCT6","S",96,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9EPK5","S",93,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9EQH3","S",7,,"Insufficient biological replicates",1
+"Q9EQN3","S",271,,"Only one condition measured",1
+"Q9EQP2","S",459,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9EQU5","S",30,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9EQY0","T",548,,"Only one condition measured",1
+"Q9EQY0","S",724,,"Only one condition measured",1
+"Q9ER99","S",154,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9ERD6","S",429,,"Only one condition measured",1
+"Q9ERH4","T",323,,"Only one condition measured",1
+"Q9ERV1","T",122,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9ES00","S",86,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9ES00","S",674,,"Only one condition measured",1
+"Q9ES00","S",88,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9ES00","S",90,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9ES28","S",497,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q9ES28","S",228,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9ES28","S",673,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9ES28","T",582,,"Insufficient biological replicates",1
+"Q9ESK9","S",261,,"Insufficient biological replicates",1
+"Q9ESN5","T",197,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9EST3","S",114,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9EST3","S",73,,"No valid abundance measurement",0
+"Q9EST3","S",77,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9EST3","S",949,,"Only one condition measured",1
+"Q9EST3","T",922,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9EST3","S",586,,"Only one condition measured",1
+"Q9ET54","S",901,,"Only one condition measured",1
+"Q9JHE3","T",212,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q9JHW4","S",524,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9JHW4","T",532,,"Only one condition measured",1
+"Q9JI75","S",21,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q9JIA7","S",364,,"Only one condition measured",1
+"Q9JIA7","S",379,,"Only one condition measured",1
+"Q9JIF7","S",773,,"Insufficient biological replicates",1
+"Q9JIH2","S",234,,"Only one condition measured",1
+"Q9JIK5","S",243,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9JIK5","S",118,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9JIS8","S",88,,"No valid abundance measurement",0
+"Q9JIX8","S",1003,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q9JIX8","S",710,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q9JJ11","S",71,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJ11","T",59,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJ11","S",347,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9JJG0","S",354,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJG0","S",419,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJG0","S",510,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJG0","S",514,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJG0","S",714,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9JJG0","S",759,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJG0","T",743,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JJG0","S",138,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9JJG0","S",139,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9JJG0","S",150,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9JJG0","S",587,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9JJG0","S",763,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9JJG0","T",340,,"Only one condition measured",1
+"Q9JJG0","S",141,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9JJG0","S",205,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9JJY4","S",472,,"Insufficient biological replicates",1
+"Q9JK24","Y",330,,"Insufficient biological replicates",1
+"Q9JKB3","S",126,,"No valid abundance measurement",0
+"Q9JKB3","S",328,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9JKS4","S",4,,"Insufficient biological replicates",1
+"Q9JKV1","T",217,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9JKX6","S",9,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9JL04","S",724,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9JL35","T",29,,"Only one condition measured",1
+"Q9JLI8","S",643,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9JLN9","S",567,,"Insufficient biological replicates",1
+"Q9JLN9","Y",2449,,"Insufficient biological replicates",1
+"Q9JLQ0","S",404,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9JLQ0","S",458,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9JLQ0","T",563,,"Only one condition measured",1
+"Q9JLQ0","S",510,,"Insufficient biological replicates",1
+"Q9JM52","S",729,,"Insufficient biological replicates",1
+"Q9JMA1","S",393,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9JMC3","S",77,,"Insufficient biological replicates",1
+"Q9JMG3","S",71,,"Only one condition measured",1
+"Q9JMH9","S",102,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9JMH9","S",2016,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9QUK4","S",1157,,"Insufficient biological replicates",1
+"Q9QXK3","T",597,,"Only one condition measured",1
+"Q9QXS1","S",4393,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q9QXS1","S",4633,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q9QXS1","S",4649,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9QXX0","S",1154,,"Insufficient biological replicates",1
+"Q9QXY1","S",343,"Day 5","Within-dataset maximum (not cross-dataset)",1
+"Q9QXY6","S",456,,"Only one condition measured",1
+"Q9QXZ0","S",7258,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QXZ0","S",4483,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QXZ0","T",4460,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9QXZ0","T",7179,,"Only one condition measured",1
+"Q9QY76","S",159,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QYC0","S",12,,"Insufficient biological replicates",1
+"Q9QYC0","S",464,,"Insufficient biological replicates",1
+"Q9QYC0","S",465,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9QYC0","T",11,,"Only one condition measured",1
+"Q9QYE6","S",116,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9QYE6","S",153,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QYE6","S",150,,"Only one condition measured",1
+"Q9QYE6","S",178,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9QYE6","T",211,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9QYX7","T",384,,"No valid abundance measurement",0
+"Q9QYX7","T",392,,"No valid abundance measurement",0
+"Q9QYY8","S",91,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QYY8","S",99,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QYY8","T",301,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZ05","S",230,,"Insufficient biological replicates",1
+"Q9QZM0","S",25,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9QZN0","S",99,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZN4","S",276,,"Insufficient biological replicates",1
+"Q9QZN4","S",278,,"Insufficient biological replicates",1
+"Q9QZQ1","S",1083,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",1107,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9QZQ1","S",1275,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",216,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",655,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9QZQ1","S",1172,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",1173,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",1182,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",1454,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",1510,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",1719,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9QZQ1","S",1770,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9QZQ1","S",1795,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9QZQ1","T",1345,,"Only one condition measured",1
+"Q9QZS2","T",116,,"Only one condition measured",1
+"Q9QZS3","S",362,,"Insufficient biological replicates",1
+"Q9R020","S",153,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R020","S",188,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R062","S",320,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R062","Y",315,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R078","S",40,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R0A0","S",334,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R0A0","S",232,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R0A0","S",282,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R0G7","S",641,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q9R0L6","S",1228,,"Insufficient biological replicates",1
+"Q9R0L6","S",1729,,"Only one condition measured",1
+"Q9R0L6","S",386,,"No valid abundance measurement",0
+"Q9R0L6","S",644,,"Only one condition measured",1
+"Q9R0L6","S",645,,"Only one condition measured",1
+"Q9R0L6","S",859,,"Only one condition measured",1
+"Q9R0L6","T",1847,,"Insufficient biological replicates",1
+"Q9R0N5","S",95,,"Insufficient biological replicates",1
+"Q9R0P4","S",17,,"Insufficient biological replicates",1
+"Q9R0P9","S",192,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R0P9","S",89,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R0P9","T",92,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R0Q1","S",275,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R0Q7","S",113,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R0X5","S",915,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9R1B9","T",68,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9R1B9","T",71,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9R1C0","S",201,,"Only one condition measured",1
+"Q9R1C0","S",256,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R1K9","S",20,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R1L5","T",508,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","S",127,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",132,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",145,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",147,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",154,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",160,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",185,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",276,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R1M5","S",29,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","S",341,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","S",81,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9R1M5","T",159,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","T",192,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R1M5","T",28,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","T",490,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","T",80,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","S",101,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R1M5","S",165,,"Only one condition measured",1
+"Q9R1M5","S",167,,"Insufficient biological replicates",1
+"Q9R1M5","S",180,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R1M5","S",223,,"Insufficient biological replicates",1
+"Q9R1M5","S",34,,"Only one condition measured",1
+"Q9R1M5","S",36,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","S",49,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9R1M5","S",86,,"Only one condition measured",1
+"Q9R1M5","S",88,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R1M5","T",130,,"Insufficient biological replicates",1
+"Q9R1M5","T",179,,"No valid abundance measurement",0
+"Q9R1N9","S",538,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9R1P4","S",14,,"Only one condition measured",1
+"Q9R1S0","S",0,,"No valid abundance measurement",0
+"Q9R1T2","T",2,,"No valid abundance measurement",0
+"Q9R210","S",331,"Day 4","Within-dataset maximum (not cross-dataset)",1
+"Q9WTP2","S",126,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WTQ5","S",1355,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WTQ5","S",234,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WTQ5","S",273,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WTQ5","S",350,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WTQ5","S",488,,"Insufficient biological replicates",1
+"Q9WTQ5","S",489,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WTQ5","S",543,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WTQ5","S",584,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WTQ5","S",598,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WTQ5","T",344,,"Insufficient biological replicates",1
+"Q9WTQ5","S",1351,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WTQ5","S",1645,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WTQ5","S",270,,"Only one condition measured",1
+"Q9WTQ5","S",498,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9WTQ5","S",613,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9WTQ5","S",767,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WTQ5","T",265,,"Only one condition measured",1
+"Q9WTQ5","T",538,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9WTQ5","Y",533,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9WTR6","S",26,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9WUD1","S",20,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WUD1","S",24,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WUD1","S",274,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9WUD1","T",272,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WV32","S",311,,"Insufficient biological replicates",1
+"Q9WV32","S",310,,"Insufficient biological replicates",1
+"Q9WV55","T",99,"HH","Within-dataset maximum (not cross-dataset)",1
+"Q9WV55","S",164,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WV55","S",214,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q9WV92","S",804,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVA4","S",94,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9WVB3","S",209,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVB3","S",211,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVB3","S",213,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVB3","S",221,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVB3","S",302,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WVB3","S",303,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WVB3","S",8,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVB3","T",126,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVB3","T",305,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WVB3","S",115,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WVB3","S",125,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9WVB3","S",234,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9WVB3","T",10,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9WVB3","T",65,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9WVK4","S",456,,"Only one condition measured",1
+"Q9WVL3","S",50,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVL3","T",973,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9WVL3","T",980,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9WVM1","T",278,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9WVM1","T",561,,"Only one condition measured",1
+"Q9WVM1","T",564,,"Only one condition measured",1
+"Q9WVR4","S",602,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z0F8","S",794,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z0H8","S",18,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9Z0H8","S",924,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z0H8","S",295,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q9Z0N1","T",66,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9Z0U1","S",1136,,"Only one condition measured",1
+"Q9Z0U1","S",239,,"Insufficient biological replicates",1
+"Q9Z0W3","S",1117,,"Insufficient biological replicates",1
+"Q9Z0X4","T",494,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9Z0X4","S",470,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z0X4","S",490,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9Z0X4","S",462,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9Z0X4","S",492,,"Insufficient biological replicates",1
+"Q9Z0X4","S",495,"Day 1","Within-dataset maximum (not cross-dataset)",1
+"Q9Z0Z7","S",340,,"Insufficient biological replicates",1
+"Q9Z1D1","T",38,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9Z1D1","S",42,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9Z1E4","S",652,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9Z1E4","S",653,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z1E4","S",657,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9Z1J1","S",166,,"Insufficient biological replicates",1
+"Q9Z1N2","T",349,,"Only one condition measured",1
+"Q9Z1R2","S",995,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9Z1R2","S",1139,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z1R2","S",986,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9Z1S0","S",0,,"No valid abundance measurement",0
+"Q9Z1T1","T",1,,"No valid abundance measurement",0
+"Q9Z1X4","S",341,"Day 3","Within-dataset maximum (not cross-dataset)",1
+"Q9Z204","S",229,"LH","Within-dataset maximum (not cross-dataset)",1
+"Q9Z204","S",306,"Oocyte","Within-dataset maximum (not cross-dataset)",1
+"Q9Z280","S",45,,"Only one condition measured",1
+"Q9Z2A0","S",38,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9Z2A0","T",248,"HL","Within-dataset maximum (not cross-dataset)",1
+"Q9Z2A0","S",244,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2A7","S",40,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2C8","T",67,,"Multiple datasets: cross-dataset maximum not calibrated",3
+"Q9Z2C8","S",210,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2C8","S",252,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2C8","T",78,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2C9","S",652,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9Z2C9","T",578,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2U1","S",16,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2U1","S",56,,"No valid abundance measurement",0
+"Q9Z2U1","T",213,,"Insufficient biological replicates",1
+"Q9Z2V5","S",21,,"Multiple datasets: cross-dataset maximum not calibrated",2
+"Q9Z2V5","S",859,"Day 2","Within-dataset maximum (not cross-dataset)",1
+"Q9Z2V5","S",910,,"Only one condition measured",1
+"Q9Z2W1","T",174,"Zygote","Within-dataset maximum (not cross-dataset)",1
+"Q9Z2X1","S",346,,"Only one condition measured",1

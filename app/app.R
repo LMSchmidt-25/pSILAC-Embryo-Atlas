@@ -41,41 +41,7 @@ phospho_detail <- bind_rows(lapply(phospho_files, function(f) {
     filter(!is.na(UniProtID),!is.na(PhosphositeID),nzchar(PhosphositeID))
 }))
 
-# Mouse reference FASTA for site-centered +/-7 amino acid motifs.
-# Set this to the location of the FASTA on your own computer if needed.
-motif_candidates <- file.path(c(root, dirname(root)),
-  rep(c('MOUSEc_UP000000589.fasta','MOUSEc_UP000000589(1).fasta'), each=2))
-motif_candidates <- c(file.path(root,'MOUSEc_UP000000589.fasta'),
-  file.path(dirname(root),'MOUSEc_UP000000589.fasta'),
-  file.path(root,'MOUSEc_UP000000589(1).fasta'),
-  file.path(dirname(root),'MOUSEc_UP000000589(1).fasta'))
-motif_fasta <- if(any(file.exists(motif_candidates))) motif_candidates[which(file.exists(motif_candidates))[1]] else ''
-read_motif_fasta <- function(path) {
-  if(!file.exists(path)) return(setNames(character(), character()))
-  lines <- readLines(path, warn=FALSE)
-  headers <- grep('^>', lines)
-  if(!length(headers)) return(setNames(character(), character()))
-  ends <- c(headers[-1L]-1L,length(lines))
-  accessions <- sub('^>[^|]*\\|([^|]+)\\|.*$', '\\1', lines[headers])
-  seqs <- vapply(seq_along(headers), function(i)
-    paste(lines[seq.int(headers[i]+1L, ends[i])], collapse=''), character(1))
-  setNames(seqs[!duplicated(accessions)], accessions[!duplicated(accessions)])
-}
-motif_sequences <- read_motif_fasta(motif_fasta)
-message('[Motifs] FASTA: ', if(nzchar(motif_fasta)) motif_fasta else 'NOT FOUND', '; sequences: ', length(motif_sequences))
-site_motif <- function(site, accession) {
-  # Only accept unambiguous residue-position IDs; never guess coordinates.
-  site <- as.character(site)
-  matches <- regmatches(site, gregexpr('(?<![A-Za-z])[STYsty]\\s*[0-9]+',site,perl=TRUE))[[1]]
-  if(length(matches)!=1L) return(NA_character_)
-  aa <- toupper(substr(matches,1,1)); pos <- suppressWarnings(as.integer(sub('^[STYsty]\\s*','',matches)))
-  seq <- unname(motif_sequences[as.character(accession)])
-  if(!length(seq) || is.na(seq) || !is.finite(pos) || pos<1 || pos>nchar(seq)) return(NA_character_)
-  if(substr(seq,pos,pos)!=aa) return(NA_character_)
-  positions <- seq.int(pos-7L,pos+7L)
-  chars <- vapply(positions,function(j) if(j<1L || j>nchar(seq)) '-' else substr(seq,j,j),character(1))
-  paste0(paste(chars[1:7],collapse=''),'[',chars[8],']',paste(chars[9:15],collapse=''))
-}
+# Motif sequences and classes are read exclusively from the corrected CSV.
 
 ann <- readRDS(file.path(root,'shiny_data','protein_annotation.rds'))
 locpath <- file.path(root,'shiny_data','protein_localization.rds')
@@ -87,6 +53,7 @@ if(file.exists(locpath)) {
 for(n in c('GeneSymbol','ProteinName','GeneSynonyms','UniProtLocation','GOCellularComponent','DeepLocLocation','DeepLocMembrane'))
   if(!n %in% names(ann)) ann[[n]] <- NA_character_
 ann <- ann %>% distinct(UniProtID,.keep_all=TRUE) %>%
+   mutate(GeneSymbol=trimws(sub('[; ,].*$', '', as.character(GeneSymbol)))) %>%
   mutate(SearchLabel=paste(coalesce(GeneSymbol,UniProtID),coalesce(ProteinName,''),paste0('[',UniProtID,']'),sep=' — '),
          SearchText=str_to_lower(paste(UniProtID,GeneSymbol,ProteinName,GeneSynonyms)))
 # Contaminants/unmatched identifiers do not enter the public search.
@@ -206,16 +173,20 @@ is_table05 <- function(x) grepl("table\\s*0?5|^0?5$|si[_ ]?table\\s*0?5", table_
 
 # Canonical stage parser used ONLY for plotting.
 canonical_stage <- function(origin, stage, sample=NULL) {
-  txt <- str_to_lower(paste(origin, stage, sample))
-  case_when(
-    str_detect(txt, "oocyte") ~ "Oocyte",
-    str_detect(txt, "zygote") & !str_detect(txt, "[468][-_ ]?cell|[468]cell") ~ "Zygote",
-    str_detect(txt, "(^|[^0-9])2[-_ ]?cell|2cell") ~ "2-cell",
-    str_detect(txt, "(^|[^0-9])4[-_ ]?cell|4cell") ~ "4-cell",
-    str_detect(txt, "(^|[^0-9])6[-_ ]?cell|6cell") ~ "6-cell",
-    str_detect(txt, "(^|[^0-9])8[-_ ]?cell|8cell") ~ "8-cell",
+  # Stage is authoritative for cell number; Origin describes experimental origin.
+  x <- str_to_lower(as.character(stage))
+  o <- str_to_lower(as.character(origin))
+  out <- case_when(
+    grepl('8\\s*cell|8cell', x) ~ '8-cell',
+    grepl('6\\s*cell|6cell', x) ~ '6-cell',
+    grepl('4\\s*cell|4cell', x) ~ '4-cell',
+    grepl('2\\s*cell|2cell', x) ~ '2-cell',
+    x == 'oocyte' ~ 'Oocyte',
+    o == 'oocyte' ~ 'Oocyte',
+    o == 'zygote' ~ 'Zygote',
     TRUE ~ NA_character_
   )
+  out
 }
 
 # Canonical sequential-label condition for 48 h data.
@@ -232,7 +203,7 @@ canonical_condition <- function(condition, label1, label2) {
   )
   out
 }
-ui <- navbarPage('pulsed SILAC in Embryos Atlas',id='nav',header=tags$head(tags$style(HTML('
+ui <- navbarPage('pulsed-SILAC in Embryos Atlas',id='nav',header=tags$head(tags$style(HTML('
 body{background:#f7f8fb}.container-fluid{max-width:1700px}
 .cardx{background:white;border:1px solid #e4e8ed;border-radius:10px;padding:18px;margin:12px 0}
 .toprow{display:flex;align-items:stretch}
@@ -252,6 +223,21 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
 .discovery-table table.dataTable thead input{width:100%!important;box-sizing:border-box;padding-right:20px!important;min-width:58px}
 .network-note{background:#f8fafc;border-left:4px solid #98a2b3;padding:10px 12px;margin:8px 0 14px 0;font-size:12px;color:#475467}
 .network-controls .form-group{margin-bottom:10px}
+
+/* v38 layout: equal-width filter controls in discovery and network */
+.cardx .form-group, .network-controls .form-group {width:100%;max-width:100%;box-sizing:border-box}
+.cardx .form-control, .cardx .selectize-control, .cardx .selectize-input,
+.cardx .selectize-dropdown, .cardx .shiny-input-container,
+.network-controls .form-control, .network-controls .selectize-control,
+.network-controls .selectize-input, .network-controls .shiny-input-container {
+  width:100%!important;max-width:100%!important;box-sizing:border-box!important;
+}
+.cardx .shiny-input-container:not(.shiny-input-container-inline) {width:100%!important;}
+.cardx .irs, .network-controls .irs {width:100%;max-width:100%}
+.cardx .btn {max-width:100%;white-space:normal}
+.home-actions{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 10px}
+.home-actions .btn{margin:0}
+
 .network-legend{background:#fbfcfe;border:1px solid #dfe3e8;border-radius:8px;padding:10px 12px;margin-top:10px;font-size:12px}
 .network-busy-overlay{display:none;position:fixed;z-index:99999;left:50%;top:50%;transform:translate(-50%,-50%);background:rgba(255,255,255,.96);border:1px solid #d0d5dd;border-radius:12px;padding:18px 24px;box-shadow:0 8px 28px rgba(16,24,40,.18);min-width:230px;text-align:center;color:#344054;font-size:14px;font-weight:600}
 .shiny-busy .network-busy-overlay{display:block}
@@ -264,9 +250,28 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
 ')),
  tags$script(HTML("Shiny.addCustomMessageHandler('scrollToId', function(id){var el=document.getElementById(id); if(el){el.scrollIntoView({behavior:'smooth',block:'start'});}});"))),
  tabPanel('Home',
-   div(class='cardx',tags$img(src='JVOlogo_large.png',alt='Olsen Group laboratory logo',style='float:right;width:190px;max-width:35%;height:auto;margin:0 0 12px 18px;'),h1('pulsed SILAC in Embryos Atlas'),p('Single-oocyte and embryo protein abundance, incorporation, turnover and developmental protein networks.'),
-       actionButton('goexplore','Explore a protein'),actionButton('godiscover','Discover proteins'),actionButton('gonetwork','Explore networks'))
+   div(class='cardx',
+     tags$img(src='JVOlogo_large.png',alt='Olsen Group laboratory logo',
+              style='float:right;width:190px;max-width:35%;height:auto;margin:0 0 12px 18px;'),
+     h1('pulsed-SILAC in Embryos Atlas'),
+     p('Single-oocyte and -embryo protein abundance, incorporation dynamics, and developmental protein networks.'),
+     div(style='clear:both;'),
+     div(class='home-actions',
+       actionButton('goexplore','Explore a protein'),
+       actionButton('godiscover','Discover proteins'),
+       actionButton('gonetwork','Explore networks')),
+     if (file.exists(file.path('www', 'pSILAC_embryo_atlas.png')))
+       tags$div(
+         style = 'width:100%;overflow:visible;clear:both;',
+         tags$img(
+           src = 'pSILAC_embryo_atlas.png',
+           alt = 'pSILAC embryo atlas graphical abstract',
+           style = 'display:block;width:100%;height:auto;max-width:100%;object-fit:contain;margin:24px auto 12px auto;'
+         )
+       )
+   )
  ),
+ 
  tabPanel('Protein Explorer',
  fluidRow(class='toprow',
    column(4,
@@ -274,28 +279,28 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
        h4('Find a protein'),
        textInput('protein_search','Search gene / protein / UniProt',placeholder='e.g. Ezh2, EZHIP, Q61188...'),
        selectizeInput('protein_hits','Matching proteins',choices=NULL,options=list(dropdownParent='body',maxOptions=100)),
-       p(class='smallnote','Search: gene symbol, protein name, synonym or UniProt ID.')
+       p(class='smallnote','Search: gene symbol, protein name, synonym, or UniProt ID.')
      )
    ),
    column(4,div(style='width:100%;',uiOutput('protein_identity'))),
    column(4,div(style='width:100%;',uiOutput('protein_metrics')))
  ),
- fluidRow(column(6,div(class='cardx',h3('5 day abundance'),plotOutput('abundance',height=320))),
-          column(6,div(class='cardx',h3('5 day incorporation / turnover'),plotOutput('incorp',height=320)))),
- div(class='cardx',h3('24 h and 48 h pSILAC — 5X only'),
+ fluidRow(column(6,div(class='cardx',h3('5 day abundance'),plotOutput('abundance',height=320),p(class='smallnote','Mean log2 protein SumIntensity ± SD across available replicates over the first 5 days of embryogenesis. Missing days are not interpolated.'))),
+          column(6,div(class='cardx',h3('5 day incorporation dynamics'),plotOutput('incorp',height=320),p(class='smallnote','Mean heavy-label incorporation ± SD; dashed curve is an assumption-dependent model, shown only when a valid early-onset fit exists.')))),
+ div(class='cardx',h3('24 h and 48 h pulsed-SILAC'),
  fluidRow(column(3,selectInput('metric','Measurement',choices=metric_choices)),
           column(3,selectInput('axis_mode','Y-axis',c('Auto','Custom'))),
           column(3,numericInput('ymin','Y minimum',0)),column(3,numericInput('ymax','Y maximum',30))),
- p(class='smallnote','Intensities are log2-transformed and averaged per replicate. Pulse-Chase 48 h data are described according to the used Label: HH = H -> H, HL = H -> L, LH = L -> H. Labeling was applied for 24 h.'),
- fluidRow(column(6,h4('24 h: Oocyte vs 2-cell embryo'),plotOutput('short24',height=420)),
-          column(6,h4('48 h: developmental stages and labeling'),plotOutput('short48',height=420)))),
+ p(class='smallnote','Intensities are log2-transformed and averaged per replicate. Pulse-Chase SILAC 48 h data are described according to the used Label: HH = H -> H, HL = H -> L, LH = L -> H. Labeling was applied for 24 h.'),
+ fluidRow(column(6,h4('24 h: Oocyte vs 2-cell Embryo'),plotOutput('short24',height=420)),
+          column(6,h4('48 h: Developmental Stages and Labelling'),plotOutput('short48',height=420)))),
  div(class='cardx',h3('Identified phosphosites'),
-     p(class='smallnote','Motifs and exploratory sequence classes are precomputed from the mouse UniProt FASTA and read from phosphosite_annotations_with_motifs_fixed.csv. Reported-site, functional and kinase annotations are displayed only when supplied by a curated local annotation file; Not annotated does not mean novel. Motif classes are heuristic sequence patterns (S/T-P; R/K at -3/-2; D/E at +1 to +3; at least 3 prolines within ±7), can overlap, and do not establish kinase activity.'),
+     p(class='smallnote','Motifs and motif classes are read from phosphosite_annotations.csv. Reported-site, functional, and kinase annotations are displayed only when supplied by a curated local annotation file; Not annotated does not mean novel. Motif classes are heuristic sequence patterns (S/T-P; R/K at -3/-2; D/E at +1 to +3; at least 3 prolines within ±7), can overlap, and do not establish kinase activity.'),
      selectInput('phospho_report_filter','UniProt annotation',choices=c('All sites','Reported in UniProt','Not annotated in UniProt'),selected='All sites'),
      DTOutput('protein_phosphosites'))),
  tabPanel('Protein Discovery',fluidRow(
-  column(3,div(class='cardx',h3('Discovery filters'),
-    textInput('discovery_search','Search within results',placeholder='Gene, protein name or UniProt ID'),
+  column(3,div(class='cardx',h3('Discovery filters'),     textInput('discovery_search','Search within results',placeholder='Gene, protein name or UniProt ID'),
+     actionButton('reset_discovery','Reset search and filters',width='100%'),
     selectInput('discovery_mode','Criterion',c('All proteins'='all','First detected (5 day)'='first',
       'First measurable incorporation (5 day)'='firstinc','Detected on day (5 day)'='detected',
       'Incorporation on day (5 day)'='inc','Persistent detection (5 day)'='persistent',
@@ -334,7 +339,7 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
  tabPanel('Network',
    div(class='network-busy-overlay',div(class='network-spinner'),div('Calculating network…'),div(class='smallnote',style='margin-top:4px;font-weight:400;','Large protein groups can take a few seconds.')),
    tabsetPanel(id='network_workflow',
-     tabPanel('Protein neighborhood',
+     tabPanel('Protein neighbourhood',
        fluidRow(
          column(3,div(class='cardx network-controls',
            h3('Find a protein of interest'),
@@ -343,7 +348,7 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
              multiple=FALSE,selected=if(nrow(summary)) summary$UniProtID[1] else character(0),
              options=list(placeholder='Search one protein...')),
            actionButton('network_use_explorer','Use Protein Explorer protein',width='100%'),
-           selectInput('network_type','Neighborhood',c('Correlated proteins'='correlation','STRING partners'='string','Combined evidence'='combined')),
+           selectInput('network_type','Neighbourhood',c('Correlated proteins'='correlation','STRING partners'='string','Combined evidence'='combined')),
            conditionalPanel("input.network_type == 'correlation' || input.network_type == 'combined'",
              selectInput('corr_metric','5 day trajectory',c('Abundance (log2)'='log2Abundance','Incorporation'='Incorporation')),
              selectInput('corr_method','Correlation',c('Pearson'='pearson','Spearman'='spearman')),
@@ -352,18 +357,18 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
              sliderInput('corr_minpoints','Minimum shared measured days',min=3,max=5,value=4,step=1)),
            conditionalPanel("input.network_type == 'string' || input.network_type == 'combined'",
              sliderInput('string_score','STRING confidence',min=0,max=1,value=.7,step=.05)),
-           numericInput('max_edges','Maximum neighbors displayed',value=25,min=1,max=150,step=5),
+           numericInput('max_edges','Maximum neighbours displayed',value=25,min=1,max=75,step=5),
            selectInput('node_color','Node color',c('Turnover class'='turnover','First detected day'='firstday','Localization'='localization','Maximum incorporation'='maxincorp','Detected dataset'='dataset')),
            selectInput('node_size','Node size',c('Uniform'='uniform','Mean 5 day abundance'='abundance','Maximum incorporation'='incorp')),
-           p(class='smallnote','One protein of interest is compared with every eligible protein in the atlas. Correlations use observed 5 day means only. STRING partners are restricted to detected atlas proteins.'))),
+           p(class='smallnote','One protein of interest is compared with every eligible protein in the atlas. Correlated proteins only use observed 5 day means. STRING partners are restricted to detected atlas proteins.'))),
          column(9,
            div(class='cardx',h3('Protein-centered developmental network'),
-             div(class='network-note','Correlation is exploratory with only five developmental days and does not establish physical binding. STRING reports known/predicted functional associations, not necessarily direct binding. Combined shows partners supported by both.'),
+             div(class='network-note','Correlation is exploratory within the first five development days. Correlations and known/predicted STRING reports does not necessarily establish direct binding. "Combined" shows partners supported by both the Correlatiod proteins and STRING networks.'),
              textOutput('network_status'),
              visNetworkOutput('protein_network',height='610px'),
              uiOutput('network_legend')),
-           div(class='cardx',h3('Selected neighbor'),uiOutput('network_node_info')),
-           div(class='cardx',h3('Ranked neighbors'),DTOutput('network_edges'))
+           div(class='cardx',h3('Selected neighbour'),uiOutput('network_node_info')),
+           div(class='cardx',h3('Ranked neighbours'),DTOutput('network_edges'))
          )
        )
      ),
@@ -382,8 +387,8 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
            sliderInput('group_minpoints','Minimum shared measured days',min=3,max=5,value=4,step=1),
            checkboxInput('group_match_turnover','Require similar half-life',FALSE),
            conditionalPanel("input.group_match_turnover == true",numericInput('group_halfdiff','Maximum half-life difference (days)',value=0.5,min=0.05,max=10,step=0.1)),
-           numericInput('group_maxproteins','Maximum proteins in network',value=100,min=10,max=300,step=10),
-           numericInput('group_maxedges','Maximum edges displayed',value=250,min=10,max=1500,step=25),
+           numericInput('group_maxproteins','Maximum proteins in network',value=60,min=10,max=100,step=10),
+           numericInput('group_maxedges','Maximum edges displayed',value=150,min=10,max=300,step=25),
            selectInput('group_node_color','Node color',c('Module'='module','Turnover class'='turnover','First detected day'='firstday','Localization'='localization','Maximum incorporation'='maxincorp')),
            selectInput('group_node_size','Node size',c('Uniform'='uniform','Mean 5 day abundance'='abundance','Maximum incorporation'='incorp')),
            p(class='smallnote','This mode discovers coordinated modules within a biologically defined subset. Missing values are not imputed; correlations use only shared measured days.'))),
@@ -403,10 +408,13 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
    )
  ),
  tabPanel('About',div(class='cardx',h2('Interpretation'),
-   p('Missing MS values do not establish absent expression. First measurable incorporation is not necessarily the onset of synthesis.'),
-   p('Light amino acids may be recycled into newly synthesized proteins; heavy and light are not synonymous with new and old.'),
-   p('Half-life model: I(t) = 1 - exp(-kt), with t=0 at the start of heavy labeling.'),
-   p('App QC enforces that incorporation is only displayed when a positive SumIntensity exists for the same replicate.'),
+   h3('General and data information'),                    
+   p('Missing MS values do not necessarily mean absent expression. First measurable incorporation is not necessarily the onset of synthesis.'),
+   p('Light amino acids may be recycled into newly synthesized proteins; heavy and light are not synonymous with new and old. Heavy-labeled peptides are adjusted to the calculated, theoretical recycling rate. For more information please refer to the associated manuscript.'),
+   p('All data is deposited on', tags$a('ProteomeXchange PXD054352',href = 'https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD054352',target='_blank',rel='noopener noreferrer'), ' and is available at the publishing date of the pulsed-SILAC in single mouse embryos manuscript.'),
+   h3('Apparent incorporation half-life (model)'),
+   p('Apparent incorporation half-lifes are estimated from heavy-label incorporation using the exploratory model I(t) = 1 - exp(-kt), assuming I(0) = 0. Early embryonic protein synthesis is stage-specific and does not satisfy steady-state assumptions. Rapid incorporation may indicate stage-specific synthesis rather than rapid degradation; low incorporation may reflect persistent maternally deposited proteins or delayed synthesis. The estimates therefore describe apparent incorporation kinetics, not directly measured protein degradation half-lifes. Extremely large fitted half-lifes, especially those exceeding the five-day observation window, are extrapolations and should not be interpreted as reliable quantitative half-lifes.'),
+   p('The web application enforces that incorporation is only displayed when a positive SumIntensity exists for the same replicate.'),
    h3('Associated manuscript'),
    p(tags$a('Schmidt et al. (2026), Pulsed-SILAC in single mouse embryos reveals early embryonic protein synthesis dynamics and phosphosite regulation (bioRxiv)',href='https://www.biorxiv.org/content/10.64898/2026.09.24.754052v1',target='_blank',rel='noopener noreferrer')))))
 server <- function(input,output,session) {
@@ -428,12 +436,18 @@ server <- function(input,output,session) {
      updateSelectInput(session,'protein_hits',choices=character(0),selected=character(0))
      return()
    }
-   hit <- ann %>%
-     filter(grepl(q,SearchText,fixed=TRUE)) %>%
-     slice_head(n=100)
-   ch <- setNames(hit$UniProtID,ifelse(is.na(hit$GeneSymbol) | !nzchar(trimws(hit$GeneSymbol)),hit$UniProtID,hit$GeneSymbol))
+    hit <- ann %>%
+      filter(grepl(q,SearchText,fixed=TRUE)) %>%
+      mutate(.rank=case_when(
+        str_to_lower(GeneSymbol)==q ~ 0L,
+        str_to_lower(UniProtID)==q ~ 1L,
+        str_starts(str_to_lower(GeneSymbol),fixed(q)) ~ 2L,
+        TRUE ~ 3L)) %>%
+      arrange(.rank,GeneSymbol,UniProtID) %>%
+      slice_head(n=100)
+   ch <- setNames(hit$UniProtID,paste0(hit$GeneSymbol,' · ',hit$UniProtID))
    updateSelectInput(session,'protein_hits',choices=ch,
-                     selected=if(length(ch)) unname(ch[1]) else character(0))
+                     selected=if(active_protein() %in% unname(ch)) active_protein() else character(0))
  },ignoreInit=TRUE)
 
  observeEvent(input$protein_hits,{
@@ -463,28 +477,32 @@ server <- function(input,output,session) {
 
  output$protein_metrics <- renderUI({
    s0 <- sel()
-   h <- if(nrow(s0) && 'half_life' %in% names(s0) && is.finite(s0$half_life[1]) &&
+   h <- if(nrow(s0) && is.finite(s0$FirstIncorpDay[1]) && s0$FirstIncorpDay[1] <= 1 && 'half_life' %in% names(s0) && is.finite(s0$half_life[1]) &&
            (!'fit_status' %in% names(s0) || identical(as.character(s0$fit_status[1]),'fit_ok')))
           paste(round(s0$half_life[1],2),'d') else 'NA'
    det <- if(nrow(s0) && 'DetectedIn' %in% names(s0) && !is.na(s0$DetectedIn[1])) as.character(s0$DetectedIn[1]) else 'NA'
    sites <- if(nrow(s0) && 'PhosphositeCount' %in% names(s0)) as.character(s0$PhosphositeCount[1]) else '0'
 
+   tagList(
    div(class='metricgrid',
      div(class='metricbox',div(class='metricvalue',fmtday(s0$FirstDetectedDay)),
          div(class='metriclabel','First detected')),
      div(class='metricbox',div(class='metricvalue',fmtday(s0$FirstIncorpDay)),
          div(class='metriclabel','First incorporation measured')),
      div(class='metricbox',div(class='metricvalue',h),
-         div(class='metriclabel','Protein half-life')),
+         div(class='metriclabel','Apparent incorporation half-life (model)*')),
      div(class='metricbox',div(class='metricvalue',sites),
          div(class='metriclabel','Detected phosphosites'))
+   ),
+   p(class='smallnote',
+     '* Apparent incorporation half-lifes are model-based and should be interpreted cautiously. Stage-specific synthesis and maternal protein persistence may affect incorporation kinetics. See tab "About" for details.')
    )
  })
 
  # Optional, locally curated mouse phosphosite annotations.
  # No database evidence is inferred from the motif or from an absent record.
- annotation_path <- file.path(root,'shiny_data','phosphosite_annotations_with_motifs_fixed.csv')
- annotation_columns <- c('UniProtID','Residue','Position','Reported','FunctionalAnnotation','KinaseEvidence','SequenceMotif','MotifClass','MotifQC')
+ annotation_path <- file.path(root,'shiny_data','phosphosite_annotations_v38_CORRECTED.csv')
+ annotation_columns <- c('UniProtID','Residue','Position','Reported','FunctionalAnnotation','KinaseEvidence','SequenceMotif','MotifClass','MotifQC','Highest abundance stage')
  if(file.exists(annotation_path)) {
    site_annotations <- tryCatch(read.csv(annotation_path,stringsAsFactors=FALSE,
                                          check.names=FALSE),error=function(e) {
@@ -530,19 +548,21 @@ server <- function(input,output,session) {
    z$`Previously reported` <- evidence(z$Reported)
    z$`Functional annotation` <- evidence(z$FunctionalAnnotation)
    z$`Kinase evidence` <- evidence(z$KinaseEvidence)
+    z$`Highest abundance stage` <- evidence(z$`Highest abundance stage`)
+    z$`Highest abundance stage`[z$`Highest abundance stage`=='Not annotated'] <- 'Not assigned'
    if(identical(input$phospho_report_filter,'Reported in UniProt'))
      z <- z[!is.na(z$Reported) & nzchar(trimws(z$Reported)),,drop=FALSE]
    if(identical(input$phospho_report_filter,'Not annotated in UniProt'))
      z <- z[is.na(z$Reported) | !nzchar(trimws(z$Reported)),,drop=FALSE]
    z$`Maximum incorporation (%)` <- round(z$`Maximum incorporation (%)`,1)
    z <- z %>% select(`Phosphosite ID`=PhosphositeID,
-     `Motif (+/-7 AA)`,`Motif class`,`Maximum incorporation (%)`,
-     `Previously reported`,`Functional annotation`,`Kinase evidence`)
+     `Maximum incorporation (%)`, `Highest abundance stage`,
+     `Motif (+/-7 AA)`, `Motif class`, `Previously reported`,
+     `Functional annotation`, `Kinase evidence`)
    DT::datatable(z,rownames=FALSE,filter='top',extensions='Buttons',
-     options=list(pageLength=10,scrollX=TRUE,dom='Bftip',buttons=c('csv')))
- },server=TRUE)
+     options=list(pageLength=10,scrollX=TRUE,dom='Bftip',buttons=list(list(extend='csv',text='Export filtered CSV',exportOptions=list(columns=':visible',modifier=list(search='applied',order='applied',page='all'))))))  },server=FALSE)
 
- # Draw lines only between consecutive measured days. Missing days remain gaps.
+  # Draw lines only between consecutive measured days. Missing days remain gaps.
  draw_consecutive <- function(day,value,pch=19,lwd=2,lty=1) {
    ord <- order(day); day <- day[ord]; value <- value[ord]
    points(day,value,pch=pch)
@@ -604,7 +624,8 @@ server <- function(input,output,session) {
    # I(t) = 1 - exp(-k*t), with I(0)=0 fixed.
    h <- hl %>% filter(UniProtID==chosen()) %>% dplyr::slice(1)
    fit_drawn <- FALSE
-   if(nrow(h) && is.finite(h$k[1]) && h$k[1] > 0 &&
+   late_onset <- nrow(sel()) && is.finite(sel()$FirstIncorpDay[1]) && sel()$FirstIncorpDay[1] > 1
+    if(!late_onset && nrow(h) && is.finite(h$k[1]) && h$k[1] > 0 &&
       (!'fit_status' %in% names(h) ||
        identical(as.character(h$fit_status[1]),'fit_ok'))) {
 
@@ -620,7 +641,7 @@ server <- function(input,output,session) {
 
    if(fit_drawn) {
      legend('bottomright',
-            legend=c('Measured mean ± SD','Turnover fit: 1 - exp(-kt)'),
+            legend=c('Measured mean ± SD','Apparent incorporation fit: 1 - exp(-kt)'),
             lty=c(1,2),lwd=c(2,3),pch=c(19,NA),
             bty='n',cex=.8)
    }
@@ -630,30 +651,31 @@ server <- function(input,output,session) {
 
  shortdata <- reactive({
    req(input$metric, chosen())
-   d <- short %>% filter(UniProtID==chosen())
-   if(!nrow(d)) return(d)
+   d <- short %>% filter(UniProtID == chosen())
+   if (!nrow(d)) return(d)
 
-   # Table05 = 24 h 5X oocyte/zygote experiment.
-   # Table04 = 48 h 5X sequential-label experiment.
-   # Table03 (1X) is deliberately excluded from Protein Explorer.
-   keep <- is_table04(d$Table) | is_table05(d$Table)
-   d <- d[!is.na(keep) & keep,,drop=FALSE]
-   if(!nrow(d)) return(d)
+   # Explicit source-table mapping, validated against atlas_pSILAC_proteome_public.rds.
+   # Table03 is the 1X experiment and is excluded from the 5X explorer.
+   tab <- trimws(as.character(d$Table))
+   dur <- trimws(as.character(d$Duration))
+   d$AppDataset <- case_when(
+     tab == 'Table05' & dur == '24h' ~ '24h',
+     tab == 'Table04' & dur == '48h' ~ '48h',
+     TRUE ~ NA_character_
+   )
+   d <- d[!is.na(d$AppDataset), , drop=FALSE]
+   if (!nrow(d)) return(d)
 
+   validate(need(input$metric %in% names(d),
+                 'Selected measurement is unavailable in this dataset.'))
    d$Value <- suppressWarnings(as.numeric(d[[input$metric]]))
-   if(input$metric %in% c('SumIntensity','H','L')) d$Value <- log2_ok(d$Value)
+   if (input$metric %in% c('SumIntensity','H','L'))
+     d$Value <- log2_ok(d$Value)
 
-   d$PlotStage <- canonical_stage(
-     d$Origin,
-     d$Stage,
-     if('Sample' %in% names(d)) d$Sample else NA_character_
-   )
-
-   d$PlotCondition <- canonical_condition(
-     d$Condition,
-     if('Label_0_24h' %in% names(d)) d$Label_0_24h else NA_character_,
-     if('Label_24_48h' %in% names(d)) d$Label_24_48h else NA_character_
-   )
+   d$PlotStage <- canonical_stage(d$Origin, d$Stage)
+   d$PlotStage[d$AppDataset == '24h' & d$Origin == 'oocyte'] <- 'Oocyte'
+   d$PlotStage[d$AppDataset == '24h' & d$Origin == 'zygote'] <- 'Zygote'
+   d$PlotCondition <- toupper(trimws(as.character(d$Condition)))
    d
  })
 
@@ -669,7 +691,7 @@ server <- function(input,output,session) {
  })
 
  output$short24 <- renderPlot({
-   d <- shortdata() %>% filter(is_table05(Table),PlotStage %in% c('Oocyte','Zygote'))
+   d <- shortdata() %>% filter(AppDataset=='24h',PlotStage %in% c('Oocyte','Zygote'))
    d$PlotStage <- ifelse(as.character(d$PlotStage)=='Zygote','2-cell',as.character(d$PlotStage))
    lev <- c('Oocyte','2-cell')
    d$PlotStage <- factor(d$PlotStage,levels=lev)
@@ -683,20 +705,31 @@ server <- function(input,output,session) {
      pad <- max(diff(yl)*.08,.25); yl <- yl+c(-pad,pad)
    }
 
-   boxplot(Value ~ PlotStage,data=d,drop=FALSE,
-           xlab='',ylab=y_axis_label(),ylim=yl,outline=FALSE,
-           col=unname(cols[lev]),
-           yaxt=if(input$metric=='Incorporation') 'n' else 's')
+   # Explicit groups avoid formula evaluation errors from stripchart/boxplot.
+   groups <- lapply(lev, function(stage) {
+     x <- suppressWarnings(as.numeric(d$Value[as.character(d$PlotStage)==stage]))
+     x[is.finite(x)]
+   })
+   names(groups) <- lev
+   plot(NA_real_, xlim=c(.5,2.5), ylim=yl, xaxt='n',
+        yaxt=if(input$metric=='Incorporation') 'n' else 's',
+        xlab='',ylab=y_axis_label())
+   axis(1,at=seq_along(lev),labels=lev)
    if(input$metric=='Incorporation')
      axis(2,at=seq(0,1,.2),labels=paste0(seq(0,100,20),'%'),las=1)
-   stripchart(Value ~ PlotStage,data=d,vertical=TRUE,method='jitter',
-              pch=16,cex=.7,add=TRUE)
    grid()
+   for(i in seq_along(groups)) {
+     x <- groups[[i]]
+     if(!length(x)) next
+     if(length(x)>1) boxplot(x,at=i,add=TRUE,axes=FALSE,outline=FALSE,
+                            boxwex=.5,col=unname(cols[lev[i]]))
+     points(jitter(rep(i,length(x)),amount=.12),x,pch=16,cex=.7)
+   }
  })
 
  output$short48 <- renderPlot({
    d <- shortdata() %>%
-     filter(is_table04(Table),
+     filter(AppDataset=='48h',
             PlotStage %in% c('4-cell','6-cell','8-cell'),
             PlotCondition %in% c('HL','LH','HH'))
 
@@ -723,21 +756,29 @@ server <- function(input,output,session) {
    }
 
    box_cols <- rep(c(cols['4-cell'],cols['6-cell'],cols['8-cell']),3)
-   boxplot(Value ~ Group,data=d,drop=FALSE,xaxt='n',
-           xlab='',ylab=y_axis_label(),ylim=yl,outline=FALSE,
-           col=unname(box_cols),
-           yaxt=if(input$metric=='Incorporation') 'n' else 's')
+   groups <- lapply(group_levels, function(group) {
+     x <- suppressWarnings(as.numeric(d$Value[as.character(d$Group)==group]))
+     x[is.finite(x)]
+   })
+   plot(NA_real_,xlim=c(.5,9.5),ylim=yl,xaxt='n',
+        yaxt=if(input$metric=='Incorporation') 'n' else 's',
+        xlab='',ylab=y_axis_label())
    if(input$metric=='Incorporation')
      axis(2,at=seq(0,1,.2),labels=paste0(seq(0,100,20),'%'),las=1)
-
-   stripchart(Value ~ Group,data=d,vertical=TRUE,method='jitter',
-              pch=16,cex=.55,add=TRUE)
+   grid()
+   for(i in seq_along(groups)) {
+     x <- groups[[i]]
+     if(!length(x)) next
+     if(length(x)>1) boxplot(x,at=i,add=TRUE,axes=FALSE,outline=FALSE,
+                            boxwex=.5,col=unname(box_cols[i]))
+     points(jitter(rep(i,length(x)),amount=.12),x,pch=16,cex=.55)
+   }
 
    axis(1,at=1:9,
         labels=rep(c('4','6','8'),3),
         cex.axis=.82)
    mtext(c('HL','LH','HH'),side=1,at=c(2,5,8),line=2.1,font=2)
-   mtext('Cell stage embryo',side=1,line=3.4)
+   mtext('Embryo cell Stage',side=1,line=3.4)
    legend('topright',legend=c('4-cell','6-cell','8-cell'),
           fill=unname(cols[c('4-cell','6-cell','8-cell')]),
           bty='n',cex=.8)
@@ -747,15 +788,25 @@ server <- function(input,output,session) {
 
  output$turnover_definition <- renderText({
    if(is.finite(fast_cut) && is.finite(slow_cut)) {
-     paste0('Turnover classes use valid fitted half-lives: Fast = lowest quartile (≤ ',
+     paste0('Exploratory incorporation-rate classes use fitted apparent half-lifes: Fast = lowest quartile (≤ ',
             round(fast_cut,2),' d); Intermediate = middle 50%; Slow = highest quartile (≥ ',
             round(slow_cut,2),' d).')
    } else {
-     'Turnover classes require valid fitted half-lives.'
+     'Apparent incorporation-rate classes require valid fitted model estimates.'
    }
  })
-
- results <- reactive({
+ observeEvent(input$reset_discovery,{
+    updateTextInput(session,'discovery_search',value='')
+    updateSelectInput(session,'discovery_mode',selected='all')
+    updateSelectInput(session,'localization',selected='All')
+    updateSelectInput(session,'day',selected=days[1])
+    updateNumericInput(session,'minrep',value=1)
+    updateSliderInput(session,'threshold',value=0)
+    dataTableProxy('discovery') %>% selectRows(NULL)
+    previous_selection(integer(0))
+    last_selected_id(NA_character_)
+  })
+  results <- reactive({
    d <- summary; mode <- input$discovery_mode; day <- as.numeric(input$day)
    if(mode=='first') d <- d %>% filter(FirstDetectedDay==day)
    if(mode=='firstinc') d <- d %>% filter(FirstIncorpDay==day,MaxIncorp>=input$threshold)
@@ -810,26 +861,82 @@ server <- function(input,output,session) {
    d$`Protein name` <- paste0('<span title="',
      htmltools::htmlEscape(full_name,attribute=TRUE),'">',
      htmltools::htmlEscape(short_name),'</span>')
-
-   datatable(d,rownames=FALSE,selection='multiple',filter='top',escape=FALSE,
-      extensions='Buttons',class='compact stripe hover',
-      options=list(
-       scrollX=FALSE,pageLength=15,autoWidth=FALSE,
-       columnDefs=list(
-         list(width='8%',targets=0),
-         list(width='22%',targets=1),
-         list(width='7%',targets=2),
-         list(width='6%',targets=c(3,4,5)),
-         list(width='7%',targets=c(6,7)),
-         list(width='8%',targets=8),
-         list(width='9%',targets=9),
-         list(width='15%',targets=10)
+   
+   # Keep developmental-day columns numeric
+   for (col in c("First day", "First incorp.", "Days seen")) {
+     d[[col]] <- as.integer(as.character(d[[col]]))
+   }
+   
+   datatable(
+     d,
+     rownames = FALSE,
+     selection = 'multiple',
+     filter = 'top',
+     escape = FALSE,
+     extensions = 'Buttons',
+     class = 'compact stripe hover',
+     
+     options = list(
+       scrollX = FALSE,
+       pageLength = 15,
+       autoWidth = FALSE,
+       
+       columnDefs = list(
+         list(width = '8%', targets = 0),
+         list(width = '22%', targets = 1),
+         list(width = '7%', targets = 2),
+         list(width = '6%', targets = c(3, 4, 5)),
+         list(width = '7%', targets = c(6, 7)),
+         list(width = '8%', targets = 8),
+         list(width = '9%', targets = 9),
+         list(width = '15%', targets = 10)
        ),
-       dom='Bfrtip',buttons=c('copy','csv')
-      )) %>%
-      formatPercentage('Max incorp.',1) %>%
-      formatRound('Half-life (d)',2)
- },server=FALSE)
+       
+       dom = 'Bfrtip',
+       
+       buttons = list(
+         'copy',
+         list(
+           extend = 'csv',
+           text = 'Export filtered CSV',
+           exportOptions = list(
+             columns = ':visible',
+             modifier = list(
+               search = 'applied',
+               order = 'applied',
+               page = 'all'
+             )
+           )
+         )
+       )
+     ),
+     
+     callback = JS("
+    var table = this.api();
+
+    function setIntegerDaySliders() {
+      [3, 4, 5].forEach(function(colIndex) {
+        var column = table.column(colIndex);
+        var filter = $(column.header()).closest('table')
+          .find('thead tr').last().find('th').eq(colIndex);
+
+        var slider = filter.find('.noUi-target');
+
+        if (slider.length && slider[0].noUiSlider) {
+          slider[0].noUiSlider.updateOptions({
+            step: 1,
+            range: {min: 1, max: 5}
+          });
+        }
+      });
+    }
+
+    setTimeout(setIntegerDaySliders, 300);
+  ")
+   ) %>%
+     formatPercentage('Max incorp.', 1) %>%
+     formatRound('Half-life (d)', 2)
+ }, server = FALSE)
 
  # Track the most recently added table row, so Open selected protein never
  # silently opens an older selection from another DT page.
@@ -948,7 +1055,7 @@ server <- function(input,output,session) {
  output$compareplot <- renderPlot({
    ids <- comparison_ids()
    validate(need(length(ids)>0,
-     'Select multiple proteins in the table and click Compare selected proteins, or search them above.'))
+     'Select multiple proteins in the table and click "Compare selected proteins", or search them above.'))
 
    d <- daily %>%
      filter(UniProtID %in% ids) %>%
@@ -1236,7 +1343,7 @@ server <- function(input,output,session) {
  output$network_status <- renderText({
    id <- network_focus(); e <- active_edges()
    gene <- summary$GeneSymbol[match(id,summary$UniProtID)]
-   paste0(coalesce(gene,id),' · ',nrow(e),' neighbors shown · ',input$network_type,
+   paste0(coalesce(gene,id),' · ',nrow(e),' neighbours shown · ',input$network_type,
      if(input$network_type!='string') paste0(' · ',nrow(correlation_neighbors()),' qualifying correlations') else '')
  })
  output$protein_network <- renderVisNetwork({
@@ -1255,7 +1362,7 @@ server <- function(input,output,session) {
  })
  output$network_node_info <- renderUI({
    id <- input$protein_network_selected
-   if(is.null(id) || !length(id)) return(p(class='smallnote','Click a neighbor to inspect it.'))
+   if(is.null(id) || !length(id)) return(p(class='smallnote','Click a neighbour to inspect it.'))
    id <- as.character(id[1]); a <- summary %>% filter(UniProtID==id) %>% dplyr::slice(1)
    if(!nrow(a)) return(NULL)
    div(h4(coalesce(a$GeneSymbol,a$UniProtID)),p(a$ProteinName),
@@ -1280,7 +1387,7 @@ server <- function(input,output,session) {
  })
  output$network_edges <- renderDT({
    e <- active_edges()
-   validate(need(nrow(e)>0,'No neighbors pass the current settings (or STRING is unavailable).'))
+   validate(need(nrow(e)>0,'No neighbours pass the current settings (or STRING is unavailable).'))
    labels <- ann %>% select(UniProtID,GeneSymbol) %>% distinct(UniProtID,.keep_all=TRUE)
    e %>% left_join(labels,by=c('to'='UniProtID')) %>%
      mutate(Protein=coalesce(GeneSymbol,to)) %>%

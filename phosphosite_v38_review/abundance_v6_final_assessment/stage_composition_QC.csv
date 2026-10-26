@@ -1,0 +1,18 @@
+"Source","Condition","Stage","N_rows","N_samples"
+"24h","Oocyte","oocyte",21468,12
+"24h","Zygote",,21468,12
+"48h","HH","4cell",6809,11
+"48h","HH","6cell",1238,2
+"48h","HH","8cell",1238,2
+"48h","HL","4cell",6190,10
+"48h","HL","6cell",1857,3
+"48h","HL","8cell",1238,2
+"48h","LH","4cell",7428,12
+"48h","LH","6cell",1857,3
+"48h","LH","8cell",2476,4
+"5-day","Day 1","2cell",19638,18
+"5-day","Day 1","oocyte",8728,8
+"5-day","Day 2","4cell",21820,20
+"5-day","Day 3","blastocyst",19638,18
+"5-day","Day 4","blastocyst",18547,17
+"5-day","Day 5","blastocyst",20729,19

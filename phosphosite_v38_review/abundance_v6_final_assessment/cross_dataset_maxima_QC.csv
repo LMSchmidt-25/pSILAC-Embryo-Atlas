@@ -1,0 +1,2191 @@
+"UniProtID","Residue","Position","N_eligible_conditions","N_datasets","WinnerSource","WinnerCondition","Margin_log2","QC_status","Highest abundance stage"
+"A0JNT9","S",310,2,1,"24h","Oocyte",0.791313649342044,"Only one dataset with sufficient replicates",
+"A2A432","S",110,1,1,,,,"Insufficient conditions",
+"A2A432","S",250,5,3,"24h","Oocyte",2.62235337566234,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2A432","T",106,4,2,"24h","Oocyte",1.32645497011835,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2A432","T",140,1,1,,,,"Insufficient conditions",
+"A2A5R2","S",227,5,1,"5-day","Day 4",0.0832439795994926,"Only one dataset with sufficient replicates",
+"A2ADY9","S",120,5,2,"24h","Oocyte",1.55968302178295,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2ADY9","S",121,6,3,"24h","Oocyte",2.18782944835944,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2ADY9","S",128,4,2,"24h","Oocyte",2.21680670170233,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2ADY9","S",194,2,1,"24h","Oocyte",0.630142677824171,"Only one dataset with sufficient replicates",
+"A2AHC3","S",417,1,1,,,,"Insufficient conditions",
+"A2AHC3","S",1069,4,2,"24h","Oocyte",0.469194025392353,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2AHC3","S",1109,2,1,"24h","Oocyte",1.69498045484591,"Only one dataset with sufficient replicates",
+"A2AHC3","S",1115,2,1,"5-day","Day 1",0.237966866571679,"Only one dataset with sufficient replicates",
+"A2AHC3","S",1185,1,1,,,,"Insufficient conditions",
+"A2AHC3","T",511,2,2,"5-day","Day 1",0.198535687951956,"Ambiguous maximum (<0.25 log2)",
+"A2AJA7","S",925,2,1,"24h","Zygote",0.652244633968101,"Only one dataset with sufficient replicates",
+"A2AKX3","S",1597,2,1,"24h","Zygote",1.19707938825244,"Only one dataset with sufficient replicates",
+"A2ALU4","S",935,5,2,"24h","Zygote",0.876727301792995,"Provisional anchor-aligned maximum","24h / Zygote"
+"A2AN08","S",178,4,2,"24h","Oocyte",0.857796414919141,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2AN08","S",181,5,2,"24h","Oocyte",0.556303881003725,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2AN08","S",362,2,1,"24h","Zygote",0.209682305123367,"Only one dataset with sufficient replicates",
+"A2AN08","S",620,2,1,"5-day","Day 2",0.207016137723077,"Only one dataset with sufficient replicates",
+"A2AN08","S",1759,1,1,,,,"Insufficient conditions",
+"A2AN08","S",2716,10,3,"5-day","Day 2",0.328732800446687,"Provisional anchor-aligned maximum","5-day / Day 2"
+"A2AN08","T",363,2,1,"5-day","Day 1",0.869953253310022,"Only one dataset with sufficient replicates",
+"A2AN08","T",1760,1,1,,,,"Insufficient conditions",
+"A2ANU3","T",28,2,1,"24h","Oocyte",0.127707966568597,"Only one dataset with sufficient replicates",
+"A2APB8","S",60,1,1,,,,"Insufficient conditions",
+"A2APB8","S",486,1,1,,,,"Insufficient conditions",
+"A2APB8","S",737,1,1,,,,"Insufficient conditions",
+"A2APB8","T",72,1,1,,,,"Insufficient conditions",
+"A2APB8","T",369,2,2,"24h","Oocyte",1.46913657527243,"Provisional anchor-aligned maximum","24h / Oocyte"
+"A2AQ25","T",1248,1,1,,,,"Insufficient conditions",
+"A2ARV4","S",4624,3,1,"5-day","Day 4",0.835525026828932,"Only one dataset with sufficient replicates",
+"A2ARZ3","S",460,5,2,"24h","Zygote",0.7364747737552,"Provisional anchor-aligned maximum","24h / Zygote"
+"A2AVJ5","S",28,2,1,"24h","Zygote",0.381061470373366,"Only one dataset with sufficient replicates",
+"A2BH40","S",365,3,1,"5-day","Day 4",0.139581544534714,"Only one dataset with sufficient replicates",
+"A2TJV2","S",139,2,1,"24h","Zygote",0.358088243663031,"Only one dataset with sufficient replicates",
+"A2TJV2","S",270,7,2,"24h","Oocyte",0.209495420702046,"Ambiguous maximum (<0.25 log2)",
+"A6BLY7","S",151,2,1,"24h","Oocyte",0.607395884533499,"Only one dataset with sufficient replicates",
+"A6BLY7","S",152,2,1,"24h","Oocyte",0.607395884533499,"Only one dataset with sufficient replicates",
+"A6BLY7","T",153,2,1,"24h","Oocyte",0.607395884533499,"Only one dataset with sufficient replicates",
+"A6H8H2","S",971,2,1,"24h","Oocyte",1.75960760037396,"Only one dataset with sufficient replicates",
+"A6H8H2","S",1240,1,1,,,,"Insufficient conditions",
+"A6H8H2","S",1310,2,1,"24h","Oocyte",1.78436660346587,"Only one dataset with sufficient replicates",
+"A6H8H2","S",1328,1,1,,,,"Insufficient conditions",
+"A6H8H2","S",1329,4,2,"48h","LH",0.648318430000645,"Provisional anchor-aligned maximum","48h / LH"
+"A6H8H2","T",966,4,1,"5-day","Day 1",0.669190738235164,"Only one dataset with sufficient replicates",
+"A6H8H2","T",973,2,1,"24h","Oocyte",1.76258863305905,"Only one dataset with sufficient replicates",
+"B1AVD1","S",499,2,1,"24h","Zygote",0.0379773744060419,"Only one dataset with sufficient replicates",
+"B1AXD8","S",18,1,1,,,,"Insufficient conditions",
+"B1AXD8","S",21,2,1,"24h","Oocyte",1.95503619224005,"Only one dataset with sufficient replicates",
+"B1AY13","S",1607,2,1,"24h","Oocyte",1.03803596077372,"Only one dataset with sufficient replicates",
+"B1AY13","S",1609,1,1,,,,"Insufficient conditions",
+"B1AY13","S",1612,3,1,"5-day","Day 1",0.0170423513029512,"Only one dataset with sufficient replicates",
+"B1AY13","S",2044,5,1,"5-day","Day 4",0.718424457615981,"Only one dataset with sufficient replicates",
+"B1AZA5","S",12,5,2,"24h","Oocyte",1.13199215063631,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1AZA5","S",16,2,1,"24h","Oocyte",1.69159651427789,"Only one dataset with sufficient replicates",
+"B1AZA5","T",32,1,1,,,,"Insufficient conditions",
+"B1AZI6","S",1417,3,1,"5-day","Day 4",0.4720451289067,"Only one dataset with sufficient replicates",
+"B1AZP2","S",973,4,2,"5-day","Day 2",0.405901661536809,"Provisional anchor-aligned maximum","5-day / Day 2"
+"B1AZP2","T",915,10,3,"24h","Oocyte",0.204354037826981,"Ambiguous maximum (<0.25 log2)",
+"B1AZP2","T",975,5,2,"24h","Zygote",0.205673811399148,"Ambiguous maximum (<0.25 log2)",
+"B1B0V2","S",20,10,3,"48h","HH",0.232659758724871,"Ambiguous maximum (<0.25 log2)",
+"B1B0V2","S",41,5,2,"24h","Oocyte",0.721248373319307,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",142,2,1,"5-day","Day 1",0.327430128897287,"Only one dataset with sufficient replicates",
+"B1B0V2","S",201,2,1,"24h","Oocyte",3.80239343080553,"Only one dataset with sufficient replicates",
+"B1B0V2","S",224,4,2,"24h","Oocyte",1.5776318071606,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",235,10,3,"24h","Oocyte",1.48743199376408,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",300,7,3,"24h","Oocyte",1.26094403673671,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",306,10,3,"24h","Oocyte",0.52294231147409,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",326,2,1,"5-day","Day 2",1.13556171538191,"Only one dataset with sufficient replicates",
+"B1B0V2","S",327,3,1,"48h","LH",1.68416368067458,"Only one dataset with sufficient replicates",
+"B1B0V2","S",329,3,2,"24h","Zygote",0.617609537797017,"Provisional anchor-aligned maximum","24h / Zygote"
+"B1B0V2","S",332,10,3,"24h","Oocyte",0.506932354492207,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",352,2,1,"24h","Zygote",0.73667326854509,"Only one dataset with sufficient replicates",
+"B1B0V2","S",353,5,1,"5-day","Day 1",1.08603186187825,"Only one dataset with sufficient replicates",
+"B1B0V2","S",355,2,1,"24h","Zygote",0.547863637078002,"Only one dataset with sufficient replicates",
+"B1B0V2","S",358,10,3,"24h","Oocyte",0.944504993202766,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",367,6,3,"5-day","Day 1",0.133348416275389,"Ambiguous maximum (<0.25 log2)",
+"B1B0V2","S",385,2,1,"24h","Oocyte",4.4024747266859,"Only one dataset with sufficient replicates",
+"B1B0V2","S",386,9,3,"24h","Oocyte",4.22917819368152,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",390,2,1,"24h","Oocyte",5.7827368113211,"Only one dataset with sufficient replicates",
+"B1B0V2","S",391,5,2,"24h","Oocyte",4.57077728840909,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",392,3,1,"5-day","Day 1",0.211282049357123,"Only one dataset with sufficient replicates",
+"B1B0V2","S",464,7,2,"24h","Zygote",0.4292859489987,"Provisional anchor-aligned maximum","24h / Zygote"
+"B1B0V2","S",479,10,3,"24h","Oocyte",0.63896781360166,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",491,2,1,"24h","Oocyte",0.869682661639679,"Only one dataset with sufficient replicates",
+"B1B0V2","S",493,7,2,"24h","Oocyte",0.869682661639679,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",511,10,3,"24h","Oocyte",0.818571973383602,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","S",527,10,3,"24h","Zygote",0.526720103024564,"Provisional anchor-aligned maximum","24h / Zygote"
+"B1B0V2","T",17,10,3,"48h","HH",0.168906051793627,"Ambiguous maximum (<0.25 log2)",
+"B1B0V2","T",104,5,2,"24h","Oocyte",3.41389656847767,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","T",204,10,3,"24h","Oocyte",6.37395792715147,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","T",256,9,3,"24h","Oocyte",2.88022942222567,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B1B0V2","T",377,5,2,"24h","Oocyte",3.2296490814199,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B2RQC6","S",1859,10,3,"5-day","Day 3",0.514563820846192,"Provisional anchor-aligned maximum","5-day / Day 3"
+"B2RUJ5","S",317,2,1,"5-day","Day 1",0.730708283557798,"Only one dataset with sufficient replicates",
+"B2RUJ5","T",333,1,1,,,,"Insufficient conditions",
+"B2RY56","S",672,6,2,"5-day","Day 4",0.183044391776114,"Ambiguous maximum (<0.25 log2)",
+"B9EJ86","S",65,4,2,"24h","Oocyte",0.429524458773162,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B9EJ86","S",328,2,1,"24h","Zygote",0.79228514933579,"Only one dataset with sufficient replicates",
+"B9EJ86","S",342,5,2,"24h","Zygote",0.611832878273571,"Provisional anchor-aligned maximum","24h / Zygote"
+"B9EJ86","T",39,7,3,"24h","Oocyte",1.98654365555391,"Provisional anchor-aligned maximum","24h / Oocyte"
+"B9EJ86","T",774,1,1,,,,"Insufficient conditions",
+"C3VD30","S",183,2,2,"24h","Oocyte",0.244335851068152,"Ambiguous maximum (<0.25 log2)",
+"D3YXK2","S",366,5,2,"24h","Oocyte",0.696450302420411,"Provisional anchor-aligned maximum","24h / Oocyte"
+"D3YZP9","S",45,3,1,"5-day","Day 2",0.0562929244411698,"Only one dataset with sufficient replicates",
+"D3YZP9","S",237,10,3,"24h","Oocyte",0.737290101301321,"Provisional anchor-aligned maximum","24h / Oocyte"
+"D3YZP9","S",247,2,1,"24h","Oocyte",1.14717691182838,"Only one dataset with sufficient replicates",
+"D3YZP9","S",360,3,1,"5-day","Day 2",0.433823853572635,"Only one dataset with sufficient replicates",
+"D3YZP9","S",388,1,1,,,,"Insufficient conditions",
+"D3YZP9","S",406,1,1,,,,"Insufficient conditions",
+"D3Z6Q9","S",443,8,3,"48h","HH",0.23544746228405,"Ambiguous maximum (<0.25 log2)",
+"E9PYK3","S",96,5,2,"24h","Oocyte",1.17316628078107,"Provisional anchor-aligned maximum","24h / Oocyte"
+"E9PYK3","S",1683,2,1,"5-day","Day 2",0.724365023366461,"Only one dataset with sufficient replicates",
+"E9PYK3","T",121,3,1,"5-day","Day 2",0.854437885921159,"Only one dataset with sufficient replicates",
+"E9Q286","S",676,1,1,,,,"Insufficient conditions",
+"E9Q2Z1","S",983,1,1,,,,"Insufficient conditions",
+"E9Q2Z1","S",1207,1,1,,,,"Insufficient conditions",
+"E9Q2Z1","S",1210,3,2,"24h","Oocyte",3.20571771421216,"Provisional anchor-aligned maximum","24h / Oocyte"
+"E9Q2Z1","S",1280,1,1,,,,"Insufficient conditions",
+"E9Q394","S",1253,2,1,"24h","Oocyte",0.508296704276574,"Only one dataset with sufficient replicates",
+"E9Q3C1","S",647,2,1,"24h","Oocyte",0.59181781853364,"Only one dataset with sufficient replicates",
+"E9Q3C1","S",649,3,1,"48h","HL",0.392555069100084,"Only one dataset with sufficient replicates",
+"E9Q414","S",1045,2,1,"48h","HH",0.481108131133631,"Only one dataset with sufficient replicates",
+"E9Q5C9","S",183,1,1,,,,"Insufficient conditions",
+"E9Q5C9","S",394,1,1,,,,"Insufficient conditions",
+"E9Q5C9","S",563,10,3,"48h","HL",0.788123358799901,"Provisional anchor-aligned maximum","48h / HL"
+"E9Q5C9","T",504,8,3,"48h","HL",0.521540144259367,"Provisional anchor-aligned maximum","48h / HL"
+"E9Q5C9","T",600,3,2,"48h","HL",0.326089799603466,"Provisional anchor-aligned maximum","48h / HL"
+"E9Q5F9","T",766,3,1,"48h","LH",0.191726116628944,"Only one dataset with sufficient replicates",
+"E9Q5G3","S",735,1,1,,,,"Insufficient conditions",
+"E9Q5G3","S",860,4,2,"48h","HL",0.130435638793221,"Ambiguous maximum (<0.25 log2)",
+"E9Q5G3","S",904,1,1,,,,"Insufficient conditions",
+"E9Q5G3","S",905,1,1,,,,"Insufficient conditions",
+"E9Q5K9","S",309,1,1,,,,"Insufficient conditions",
+"E9Q5K9","S",418,5,1,"5-day","Day 4",0.232427026217804,"Only one dataset with sufficient replicates",
+"E9Q6W4","S",269,3,1,"5-day","Day 3",0.526411751258287,"Only one dataset with sufficient replicates",
+"E9Q7G0","S",1844,1,1,,,,"Insufficient conditions",
+"E9Q7G0","T",2037,1,1,,,,"Insufficient conditions",
+"E9QAM5","T",2796,2,1,"24h","Oocyte",0.447748551066855,"Only one dataset with sufficient replicates",
+"E9QAT4","S",311,2,1,"24h","Oocyte",2.32374479803258,"Only one dataset with sufficient replicates",
+"E9QAT4","S",1028,7,2,"24h","Oocyte",1.56629940326125,"Provisional anchor-aligned maximum","24h / Oocyte"
+"E9QAT4","S",1384,2,1,"24h","Oocyte",2.67706643976666,"Only one dataset with sufficient replicates",
+"E9QAT4","T",64,1,1,,,,"Insufficient conditions",
+"F6ZDS4","S",1746,2,1,"24h","Oocyte",2.08641208998933,"Only one dataset with sufficient replicates",
+"F6ZDS4","S",2141,7,2,"5-day","Day 3",0.324266978230822,"Provisional anchor-aligned maximum","5-day / Day 3"
+"F6ZDS4","S",2223,3,1,"5-day","Day 1",0.206514907344021,"Only one dataset with sufficient replicates",
+"F6ZDS4","T",1747,6,2,"24h","Oocyte",2.28774193661785,"Provisional anchor-aligned maximum","24h / Oocyte"
+"F8VPN2","S",906,2,1,"24h","Oocyte",1.21212386040179,"Only one dataset with sufficient replicates",
+"F8VPN2","T",2254,2,1,"24h","Zygote",0.155147029232737,"Only one dataset with sufficient replicates",
+"F8VPU2","T",24,3,1,"5-day","Day 5",0.556861134630234,"Only one dataset with sufficient replicates",
+"F8VQB6","S",1546,5,2,"24h","Zygote",0.456130119003763,"Provisional anchor-aligned maximum","24h / Zygote"
+"G3X9K3","S",52,5,2,"24h","Oocyte",0.661048616274391,"Provisional anchor-aligned maximum","24h / Oocyte"
+"G3X9K3","S",1566,2,1,"24h","Oocyte",0.705629459644225,"Only one dataset with sufficient replicates",
+"G5E870","S",310,4,1,"5-day","Day 4",0.102013022724432,"Only one dataset with sufficient replicates",
+"L0N7N1","T",262,4,2,"24h","Oocyte",0.603251204208624,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O08547","S",137,2,1,"24h","Oocyte",0.402968691338058,"Only one dataset with sufficient replicates",
+"O08638","S",23,2,2,"24h","Oocyte",1.34825438582137,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O08638","S",1954,7,3,"24h","Oocyte",0.0353400810797293,"Ambiguous maximum (<0.25 log2)",
+"O08672","S",249,2,1,"24h","Oocyte",0.184108781497589,"Only one dataset with sufficient replicates",
+"O08715","S",101,2,1,"24h","Oocyte",1.12512514714733,"Only one dataset with sufficient replicates",
+"O08715","S",103,3,1,"48h","LH",0.02078389686843,"Only one dataset with sufficient replicates",
+"O08715","S",104,3,1,"5-day","Day 5",0.232260004518487,"Only one dataset with sufficient replicates",
+"O08715","S",176,1,1,,,,"Insufficient conditions",
+"O08715","S",378,3,2,"24h","Oocyte",1.93344135900697,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O08715","T",487,1,1,,,,"Insufficient conditions",
+"O08759","S",8,2,1,"5-day","Day 1",0.4321041015844,"Only one dataset with sufficient replicates",
+"O08784","S",593,4,1,"5-day","Day 4",0.26136229246285,"Only one dataset with sufficient replicates",
+"O08784","S",1071,3,1,"5-day","Day 3",0.388534799049467,"Only one dataset with sufficient replicates",
+"O08784","T",165,5,1,"5-day","Day 4",0.588280352375183,"Only one dataset with sufficient replicates",
+"O08796","S",469,7,3,"24h","Oocyte",0.79090123859255,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O08808","S",22,7,3,"24h","Oocyte",2.17065002501489,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O09000","S",847,3,1,"5-day","Day 5",0.0672592307498547,"Only one dataset with sufficient replicates",
+"O09044","S",110,10,3,"24h","Oocyte",1.1957581577805,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O09130","S",83,2,1,"5-day","Day 3",0.781874723390487,"Only one dataset with sufficient replicates",
+"O35280","S",280,5,2,"24h","Oocyte",0.585278061629619,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O35280","S",301,4,2,"24h","Oocyte",1.470032810642,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O35344","S",60,1,1,,,,"Insufficient conditions",
+"O35609","S",78,2,1,"24h","Oocyte",1.43393683563504,"Only one dataset with sufficient replicates",
+"O35618","S",339,2,1,"5-day","Day 1",1.38146072020608,"Only one dataset with sufficient replicates",
+"O35618","S",341,2,1,"24h","Zygote",0.564092915945016,"Only one dataset with sufficient replicates",
+"O35618","S",343,5,2,"24h","Zygote",0.411397154858426,"Provisional anchor-aligned maximum","24h / Zygote"
+"O35618","S",367,7,3,"48h","LH",0.829749922144339,"Provisional anchor-aligned maximum","48h / LH"
+"O35685","S",139,10,3,"24h","Oocyte",2.64267982295225,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O35685","T",99,5,2,"24h","Oocyte",1.71915841132676,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O35710","S",43,1,1,,,,"Insufficient conditions",
+"O35711","S",328,1,1,,,,"Insufficient conditions",
+"O35711","S",440,1,1,,,,"Insufficient conditions",
+"O35737","S",104,5,2,"5-day","Day 1",0.15187910785157,"Ambiguous maximum (<0.25 log2)",
+"O35737","T",100,4,1,"5-day","Day 4",0.617621619947531,"Only one dataset with sufficient replicates",
+"O35887","Y",47,6,2,"24h","Zygote",0.242029875437883,"Ambiguous maximum (<0.25 log2)",
+"O35904","S",519,8,3,"24h","Zygote",0.494123334995457,"Provisional anchor-aligned maximum","24h / Zygote"
+"O54692","S",438,2,1,"24h","Oocyte",1.29949952392307,"Only one dataset with sufficient replicates",
+"O54786","S",314,1,1,,,,"Insufficient conditions",
+"O54826","S",436,1,1,,,,"Insufficient conditions",
+"O54916","S",708,2,1,"24h","Oocyte",0.0112923815669159,"Only one dataset with sufficient replicates",
+"O54916","T",538,5,1,"5-day","Day 1",0.0402296436996572,"Only one dataset with sufficient replicates",
+"O54931","S",975,2,1,"24h","Oocyte",1.52646099032361,"Only one dataset with sufficient replicates",
+"O54946","S",313,3,1,"48h","HL",0.235176981853309,"Only one dataset with sufficient replicates",
+"O55022","S",181,10,3,"24h","Zygote",0.265893118207375,"Provisional anchor-aligned maximum","24h / Zygote"
+"O55022","Y",180,4,1,"5-day","Day 1",0.142693645171551,"Only one dataset with sufficient replicates",
+"O55028","S",31,2,1,"24h","Oocyte",0.683710835028586,"Only one dataset with sufficient replicates",
+"O55029","S",859,3,1,"48h","LH",0.477185221910526,"Only one dataset with sufficient replicates",
+"O55029","S",860,5,2,"5-day","Day 2",0.314596706356964,"Provisional anchor-aligned maximum","5-day / Day 2"
+"O55029","Y",574,5,1,"5-day","Day 3",0.508926175154762,"Only one dataset with sufficient replicates",
+"O55029","Y",585,5,1,"5-day","Day 3",0.508926175154762,"Only one dataset with sufficient replicates",
+"O55060","S",34,8,3,"5-day","Day 1",0.220146688781865,"Ambiguous maximum (<0.25 log2)",
+"O55106","S",245,4,2,"24h","Oocyte",0.356587945290544,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O55106","S",259,7,3,"5-day","Day 1",0.173426901132455,"Ambiguous maximum (<0.25 log2)",
+"O55106","S",373,5,1,"5-day","Day 1",0.0820981053475514,"Only one dataset with sufficient replicates",
+"O55106","S",378,5,2,"24h","Oocyte",0.251057928070729,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O55143","S",663,4,2,"5-day","Day 1",0.497710701173835,"Provisional anchor-aligned maximum","5-day / Day 1"
+"O55201","T",1028,5,1,"5-day","Day 4",0.0860366039307934,"Only one dataset with sufficient replicates",
+"O70133","S",132,5,1,"5-day","Day 4",0.170504453675935,"Only one dataset with sufficient replicates",
+"O70152","S",13,1,1,,,,"Insufficient conditions",
+"O70161","S",554,2,1,"5-day","Day 2",0.357256833834931,"Only one dataset with sufficient replicates",
+"O70318","S",38,8,3,"24h","Oocyte",1.69895435567752,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O70318","S",698,2,1,"24h","Oocyte",1.40152069001174,"Only one dataset with sufficient replicates",
+"O70318","S",789,2,1,"24h","Oocyte",1.64399004108155,"Only one dataset with sufficient replicates",
+"O70373","S",723,2,1,"24h","Oocyte",0.221781326023669,"Only one dataset with sufficient replicates",
+"O70400","S",90,4,2,"24h","Oocyte",2.12613632715499,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O70400","S",130,9,3,"24h","Oocyte",2.55841201624844,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O70435","S",250,4,2,"24h","Oocyte",0.0887943443362644,"Ambiguous maximum (<0.25 log2)",
+"O70479","S",273,1,1,,,,"Insufficient conditions",
+"O70480","S",30,2,1,"24h","Zygote",0.0734737200624274,"Only one dataset with sufficient replicates",
+"O70492","S",72,1,1,,,,"Insufficient conditions",
+"O70493","S",73,5,2,"24h","Oocyte",0.111879193607079,"Ambiguous maximum (<0.25 log2)",
+"O70583","S",96,1,1,,,,"Insufficient conditions",
+"O88413","S",65,2,1,"24h","Oocyte",0.915708456800962,"Only one dataset with sufficient replicates",
+"O88413","S",167,4,2,"24h","Oocyte",2.1634978549385,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O88487","S",81,7,3,"24h","Zygote",0.218342479940105,"Ambiguous maximum (<0.25 log2)",
+"O88487","S",88,1,1,,,,"Insufficient conditions",
+"O88487","T",154,1,1,,,,"Insufficient conditions",
+"O88543","S",410,3,1,"48h","HH",0.0839418138760895,"Only one dataset with sufficient replicates",
+"O88559","T",595,1,1,,,,"Insufficient conditions",
+"O88569","S",259,6,2,"24h","Oocyte",1.29597824599877,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O88622","S",135,2,1,"24h","Oocyte",2.22403131303953,"Only one dataset with sufficient replicates",
+"O88643","T",212,4,2,"24h","Oocyte",0.957766747014047,"Provisional anchor-aligned maximum","24h / Oocyte"
+"O88643","T",229,1,1,,,,"Insufficient conditions",
+"O88643","T",230,6,2,"5-day","Day 1",0.550274318647057,"Provisional anchor-aligned maximum","5-day / Day 1"
+"O88783","T",284,3,1,"5-day","Day 3",0.536308207363939,"Only one dataset with sufficient replicates",
+"O88878","S",128,1,1,,,,"Insufficient conditions",
+"P02535","T",210,5,1,"5-day","Day 2",0.157012758379272,"Only one dataset with sufficient replicates",
+"P02535","T",369,4,1,"5-day","Day 4",0.768098188033692,"Only one dataset with sufficient replicates",
+"P04187","T",159,1,1,,,,"Insufficient conditions",
+"P04202","S",240,5,1,"5-day","Day 1",0.12060333850367,"Only one dataset with sufficient replicates",
+"P05064","S",36,2,1,"5-day","Day 2",0.642948194825319,"Only one dataset with sufficient replicates",
+"P05784","S",7,2,1,"5-day","Day 5",1.15402953925656,"Only one dataset with sufficient replicates",
+"P05784","S",35,5,1,"5-day","Day 5",0.440150904441509,"Only one dataset with sufficient replicates",
+"P06240","T",198,3,1,"5-day","Day 4",0.125306315833633,"Only one dataset with sufficient replicates",
+"P06334","Y",47,2,1,"24h","Zygote",0.0687291389656597,"Only one dataset with sufficient replicates",
+"P06745","S",41,5,2,"24h","Oocyte",0.409488230362079,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P07901","S",231,10,3,"24h","Oocyte",0.103024711194095,"Ambiguous maximum (<0.25 log2)",
+"P07901","S",263,10,3,"24h","Oocyte",0.595752684063008,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P08113","S",306,5,2,"24h","Zygote",0.73644358697049,"Provisional anchor-aligned maximum","24h / Zygote"
+"P08113","Y",527,2,1,"24h","Zygote",0.72856579575925,"Only one dataset with sufficient replicates",
+"P08775","S",1913,3,1,"5-day","Day 3",0.495268204245646,"Only one dataset with sufficient replicates",
+"P08775","S",1927,3,1,"5-day","Day 3",0.495268204245646,"Only one dataset with sufficient replicates",
+"P09405","S",403,4,2,"5-day","Day 2",0.254616651651851,"Provisional anchor-aligned maximum","5-day / Day 2"
+"P09405","T",76,1,1,,,,"Insufficient conditions",
+"P09405","T",121,2,1,"24h","Oocyte",4.02906572429282,"Only one dataset with sufficient replicates",
+"P0CG14","S",201,2,1,"24h","Oocyte",1.87691953432962,"Only one dataset with sufficient replicates",
+"P0CG49","S",57,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG49","S",133,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG49","S",209,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG49","S",285,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG49","Y",59,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG49","Y",135,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG49","Y",211,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG49","Y",287,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","S",57,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",65,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",133,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",141,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",209,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",217,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",285,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",293,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",361,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",369,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",437,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",445,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",513,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",521,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",589,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",597,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","S",665,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P0CG50","S",673,2,1,"5-day","Day 3",0.303768150778962,"Only one dataset with sufficient replicates",
+"P0CG50","Y",59,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",135,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",211,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",287,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",363,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",439,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",515,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",591,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P0CG50","Y",667,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P10126","T",88,3,1,"48h","LH",0.129007251546794,"Only one dataset with sufficient replicates",
+"P10126","Y",85,2,1,"24h","Zygote",0.0924466286449324,"Only one dataset with sufficient replicates",
+"P10126","Y",86,5,2,"24h","Zygote",0.0924466286449324,"Ambiguous maximum (<0.25 log2)",
+"P10711","S",81,8,3,"5-day","Day 1",0.78062671867966,"Provisional anchor-aligned maximum","5-day / Day 1"
+"P10711","S",100,10,3,"24h","Oocyte",1.24668795134363,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P10711","T",82,3,1,"48h","LH",0.0414373423747261,"Only one dataset with sufficient replicates",
+"P10761","T",105,2,1,"24h","Oocyte",0.49132606799729,"Only one dataset with sufficient replicates",
+"P10761","Y",111,5,2,"48h","HH",0.175998151437874,"Ambiguous maximum (<0.25 log2)",
+"P11157","S",20,6,2,"5-day","Day 3",0.771256227337133,"Provisional anchor-aligned maximum","5-day / Day 3"
+"P11157","T",33,1,1,,,,"Insufficient conditions",
+"P11440","T",14,9,3,"5-day","Day 3",0.298617297185654,"Provisional anchor-aligned maximum","5-day / Day 3"
+"P11440","T",161,5,2,"24h","Oocyte",0.183034525619272,"Ambiguous maximum (<0.25 log2)",
+"P11440","Y",15,5,2,"48h","HL",0.357830614312899,"Provisional anchor-aligned maximum","48h / HL"
+"P11440","Y",160,2,1,"24h","Zygote",1.76887219962749,"Only one dataset with sufficient replicates",
+"P11499","S",226,10,3,"24h","Oocyte",0.0860740505835302,"Ambiguous maximum (<0.25 log2)",
+"P11499","S",255,10,3,"24h","Oocyte",0.36783070111132,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P11679","S",24,2,1,"5-day","Day 5",0.825936681805018,"Only one dataset with sufficient replicates",
+"P11862","Y",22,2,1,"48h","LH",0.814819224112519,"Only one dataset with sufficient replicates",
+"P11881","T",945,1,1,,,,"Insufficient conditions",
+"P11983","S",544,1,1,,,,"Insufficient conditions",
+"P13864","S",140,10,3,"24h","Oocyte",0.219168083110716,"Ambiguous maximum (<0.25 log2)",
+"P13864","S",146,1,1,,,,"Insufficient conditions",
+"P13864","S",150,10,3,"24h","Oocyte",0.951340203888918,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P13864","S",182,9,3,"48h","HH",0.00392173961993514,"Ambiguous maximum (<0.25 log2)",
+"P13864","S",187,10,3,"48h","HH",0.0148178851442395,"Ambiguous maximum (<0.25 log2)",
+"P13864","S",190,10,3,"48h","HH",0.12595814426399,"Ambiguous maximum (<0.25 log2)",
+"P13864","S",331,9,3,"24h","Oocyte",0.963713425976422,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P13864","S",338,8,3,"24h","Zygote",0.737454940284428,"Provisional anchor-aligned maximum","24h / Zygote"
+"P13864","S",717,10,3,"24h","Oocyte",0.582260245738098,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P13864","S",958,2,1,"24h","Oocyte",0.708962024014033,"Only one dataset with sufficient replicates",
+"P13864","S",981,9,3,"24h","Zygote",0.0994924879564323,"Ambiguous maximum (<0.25 log2)",
+"P13864","S",1108,10,3,"24h","Oocyte",0.0682560215532426,"Ambiguous maximum (<0.25 log2)",
+"P13864","S",1128,3,1,"5-day","Day 1",0.635411602269709,"Only one dataset with sufficient replicates",
+"P13864","S",1421,5,2,"24h","Oocyte",0.716730922500268,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P13864","T",149,10,3,"5-day","Day 2",0.723051052658811,"Provisional anchor-aligned maximum","5-day / Day 2"
+"P13864","T",164,8,3,"24h","Zygote",0.201972356139892,"Ambiguous maximum (<0.25 log2)",
+"P13864","T",245,2,1,"24h","Oocyte",0.703357416746654,"Only one dataset with sufficient replicates",
+"P13864","T",308,9,3,"24h","Oocyte",1.17681418535465,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P13864","T",333,4,2,"24h","Zygote",0.453282715905091,"Provisional anchor-aligned maximum","24h / Zygote"
+"P13864","Y",1295,5,1,"5-day","Day 1",0.332804097682864,"Only one dataset with sufficient replicates",
+"P14602","S",86,1,1,,,,"Insufficient conditions",
+"P14873","S",1013,5,2,"24h","Oocyte",0.395775285303904,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P14873","S",1789,2,1,"5-day","Day 1",0.95657632638769,"Only one dataset with sufficient replicates",
+"P14873","S",1815,5,2,"24h","Oocyte",0.965480467066689,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P14873","S",2051,1,1,,,,"Insufficient conditions",
+"P14873","S",2267,2,1,"24h","Oocyte",1.00546830347326,"Only one dataset with sufficient replicates",
+"P14873","T",527,1,1,,,,"Insufficient conditions",
+"P14873","T",1277,3,2,"5-day","Day 2",0.531297380844647,"Provisional anchor-aligned maximum","5-day / Day 2"
+"P14873","T",1806,2,1,"5-day","Day 1",0.770449483541364,"Only one dataset with sufficient replicates",
+"P14873","T",1942,2,1,"5-day","Day 1",0.185758142242637,"Only one dataset with sufficient replicates",
+"P14873","T",1943,2,1,"5-day","Day 1",1.41110920548456,"Only one dataset with sufficient replicates",
+"P14873","T",1945,2,1,"24h","Oocyte",2.26266623734896,"Only one dataset with sufficient replicates",
+"P14873","T",1960,2,1,"5-day","Day 1",1.92072505922675,"Only one dataset with sufficient replicates",
+"P14873","T",1962,2,1,"24h","Oocyte",2.79732420287736,"Only one dataset with sufficient replicates",
+"P15265","S",128,3,1,"48h","HH",0.207742757220281,"Only one dataset with sufficient replicates",
+"P15327","T",122,10,3,"5-day","Day 2",0.176812780090494,"Ambiguous maximum (<0.25 log2)",
+"P15920","S",695,8,3,"5-day","Day 1",0.0490412347717371,"Ambiguous maximum (<0.25 log2)",
+"P16125","S",11,10,3,"48h","HH",0.262572273465008,"Provisional anchor-aligned maximum","48h / HH"
+"P16125","S",44,6,3,"48h","HH",0.0855426214440804,"Ambiguous maximum (<0.25 log2)",
+"P16125","T",75,8,3,"24h","Oocyte",0.564589508200454,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P16125","T",249,3,1,"48h","HL",0.0137080632020794,"Only one dataset with sufficient replicates",
+"P16125","Y",248,3,1,"48h","HL",0.0137080632020794,"Only one dataset with sufficient replicates",
+"P16858","S",208,3,1,"48h","LH",0.0195795243457866,"Only one dataset with sufficient replicates",
+"P16858","T",209,2,1,"24h","Oocyte",1.29579836740343,"Only one dataset with sufficient replicates",
+"P17879","T",295,2,1,"24h","Zygote",0.778357714396947,"Only one dataset with sufficient replicates",
+"P17879","T",298,2,1,"24h","Zygote",0.778357714396947,"Only one dataset with sufficient replicates",
+"P17879","Y",294,2,1,"24h","Zygote",0.778357714396947,"Only one dataset with sufficient replicates",
+"P18654","S",715,2,1,"24h","Oocyte",5.23866991619124,"Only one dataset with sufficient replicates",
+"P19096","T",1341,3,1,"48h","HH",0.361542338502813,"Only one dataset with sufficient replicates",
+"P19437","S",29,4,2,"5-day","Day 2",0.130169070690208,"Ambiguous maximum (<0.25 log2)",
+"P19437","S",219,8,3,"48h","HH",0.0662986144326663,"Ambiguous maximum (<0.25 log2)",
+"P19437","S",225,2,1,"24h","Oocyte",1.13085566750153,"Only one dataset with sufficient replicates",
+"P20239","T",568,3,1,"48h","LH",0.0437388629538447,"Only one dataset with sufficient replicates",
+"P20239","T",569,3,1,"48h","LH",0.0437388629538447,"Only one dataset with sufficient replicates",
+"P21271","T",1091,1,1,,,,"Insufficient conditions",
+"P21619","S",427,1,1,,,,"Insufficient conditions",
+"P22599","T",198,5,1,"5-day","Day 2",0.207832393261269,"Only one dataset with sufficient replicates",
+"P23242","S",328,7,2,"5-day","Day 3",0.724826673624076,"Provisional anchor-aligned maximum","5-day / Day 3"
+"P23242","S",365,5,1,"5-day","Day 3",0.495527865516431,"Only one dataset with sufficient replicates",
+"P23475","S",518,1,1,,,,"Insufficient conditions",
+"P24288","T",36,2,1,"24h","Oocyte",0.801337517128914,"Only one dataset with sufficient replicates",
+"P25206","S",668,2,1,"24h","Oocyte",0.886997137606528,"Only one dataset with sufficient replicates",
+"P25206","S",672,2,1,"24h","Oocyte",0.886997137606528,"Only one dataset with sufficient replicates",
+"P25206","T",719,7,2,"5-day","Day 3",1.00336860032953,"Provisional anchor-aligned maximum","5-day / Day 3"
+"P26043","S",532,4,2,"24h","Zygote",0.725919431840067,"Provisional anchor-aligned maximum","24h / Zygote"
+"P26043","T",564,5,2,"24h","Zygote",0.439262794454098,"Provisional anchor-aligned maximum","24h / Zygote"
+"P26231","S",655,4,1,"5-day","Day 4",0.977565541650275,"Only one dataset with sufficient replicates",
+"P26645","S",27,3,1,"5-day","Day 3",0.14065813509613,"Only one dataset with sufficient replicates",
+"P26645","T",143,3,1,"5-day","Day 4",0.186753392868759,"Only one dataset with sufficient replicates",
+"P27546","S",99,5,1,"5-day","Day 1",0.0356839965749298,"Only one dataset with sufficient replicates",
+"P27546","S",345,5,2,"24h","Oocyte",0.438927125959182,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P27546","S",475,10,3,"24h","Oocyte",1.16915078021526,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P27546","S",517,10,3,"24h","Oocyte",0.895589816127089,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P27546","S",617,2,2,"24h","Oocyte",0.853709321859803,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P27546","S",667,9,3,"24h","Zygote",0.0275672104640101,"Ambiguous maximum (<0.25 log2)",
+"P27546","S",684,1,1,,,,"Insufficient conditions",
+"P27546","S",760,2,1,"24h","Oocyte",0.55428318599909,"Only one dataset with sufficient replicates",
+"P27546","S",785,7,2,"24h","Oocyte",1.27862864354041,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P27546","S",795,4,1,"5-day","Day 1",1.69531960704187,"Only one dataset with sufficient replicates",
+"P27546","S",798,6,2,"24h","Oocyte",1.72507580280067,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P27546","S",901,5,2,"5-day","Day 1",0.707232752794818,"Provisional anchor-aligned maximum","5-day / Day 1"
+"P27546","S",914,2,1,"48h","HH",0.403284583502318,"Only one dataset with sufficient replicates",
+"P27546","S",1046,10,3,"5-day","Day 3",0.224181439079086,"Ambiguous maximum (<0.25 log2)",
+"P27546","T",657,2,1,"24h","Oocyte",1.08786473206274,"Only one dataset with sufficient replicates",
+"P27546","T",658,10,3,"24h","Oocyte",0.130586962896901,"Ambiguous maximum (<0.25 log2)",
+"P27546","T",777,1,1,,,,"Insufficient conditions",
+"P27546","T",846,7,2,"24h","Oocyte",0.0870055663972842,"Ambiguous maximum (<0.25 log2)",
+"P27546","T",847,1,1,,,,"Insufficient conditions",
+"P27773","Y",196,2,1,"24h","Oocyte",0.210780419397761,"Only one dataset with sufficient replicates",
+"P28028","S",432,3,1,"5-day","Day 1",0.506828355553315,"Only one dataset with sufficient replicates",
+"P28656","T",62,1,1,,,,"Insufficient conditions",
+"P28667","S",22,4,1,"5-day","Day 4",0.457647245628443,"Only one dataset with sufficient replicates",
+"P28867","S",643,7,3,"24h","Oocyte",0.884554669383327,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P28867","S",662,7,3,"24h","Oocyte",0.0839801722498041,"Ambiguous maximum (<0.25 log2)",
+"P29341","S",315,1,1,,,,"Insufficient conditions",
+"P30115","Y",74,3,1,"48h","HH",0.0737675667445785,"Only one dataset with sufficient replicates",
+"P30999","S",252,5,1,"5-day","Day 5",0.138080900280007,"Only one dataset with sufficient replicates",
+"P30999","S",268,4,1,"5-day","Day 5",1.32734819464123,"Only one dataset with sufficient replicates",
+"P35276","S",196,3,2,"24h","Oocyte",2.14846007668441,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P35276","S",199,2,1,"48h","LH",0.883867849671969,"Only one dataset with sufficient replicates",
+"P35283","S",20,6,2,"24h","Oocyte",0.448826606631368,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P35486","S",232,10,3,"5-day","Day 3",0.0594992382898063,"Ambiguous maximum (<0.25 log2)",
+"P35486","S",293,10,3,"5-day","Day 3",0.0617327420748772,"Ambiguous maximum (<0.25 log2)",
+"P35486","S",300,10,3,"5-day","Day 2",0.127359331999406,"Ambiguous maximum (<0.25 log2)",
+"P35486","Y",301,1,1,,,,"Insufficient conditions",
+"P35564","S",553,10,3,"24h","Oocyte",0.293982708116182,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P35564","S",563,10,3,"24h","Oocyte",0.197881607321484,"Ambiguous maximum (<0.25 log2)",
+"P35564","S",582,10,3,"24h","Oocyte",0.180490057860737,"Ambiguous maximum (<0.25 log2)",
+"P35564","T",561,4,1,"5-day","Day 1",0.285636936806402,"Only one dataset with sufficient replicates",
+"P35761","S",277,1,1,,,,"Insufficient conditions",
+"P35761","S",366,3,2,"24h","Oocyte",1.26061840383491,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P35761","S",435,1,1,,,,"Insufficient conditions",
+"P35761","S",820,1,1,,,,"Insufficient conditions",
+"P35979","S",38,6,2,"24h","Oocyte",0.251546507441416,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P37913","S",49,5,2,"24h","Oocyte",0.702194931377935,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P37913","S",51,10,3,"5-day","Day 4",0.553396752988935,"Provisional anchor-aligned maximum","5-day / Day 4"
+"P37913","S",188,2,1,"24h","Oocyte",1.41733750792083,"Only one dataset with sufficient replicates",
+"P37913","T",232,1,1,,,,"Insufficient conditions",
+"P40124","S",307,2,1,"24h","Oocyte",2.67911150113117,"Only one dataset with sufficient replicates",
+"P40124","S",309,1,1,,,,"Insufficient conditions",
+"P40124","T",306,5,2,"24h","Zygote",0.03042469344458,"Ambiguous maximum (<0.25 log2)",
+"P40336","S",315,1,1,,,,"Insufficient conditions",
+"P42208","S",218,10,3,"5-day","Day 5",0.146828027464149,"Ambiguous maximum (<0.25 log2)",
+"P42567","S",107,3,2,"24h","Oocyte",0.10170415811433,"Ambiguous maximum (<0.25 log2)",
+"P42567","S",108,1,1,,,,"Insufficient conditions",
+"P42567","S",324,3,2,"24h","Oocyte",0.339334478000696,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P42567","S",816,10,3,"24h","Oocyte",0.948420246770704,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P45376","T",266,2,1,"24h","Oocyte",1.92697395269065,"Only one dataset with sufficient replicates",
+"P46460","S",40,2,1,"24h","Oocyte",0.57964936270197,"Only one dataset with sufficient replicates",
+"P46467","S",102,2,1,"24h","Oocyte",0.245927734683313,"Only one dataset with sufficient replicates",
+"P46938","S",94,3,1,"48h","LH",0.149948341765807,"Only one dataset with sufficient replicates",
+"P46938","S",261,5,2,"24h","Oocyte",0.718070641309412,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P46938","S",352,4,2,"24h","Oocyte",1.8662850138428,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P46938","T",104,2,2,"24h","Oocyte",1.04178375543115,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P48678","S",22,6,2,"5-day","Day 4",0.071668609091688,"Ambiguous maximum (<0.25 log2)",
+"P48678","S",653,1,1,,,,"Insufficient conditions",
+"P48722","S",819,5,2,"24h","Oocyte",1.36584514807599,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P49025","S",439,2,1,"24h","Oocyte",1.72619900800291,"Only one dataset with sufficient replicates",
+"P49025","S",1966,2,1,"5-day","Day 1",0.689006314999169,"Only one dataset with sufficient replicates",
+"P49025","S",2021,2,1,"24h","Zygote",0.616323684333258,"Only one dataset with sufficient replicates",
+"P49025","T",1332,3,2,"5-day","Day 1",0.183903357838096,"Ambiguous maximum (<0.25 log2)",
+"P49070","T",61,3,1,"48h","LH",0.382548261402613,"Only one dataset with sufficient replicates",
+"P49312","S",6,6,2,"24h","Oocyte",2.66377128931677,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P50446","S",240,3,1,"48h","LH",0.767725632246952,"Only one dataset with sufficient replicates",
+"P51125","S",81,2,1,"24h","Oocyte",2.55212639574338,"Only one dataset with sufficient replicates",
+"P51125","S",163,2,1,"24h","Oocyte",0.73230301020299,"Only one dataset with sufficient replicates",
+"P51125","S",219,10,3,"24h","Oocyte",0.746038430608499,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P51125","S",466,1,1,,,,"Insufficient conditions",
+"P51125","T",224,1,1,,,,"Insufficient conditions",
+"P51125","T",467,6,3,"24h","Oocyte",1.70490818989352,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P51125","T",479,9,3,"24h","Oocyte",1.21625497032072,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P51125","T",624,1,1,,,,"Insufficient conditions",
+"P51150","S",111,1,1,,,,"Insufficient conditions",
+"P51660","S",308,1,1,,,,"Insufficient conditions",
+"P51660","T",312,3,1,"5-day","Day 2",0.325844626275808,"Only one dataset with sufficient replicates",
+"P51859","S",165,10,3,"5-day","Day 5",0.550603563178527,"Provisional anchor-aligned maximum","5-day / Day 5"
+"P52293","S",62,6,3,"24h","Oocyte",1.37532377765835,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P52480","S",77,2,1,"24h","Oocyte",0.318709881771976,"Only one dataset with sufficient replicates",
+"P52480","S",519,3,2,"24h","Oocyte",1.84845209142984,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P52480","T",328,3,1,"48h","HH",0.0406136444313852,"Only one dataset with sufficient replicates",
+"P53690","S",285,3,1,"48h","HH",0.41497465182354,"Only one dataset with sufficient replicates",
+"P53986","S",210,2,1,"24h","Oocyte",1.30916057300191,"Only one dataset with sufficient replicates",
+"P53986","S",213,2,1,"24h","Oocyte",1.30916057300191,"Only one dataset with sufficient replicates",
+"P53986","S",230,2,1,"24h","Oocyte",0.954551354856859,"Only one dataset with sufficient replicates",
+"P54227","S",25,8,3,"24h","Oocyte",0.834566693873173,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P54227","S",38,9,3,"24h","Oocyte",0.322644709755398,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P54276","S",63,5,2,"24h","Oocyte",1.15811460793364,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P54276","S",137,3,1,"5-day","Day 4",0.351461160814051,"Only one dataset with sufficient replicates",
+"P54276","S",827,1,1,,,,"Insufficient conditions",
+"P54276","T",139,1,1,,,,"Insufficient conditions",
+"P54728","S",160,8,3,"24h","Oocyte",2.64432072151826,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P54728","T",159,3,1,"5-day","Day 2",0.74821540539412,"Only one dataset with sufficient replicates",
+"P54823","S",49,1,1,,,,"Insufficient conditions",
+"P54823","T",55,1,1,,,,"Insufficient conditions",
+"P55096","S",424,4,2,"24h","Oocyte",0.937999465837333,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P55194","S",262,2,1,"5-day","Day 5",0.630671426036201,"Only one dataset with sufficient replicates",
+"P55258","S",181,1,1,,,,"Insufficient conditions",
+"P55258","S",185,1,1,,,,"Insufficient conditions",
+"P56183","S",434,4,1,"5-day","Day 5",0.146617838665277,"Only one dataset with sufficient replicates",
+"P56212","S",23,2,1,"24h","Oocyte",0.52057243267217,"Only one dataset with sufficient replicates",
+"P56212","S",62,5,2,"24h","Oocyte",3.51850837699826,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P56390","S",51,2,1,"24h","Oocyte",0.871413970504225,"Only one dataset with sufficient replicates",
+"P56390","Y",57,2,1,"24h","Oocyte",0.175210146831454,"Only one dataset with sufficient replicates",
+"P56394","S",8,2,2,"5-day","Day 1",0.620907058465054,"Provisional anchor-aligned maximum","5-day / Day 1"
+"P56501","T",12,2,1,"24h","Oocyte",2.66371046254991,"Only one dataset with sufficient replicates",
+"P56812","S",119,7,3,"24h","Oocyte",1.35548803538255,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P57776","S",133,10,3,"24h","Zygote",0.0164995485848642,"Ambiguous maximum (<0.25 log2)",
+"P57776","S",162,10,3,"24h","Zygote",0.33256225615601,"Provisional anchor-aligned maximum","24h / Zygote"
+"P57776","T",147,1,1,,,,"Insufficient conditions",
+"P57780","S",129,3,1,"48h","HL",0.0698390081722486,"Only one dataset with sufficient replicates",
+"P58252","T",57,5,2,"24h","Zygote",2.28683469136724,"Provisional anchor-aligned maximum","24h / Zygote"
+"P58468","S",38,3,1,"5-day","Day 3",0.190977934545174,"Only one dataset with sufficient replicates",
+"P58742","S",495,7,2,"5-day","Day 1",0.573747493245872,"Provisional anchor-aligned maximum","5-day / Day 1"
+"P58871","S",602,1,1,,,,"Insufficient conditions",
+"P58871","S",793,2,1,"24h","Oocyte",2.19247629177273,"Only one dataset with sufficient replicates",
+"P58871","S",796,1,1,,,,"Insufficient conditions",
+"P58871","S",887,2,1,"24h","Oocyte",1.11776410033521,"Only one dataset with sufficient replicates",
+"P58871","S",1063,8,3,"24h","Oocyte",1.03912717614488,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P58871","S",1131,2,1,"24h","Oocyte",0.620823325826489,"Only one dataset with sufficient replicates",
+"P58871","S",1375,5,2,"24h","Oocyte",2.12412237463442,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P58871","S",1611,2,1,"24h","Oocyte",0.735395049472229,"Only one dataset with sufficient replicates",
+"P58871","S",1612,2,1,"24h","Oocyte",0.735395049472229,"Only one dataset with sufficient replicates",
+"P58871","S",1643,2,1,"24h","Oocyte",2.08679975866205,"Only one dataset with sufficient replicates",
+"P58871","S",1645,1,1,,,,"Insufficient conditions",
+"P58871","S",1657,4,2,"24h","Zygote",0.00507381151094854,"Ambiguous maximum (<0.25 log2)",
+"P58871","S",1706,1,1,,,,"Insufficient conditions",
+"P58871","T",1275,1,1,,,,"Insufficient conditions",
+"P59242","S",84,6,2,"24h","Oocyte",3.22005738732774,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P59242","S",89,2,1,"24h","Oocyte",2.84280082260145,"Only one dataset with sufficient replicates",
+"P59242","S",149,4,1,"5-day","Day 1",0.862638648574569,"Only one dataset with sufficient replicates",
+"P59242","S",250,1,1,,,,"Insufficient conditions",
+"P59242","S",268,1,1,,,,"Insufficient conditions",
+"P59242","T",272,1,1,,,,"Insufficient conditions",
+"P59328","S",821,5,2,"24h","Oocyte",0.522505304078399,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P59470","T",412,2,1,"24h","Oocyte",0.843535523778055,"Only one dataset with sufficient replicates",
+"P59759","S",153,1,1,,,,"Insufficient conditions",
+"P59759","S",154,2,1,"24h","Oocyte",0.244458403097713,"Only one dataset with sufficient replicates",
+"P59759","S",207,2,1,"5-day","Day 1",1.34101854905632,"Only one dataset with sufficient replicates",
+"P60335","S",264,10,3,"24h","Oocyte",3.35041825978722,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P60710","S",365,2,1,"24h","Zygote",1.26733491080127,"Only one dataset with sufficient replicates",
+"P60710","Y",198,2,1,"24h","Oocyte",0.653343262758163,"Only one dataset with sufficient replicates",
+"P60710","Y",362,2,1,"24h","Zygote",1.26733491080127,"Only one dataset with sufficient replicates",
+"P60840","S",67,3,1,"5-day","Day 1",1.93775043483425,"Only one dataset with sufficient replicates",
+"P60853","S",233,1,1,,,,"Insufficient conditions",
+"P60904","S",10,10,3,"5-day","Day 1",0.354222400768993,"Provisional anchor-aligned maximum","5-day / Day 1"
+"P61087","S",158,3,1,"5-day","Day 1",0.181637169883002,"Only one dataset with sufficient replicates",
+"P61087","S",159,5,2,"24h","Oocyte",1.53070304091666,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P61979","S",216,5,2,"24h","Oocyte",2.12644149468684,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P61979","S",284,2,1,"24h","Oocyte",2.08990626841238,"Only one dataset with sufficient replicates",
+"P61982","S",59,1,1,,,,"Insufficient conditions",
+"P62137","T",320,10,3,"24h","Oocyte",1.25159639369499,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P62141","T",316,1,1,,,,"Insufficient conditions",
+"P62492","S",190,1,1,,,,"Insufficient conditions",
+"P62908","S",224,5,1,"5-day","Day 2",0.286503405925654,"Only one dataset with sufficient replicates",
+"P62908","T",221,5,2,"24h","Oocyte",1.1066311416132,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P62960","S",163,6,2,"48h","HL",0.062414535609582,"Ambiguous maximum (<0.25 log2)",
+"P62960","S",174,6,2,"48h","HL",0.0974735190377007,"Ambiguous maximum (<0.25 log2)",
+"P62960","S",207,5,1,"5-day","Day 1",1.41909457592252,"Only one dataset with sufficient replicates",
+"P62960","Y",206,5,1,"5-day","Day 1",1.41909457592252,"Only one dataset with sufficient replicates",
+"P62983","S",57,5,2,"24h","Oocyte",0.760458136509108,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P62983","Y",59,5,2,"24h","Oocyte",0.797399237030085,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P62984","S",57,3,1,"48h","LH",0.23505612010986,"Only one dataset with sufficient replicates",
+"P62984","Y",59,3,1,"48h","HL",0.210715608892627,"Only one dataset with sufficient replicates",
+"P62996","S",264,5,2,"24h","Oocyte",0.552944961533628,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P62996","S",266,5,2,"24h","Oocyte",0.552944961533628,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P62996","T",201,10,3,"5-day","Day 3",0.275524689920985,"Provisional anchor-aligned maximum","5-day / Day 3"
+"P63017","S",537,5,1,"5-day","Day 1",0.208936180214494,"Only one dataset with sufficient replicates",
+"P63260","S",365,2,1,"24h","Zygote",1.26733491080127,"Only one dataset with sufficient replicates",
+"P63260","Y",198,2,1,"24h","Oocyte",0.653343262758163,"Only one dataset with sufficient replicates",
+"P63260","Y",362,2,1,"24h","Zygote",1.26733491080127,"Only one dataset with sufficient replicates",
+"P63276","T",130,1,1,,,,"Insufficient conditions",
+"P67871","S",209,7,2,"5-day","Day 1",0.316954528661551,"Provisional anchor-aligned maximum","5-day / Day 1"
+"P68134","Y",135,4,1,"5-day","Day 4",0.153659231807888,"Only one dataset with sufficient replicates",
+"P68368","T",73,1,1,,,,"Insufficient conditions",
+"P68368","Y",83,1,1,,,,"Insufficient conditions",
+"P70296","S",52,2,1,"24h","Zygote",0.396887399722466,"Only one dataset with sufficient replicates",
+"P70296","S",113,2,1,"5-day","Day 1",0.618603673617102,"Only one dataset with sufficient replicates",
+"P70296","T",42,2,2,"24h","Oocyte",0.645252848208598,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P70324","S",438,3,1,"5-day","Day 3",0.811945598647521,"Only one dataset with sufficient replicates",
+"P70362","S",247,1,1,,,,"Insufficient conditions",
+"P70372","S",197,1,1,,,,"Insufficient conditions",
+"P70398","S",2547,8,3,"24h","Oocyte",1.21227779108141,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P70399","S",1653,1,1,,,,"Insufficient conditions",
+"P70399","S",1670,1,1,,,,"Insufficient conditions",
+"P70441","S",275,7,2,"5-day","Day 4",0.416001794973118,"Provisional anchor-aligned maximum","5-day / Day 4"
+"P70441","S",297,3,1,"5-day","Day 4",0.882354241309036,"Only one dataset with sufficient replicates",
+"P70698","S",575,5,1,"5-day","Day 3",0.88313043032842,"Only one dataset with sufficient replicates",
+"P80318","S",252,4,2,"24h","Zygote",2.58950287553464,"Provisional anchor-aligned maximum","24h / Zygote"
+"P83741","S",1256,1,1,,,,"Insufficient conditions",
+"P83741","S",1973,1,1,,,,"Insufficient conditions",
+"P83741","T",17,1,1,,,,"Insufficient conditions",
+"P84084","T",85,2,1,"24h","Zygote",0.773747585621182,"Only one dataset with sufficient replicates",
+"P84084","Y",81,2,1,"24h","Zygote",0.773747585621182,"Only one dataset with sufficient replicates",
+"P97310","S",21,1,1,,,,"Insufficient conditions",
+"P97310","S",27,8,2,"5-day","Day 3",0.03642283337118,"Ambiguous maximum (<0.25 log2)",
+"P97310","S",139,1,1,,,,"Insufficient conditions",
+"P97310","T",25,1,1,,,,"Insufficient conditions",
+"P97311","S",704,1,1,,,,"Insufficient conditions",
+"P97329","S",527,2,2,"24h","Oocyte",6.26354705423593,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P97364","S",49,4,2,"24h","Oocyte",1.51769655568226,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P97379","T",227,10,3,"24h","Oocyte",0.0334924507725738,"Ambiguous maximum (<0.25 log2)",
+"P97386","S",211,6,2,"5-day","Day 3",0.387418000351417,"Provisional anchor-aligned maximum","5-day / Day 3"
+"P97440","S",7,4,2,"24h","Oocyte",1.51947480619545,"Provisional anchor-aligned maximum","24h / Oocyte"
+"P97440","S",182,2,1,"24h","Oocyte",0.0300815597924835,"Only one dataset with sufficient replicates",
+"P97440","T",62,1,1,,,,"Insufficient conditions",
+"P97440","T",171,1,1,,,,"Insufficient conditions",
+"P97772","T",487,2,1,"24h","Oocyte",1.0009797163621,"Only one dataset with sufficient replicates",
+"P97772","Y",486,2,1,"24h","Oocyte",1.0009797163621,"Only one dataset with sufficient replicates",
+"P97792","S",332,7,2,"5-day","Day 5",0.50829381906917,"Provisional anchor-aligned maximum","5-day / Day 5"
+"P97792","T",334,1,1,,,,"Insufficient conditions",
+"P97814","S",318,2,1,"24h","Oocyte",1.13199703904083,"Only one dataset with sufficient replicates",
+"P97817","S",308,2,1,"24h","Oocyte",0.346947932081813,"Only one dataset with sufficient replicates",
+"P97817","S",310,2,1,"24h","Zygote",0.708492648907981,"Only one dataset with sufficient replicates",
+"P97820","S",629,2,2,"24h","Oocyte",0.110535892300275,"Ambiguous maximum (<0.25 log2)",
+"P97820","T",909,1,1,,,,"Insufficient conditions",
+"P97825","S",79,2,1,"24h","Oocyte",2.40718406881459,"Only one dataset with sufficient replicates",
+"P97825","S",87,5,2,"5-day","Day 1",1.48916116923534,"Provisional anchor-aligned maximum","5-day / Day 1"
+"P97825","S",131,5,2,"5-day","Day 4",0.444699941666336,"Provisional anchor-aligned maximum","5-day / Day 4"
+"P97825","T",54,1,1,,,,"Insufficient conditions",
+"P97855","S",231,9,3,"5-day","Day 3",0.350715790570792,"Provisional anchor-aligned maximum","5-day / Day 3"
+"P97855","T",230,1,1,,,,"Insufficient conditions",
+"P97931","S",57,1,1,,,,"Insufficient conditions",
+"P98078","S",401,1,1,,,,"Insufficient conditions",
+"P98078","S",674,5,1,"5-day","Day 4",0.445235270632624,"Only one dataset with sufficient replicates",
+"P98191","S",37,2,1,"5-day","Day 1",0.479884316393335,"Only one dataset with sufficient replicates",
+"P98192","S",19,1,1,,,,"Insufficient conditions",
+"P99027","S",17,7,2,"24h","Oocyte",1.21050636562963,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q00PI9","S",159,5,2,"24h","Zygote",0.405987804277713,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q01320","T",1350,2,1,"24h","Oocyte",0.315373893371593,"Only one dataset with sufficient replicates",
+"Q01853","S",702,1,1,,,,"Insufficient conditions",
+"Q01853","T",127,2,1,"24h","Oocyte",0.889700508497457,"Only one dataset with sufficient replicates",
+"Q01853","Y",134,2,1,"24h","Oocyte",0.889700508497457,"Only one dataset with sufficient replicates",
+"Q02053","S",46,3,2,"24h","Oocyte",1.13698953169901,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q02053","S",810,1,1,,,,"Insufficient conditions",
+"Q02248","S",191,3,1,"5-day","Day 5",0.287605828841439,"Only one dataset with sufficient replicates",
+"Q02248","S",552,5,1,"5-day","Day 4",0.23061008459247,"Only one dataset with sufficient replicates",
+"Q02248","S",675,5,1,"5-day","Day 4",0.298783028699624,"Only one dataset with sufficient replicates",
+"Q03141","S",469,1,1,,,,"Insufficient conditions",
+"Q03147","T",170,3,1,"5-day","Day 4",0.10436812529019,"Only one dataset with sufficient replicates",
+"Q03265","T",505,3,1,"48h","HL",0.460130837283796,"Only one dataset with sufficient replicates",
+"Q04447","S",199,2,1,"5-day","Day 2",0.109146320207579,"Only one dataset with sufficient replicates",
+"Q04447","T",224,2,1,"24h","Oocyte",1.209398586714,"Only one dataset with sufficient replicates",
+"Q04750","S",114,4,1,"5-day","Day 3",0.900600386570675,"Only one dataset with sufficient replicates",
+"Q05512","S",40,1,1,,,,"Insufficient conditions",
+"Q05512","S",390,3,2,"24h","Oocyte",2.54451274187694,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q05512","S",392,2,1,"5-day","Day 1",0.0749276471109894,"Only one dataset with sufficient replicates",
+"Q05512","S",408,2,1,"24h","Oocyte",2.98579350288012,"Only one dataset with sufficient replicates",
+"Q05512","S",409,2,1,"24h","Zygote",0.0924552561800898,"Only one dataset with sufficient replicates",
+"Q05512","S",453,2,1,"24h","Oocyte",3.09606529394736,"Only one dataset with sufficient replicates",
+"Q05512","S",532,2,1,"24h","Oocyte",0.144560358634125,"Only one dataset with sufficient replicates",
+"Q05512","S",566,3,2,"24h","Oocyte",0.532752676613931,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q05512","S",568,3,1,"5-day","Day 1",0.0763501805583875,"Only one dataset with sufficient replicates",
+"Q05512","S",592,2,1,"24h","Oocyte",0.736119789040501,"Only one dataset with sufficient replicates",
+"Q05512","S",616,5,2,"24h","Oocyte",2.01852330723978,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q05512","S",663,1,1,,,,"Insufficient conditions",
+"Q05512","T",42,1,1,,,,"Insufficient conditions",
+"Q05512","T",593,2,1,"24h","Oocyte",0.11370437870557,"Only one dataset with sufficient replicates",
+"Q05816","T",83,3,1,"48h","HH",0.0228888373129443,"Only one dataset with sufficient replicates",
+"Q05816","T",85,3,1,"48h","HH",0.0228888373129443,"Only one dataset with sufficient replicates",
+"Q05816","T",88,3,1,"48h","HH",0.0228888373129443,"Only one dataset with sufficient replicates",
+"Q05915","S",24,5,2,"5-day","Day 1",0.529263253402826,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q05915","S",51,1,1,,,,"Insufficient conditions",
+"Q05A80","S",391,1,1,,,,"Insufficient conditions",
+"Q05D44","S",137,10,3,"24h","Oocyte",0.730817996638086,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q05D44","S",139,2,1,"24h","Oocyte",0.302915377961726,"Only one dataset with sufficient replicates",
+"Q05D44","S",215,10,3,"24h","Oocyte",0.232101928867216,"Ambiguous maximum (<0.25 log2)",
+"Q06649","S",442,2,1,"24h","Zygote",0.473316765921833,"Only one dataset with sufficient replicates",
+"Q07113","S",2393,3,1,"48h","HL",2.04807694486245,"Only one dataset with sufficient replicates",
+"Q07113","S",2401,10,3,"48h","HL",0.300608821449526,"Provisional anchor-aligned maximum","48h / HL"
+"Q07139","S",865,1,1,,,,"Insufficient conditions",
+"Q08509","S",475,1,1,,,,"Insufficient conditions",
+"Q08509","S",658,2,1,"24h","Oocyte",1.88160624942495,"Only one dataset with sufficient replicates",
+"Q08509","T",476,1,1,,,,"Insufficient conditions",
+"Q08639","S",23,1,1,,,,"Insufficient conditions",
+"Q08943","S",444,8,3,"24h","Oocyte",0.110411097793616,"Ambiguous maximum (<0.25 log2)",
+"Q08943","S",659,2,1,"24h","Oocyte",2.077733330562,"Only one dataset with sufficient replicates",
+"Q08943","S",673,4,1,"5-day","Day 3",0.571860355701411,"Only one dataset with sufficient replicates",
+"Q0P678","S",530,5,2,"5-day","Day 3",0.0150275974255241,"Ambiguous maximum (<0.25 log2)",
+"Q0VBV7","S",145,3,1,"48h","HH",0.136260646232861,"Only one dataset with sufficient replicates",
+"Q0VF58","S",883,2,1,"24h","Oocyte",0.349225215773135,"Only one dataset with sufficient replicates",
+"Q0VGB7","S",159,4,2,"24h","Oocyte",0.77429447209393,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q0VGB7","S",226,10,3,"5-day","Day 1",0.165549758970416,"Ambiguous maximum (<0.25 log2)",
+"Q148V7","S",56,1,1,,,,"Insufficient conditions",
+"Q148V7","S",422,1,1,,,,"Insufficient conditions",
+"Q14AX6","S",1079,7,2,"5-day","Day 4",0.0250118203464353,"Ambiguous maximum (<0.25 log2)",
+"Q14B48","S",995,8,2,"5-day","Day 5",0.222111159152966,"Ambiguous maximum (<0.25 log2)",
+"Q14DH7","S",621,3,1,"48h","HL",0.0560249341924592,"Only one dataset with sufficient replicates",
+"Q1HFZ0","S",723,2,1,"24h","Oocyte",2.74883574757996,"Only one dataset with sufficient replicates",
+"Q2KN98","S",833,2,1,"24h","Oocyte",0.926726665485639,"Only one dataset with sufficient replicates",
+"Q2TBE6","S",462,8,3,"24h","Oocyte",0.130412551486906,"Ambiguous maximum (<0.25 log2)",
+"Q3B7Z2","S",333,1,1,,,,"Insufficient conditions",
+"Q3B7Z2","S",336,1,1,,,,"Insufficient conditions",
+"Q3TCJ8","S",107,1,1,,,,"Insufficient conditions",
+"Q3TCJ8","Y",105,1,1,,,,"Insufficient conditions",
+"Q3TDQ1","S",18,2,2,"24h","Oocyte",2.07935787961734,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3TDQ1","S",495,2,1,"24h","Oocyte",1.44304086491936,"Only one dataset with sufficient replicates",
+"Q3TDQ1","S",496,2,1,"24h","Oocyte",1.44304086491936,"Only one dataset with sufficient replicates",
+"Q3THE2","T",19,7,2,"5-day","Day 2",0.26354361259135,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q3THK3","T",389,5,1,"5-day","Day 3",0.902083472725071,"Only one dataset with sufficient replicates",
+"Q3THK7","S",332,10,3,"24h","Oocyte",1.06617070514989,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3TIX9","S",46,3,1,"5-day","Day 5",0.359216187072441,"Only one dataset with sufficient replicates",
+"Q3TLH4","S",102,1,1,,,,"Insufficient conditions",
+"Q3TLH4","T",2625,3,1,"5-day","Day 4",0.457860578729365,"Only one dataset with sufficient replicates",
+"Q3TSG4","S",65,1,1,,,,"Insufficient conditions",
+"Q3TWL2","S",169,4,2,"5-day","Day 1",0.523771065523059,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q3TWW8","S",301,4,1,"5-day","Day 3",0.49407408675026,"Only one dataset with sufficient replicates",
+"Q3TWW8","S",303,4,1,"5-day","Day 3",0.335473512199535,"Only one dataset with sufficient replicates",
+"Q3TXS7","T",311,5,2,"24h","Oocyte",2.77175342446867e-05,"Ambiguous maximum (<0.25 log2)",
+"Q3TZZ7","S",650,1,1,,,,"Insufficient conditions",
+"Q3U0P1","S",130,1,1,,,,"Insufficient conditions",
+"Q3U3E2","S",268,2,1,"24h","Oocyte",0.205387901979114,"Only one dataset with sufficient replicates",
+"Q3U3E2","S",302,2,2,"24h","Oocyte",1.35435326190324,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3U3E2","S",340,2,1,"24h","Zygote",0.811020648374198,"Only one dataset with sufficient replicates",
+"Q3U3E2","T",101,2,1,"24h","Oocyte",0.511506900720828,"Only one dataset with sufficient replicates",
+"Q3U4B4","T",362,2,1,"24h","Zygote",0.482637787715742,"Only one dataset with sufficient replicates",
+"Q3U5C8","S",105,2,1,"24h","Oocyte",0.443491031010941,"Only one dataset with sufficient replicates",
+"Q3U5C8","S",111,1,1,,,,"Insufficient conditions",
+"Q3U5C8","S",231,5,2,"24h","Oocyte",0.300048564506232,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3U5C8","S",234,4,2,"24h","Oocyte",0.956677837842374,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3U5C8","T",230,7,2,"48h","HH",0.411042617582968,"Provisional anchor-aligned maximum","48h / HH"
+"Q3U7R1","S",951,3,2,"24h","Oocyte",1.71611326230147,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3U7R1","T",947,1,1,,,,"Insufficient conditions",
+"Q3U9G9","T",128,3,1,"5-day","Day 1",1.4783441603581,"Only one dataset with sufficient replicates",
+"Q3UDK1","S",450,2,1,"24h","Oocyte",3.58085311236998,"Only one dataset with sufficient replicates",
+"Q3UDK1","S",551,3,2,"24h","Oocyte",3.27607639189752,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UE17","S",483,2,1,"24h","Oocyte",0.128580753761304,"Only one dataset with sufficient replicates",
+"Q3UE17","T",491,2,1,"24h","Oocyte",0.128580753761304,"Only one dataset with sufficient replicates",
+"Q3UE31","S",324,7,3,"5-day","Day 1",0.202870181117833,"Ambiguous maximum (<0.25 log2)",
+"Q3UGC7","T",112,1,1,,,,"Insufficient conditions",
+"Q3UGM2","Y",583,1,1,,,,"Insufficient conditions",
+"Q3UH66","S",107,8,3,"24h","Oocyte",3.55957573333263,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UH66","S",1661,2,1,"24h","Oocyte",2.55193195788167,"Only one dataset with sufficient replicates",
+"Q3UH66","S",1706,5,3,"5-day","Day 1",0.736608714748739,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q3UH66","S",1770,7,2,"5-day","Day 1",1.29726826065674,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q3UH66","S",1797,3,1,"5-day","Day 2",0.171134376958113,"Only one dataset with sufficient replicates",
+"Q3UH66","S",1923,2,1,"24h","Oocyte",0.607976323701211,"Only one dataset with sufficient replicates",
+"Q3UH66","S",1926,4,1,"5-day","Day 1",0.19856548114757,"Only one dataset with sufficient replicates",
+"Q3UHQ6","S",597,4,2,"24h","Oocyte",2.13053129085433,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UHQ6","S",678,1,1,,,,"Insufficient conditions",
+"Q3UHQ6","S",679,2,1,"24h","Zygote",1.19090204705901,"Only one dataset with sufficient replicates",
+"Q3UHQ6","S",703,1,1,,,,"Insufficient conditions",
+"Q3UHQ6","S",710,2,1,"5-day","Day 2",0.0225305503714761,"Only one dataset with sufficient replicates",
+"Q3UHQ6","S",718,4,2,"24h","Oocyte",1.05837677723339,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UHQ6","S",719,5,2,"24h","Oocyte",1.29607917677088,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UIA2","T",659,4,1,"5-day","Day 2",0.142666978748753,"Only one dataset with sufficient replicates",
+"Q3UIL6","S",362,3,1,"5-day","Day 5",0.123149145644888,"Only one dataset with sufficient replicates",
+"Q3UJB9","S",733,6,2,"24h","Oocyte",0.00476485883794275,"Ambiguous maximum (<0.25 log2)",
+"Q3UJD6","S",275,1,1,,,,"Insufficient conditions",
+"Q3UJD6","S",448,1,1,,,,"Insufficient conditions",
+"Q3UJU9","S",46,10,3,"5-day","Day 1",0.951605324177539,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q3UKC1","S",632,7,3,"24h","Oocyte",0.612023222836948,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UL36","S",75,4,1,"5-day","Day 5",0.0908630887975743,"Only one dataset with sufficient replicates",
+"Q3UM45","S",24,1,1,,,,"Insufficient conditions",
+"Q3UM45","S",27,1,1,,,,"Insufficient conditions",
+"Q3UMC0","S",18,1,1,,,,"Insufficient conditions",
+"Q3UMF0","S",551,4,1,"5-day","Day 2",0.233081146216408,"Only one dataset with sufficient replicates",
+"Q3UMF0","S",666,2,1,"24h","Oocyte",1.52314514335504,"Only one dataset with sufficient replicates",
+"Q3UMF0","S",897,2,1,"24h","Oocyte",2.35467629054722,"Only one dataset with sufficient replicates",
+"Q3UMF0","S",993,5,2,"5-day","Day 1",0.154640392595274,"Ambiguous maximum (<0.25 log2)",
+"Q3UMF0","S",1028,2,1,"24h","Oocyte",0.943736720256787,"Only one dataset with sufficient replicates",
+"Q3UMF0","S",1092,2,1,"24h","Oocyte",0.94013356823217,"Only one dataset with sufficient replicates",
+"Q3UMF0","S",1214,2,1,"24h","Zygote",0.710641615603135,"Only one dataset with sufficient replicates",
+"Q3UMF0","S",1215,7,2,"5-day","Day 1",0.999224963418406,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q3UMF0","T",304,6,2,"24h","Oocyte",1.69440705926635,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UMF0","T",691,1,1,,,,"Insufficient conditions",
+"Q3UMF0","T",1027,2,1,"24h","Zygote",0.878120089673393,"Only one dataset with sufficient replicates",
+"Q3UMF0","T",1217,8,3,"5-day","Day 1",0.99273378796752,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q3UMR0","S",510,3,1,"48h","HH",0.0101519177485994,"Only one dataset with sufficient replicates",
+"Q3UMR5","Y",157,3,1,"5-day","Day 2",0.195695051644698,"Only one dataset with sufficient replicates",
+"Q3UMU9","S",366,2,1,"5-day","Day 5",1.00318737674694,"Only one dataset with sufficient replicates",
+"Q3UN04","S",210,2,1,"24h","Oocyte",1.92558960977243,"Only one dataset with sufficient replicates",
+"Q3UN04","T",335,1,1,,,,"Insufficient conditions",
+"Q3UPL0","S",526,8,3,"24h","Zygote",0.0341290227382665,"Ambiguous maximum (<0.25 log2)",
+"Q3UPL0","S",801,6,3,"24h","Oocyte",2.24042145360354,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UPL0","Y",803,1,1,,,,"Insufficient conditions",
+"Q3UQV5","S",349,5,1,"5-day","Day 2",0.278113143576983,"Only one dataset with sufficient replicates",
+"Q3UTJ2","S",358,3,2,"24h","Oocyte",1.72441147513871,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UTJ2","T",357,5,2,"24h","Oocyte",2.02507728549452,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q3UW53","S",581,3,1,"5-day","Day 5",1.03463026107062,"Only one dataset with sufficient replicates",
+"Q3UWS6","S",92,2,1,"24h","Oocyte",0.764950578147424,"Only one dataset with sufficient replicates",
+"Q3UWW6","T",532,1,1,,,,"Insufficient conditions",
+"Q3UX83","T",21,1,1,,,,"Insufficient conditions",
+"Q3UYC0","S",123,2,1,"24h","Oocyte",0.462232644985136,"Only one dataset with sufficient replicates",
+"Q3UYC0","S",210,3,2,"5-day","Day 1",0.198909658207164,"Ambiguous maximum (<0.25 log2)",
+"Q3UYC0","S",220,4,2,"5-day","Day 2",0.0511522178037112,"Ambiguous maximum (<0.25 log2)",
+"Q3UYC0","S",222,1,1,,,,"Insufficient conditions",
+"Q3UYC0","T",223,1,1,,,,"Insufficient conditions",
+"Q3UZ39","S",547,5,2,"48h","HH",0.234291132352356,"Ambiguous maximum (<0.25 log2)",
+"Q3UZ39","S",614,3,1,"5-day","Day 5",0.946541026288978,"Only one dataset with sufficient replicates",
+"Q3V1H1","T",561,1,1,,,,"Insufficient conditions",
+"Q3V1L4","S",502,2,1,"5-day","Day 1",1.30921194456715,"Only one dataset with sufficient replicates",
+"Q45VK7","S",173,1,1,,,,"Insufficient conditions",
+"Q45VK7","S",3477,2,1,"24h","Zygote",0.0784447046696215,"Only one dataset with sufficient replicates",
+"Q4JIM5","S",621,4,2,"24h","Oocyte",0.970971244997109,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q4JIM5","S",876,1,1,,,,"Insufficient conditions",
+"Q4JIM5","S",936,3,2,"24h","Oocyte",1.50247102894214,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q4JIM5","S",1052,1,1,,,,"Insufficient conditions",
+"Q4JIM5","S",1054,2,1,"5-day","Day 2",0.49623149352046,"Only one dataset with sufficient replicates",
+"Q4JIM5","T",938,3,1,"48h","LH",0.420244947207385,"Only one dataset with sufficient replicates",
+"Q4JK59","S",39,2,1,"5-day","Day 3",1.75919646503478,"Only one dataset with sufficient replicates",
+"Q4JK59","S",1615,2,1,"5-day","Day 3",0.642124027471462,"Only one dataset with sufficient replicates",
+"Q4VA36","S",293,3,1,"5-day","Day 4",0.196504170297329,"Only one dataset with sufficient replicates",
+"Q4VA53","S",1166,5,1,"5-day","Day 4",0.656177872431465,"Only one dataset with sufficient replicates",
+"Q4VAA2","S",51,2,1,"5-day","Day 1",0.111552671434076,"Only one dataset with sufficient replicates",
+"Q4VAA2","S",54,2,1,"24h","Oocyte",2.06584770970869,"Only one dataset with sufficient replicates",
+"Q4VAA2","T",205,1,1,,,,"Insufficient conditions",
+"Q4VBD2","T",472,1,1,,,,"Insufficient conditions",
+"Q505F5","S",293,10,3,"24h","Oocyte",1.32067927768259,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q52KI8","S",220,7,2,"5-day","Day 5",0.026559960700606,"Ambiguous maximum (<0.25 log2)",
+"Q52KI8","S",260,2,1,"24h","Oocyte",2.06486865414246,"Only one dataset with sufficient replicates",
+"Q52KI8","S",616,3,1,"5-day","Day 3",0.110491112482924,"Only one dataset with sufficient replicates",
+"Q52KI8","S",635,4,1,"5-day","Day 4",0.298079063971814,"Only one dataset with sufficient replicates",
+"Q52KI8","S",714,5,1,"5-day","Day 4",0.516662021711463,"Only one dataset with sufficient replicates",
+"Q52KI8","S",779,4,1,"5-day","Day 4",0.202549139041523,"Only one dataset with sufficient replicates",
+"Q52KI8","S",781,3,1,"5-day","Day 4",0.799058149680928,"Only one dataset with sufficient replicates",
+"Q52KI8","S",810,5,1,"5-day","Day 4",0.238855705927833,"Only one dataset with sufficient replicates",
+"Q52KI8","S",822,5,1,"5-day","Day 4",0.238855705927833,"Only one dataset with sufficient replicates",
+"Q52KI8","S",915,3,1,"5-day","Day 5",0.112183770872342,"Only one dataset with sufficient replicates",
+"Q52KI8","T",404,3,1,"5-day","Day 4",0.703626043380108,"Only one dataset with sufficient replicates",
+"Q52KR3","T",2502,1,1,,,,"Insufficient conditions",
+"Q569L8","S",393,1,1,,,,"Insufficient conditions",
+"Q569Z6","S",243,5,1,"5-day","Day 5",0.0823741726342799,"Only one dataset with sufficient replicates",
+"Q569Z6","S",320,3,1,"5-day","Day 5",0.319274389762846,"Only one dataset with sufficient replicates",
+"Q569Z6","S",679,5,1,"5-day","Day 5",0.113471563274635,"Only one dataset with sufficient replicates",
+"Q569Z6","T",870,1,1,,,,"Insufficient conditions",
+"Q571I9","S",538,2,1,"24h","Oocyte",0.689331308606134,"Only one dataset with sufficient replicates",
+"Q5BL07","S",1212,3,1,"5-day","Day 2",0.152589847174022,"Only one dataset with sufficient replicates",
+"Q5BL07","Y",1208,2,1,"5-day","Day 2",0.029924954856666,"Only one dataset with sufficient replicates",
+"Q5BN45","T",133,2,1,"24h","Zygote",0.999604339073269,"Only one dataset with sufficient replicates",
+"Q5DTU0","S",344,2,1,"24h","Oocyte",0.631134410263174,"Only one dataset with sufficient replicates",
+"Q5DTU0","S",772,1,1,,,,"Insufficient conditions",
+"Q5DTW7","S",1142,2,1,"24h","Oocyte",0.885826353389527,"Only one dataset with sufficient replicates",
+"Q5DTX6","S",498,3,1,"48h","HH",0.324089999157717,"Only one dataset with sufficient replicates",
+"Q5DU05","S",1417,2,1,"24h","Oocyte",1.08697656943444,"Only one dataset with sufficient replicates",
+"Q5DU31","S",299,1,1,,,,"Insufficient conditions",
+"Q5EG47","S",356,5,2,"24h","Oocyte",0.41821154547983,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q5F2E7","S",376,1,1,,,,"Insufficient conditions",
+"Q5F2E7","S",570,5,1,"5-day","Day 3",1.12345327383511,"Only one dataset with sufficient replicates",
+"Q5F2E7","S",626,3,1,"5-day","Day 3",0.346650533988569,"Only one dataset with sufficient replicates",
+"Q5F2E7","T",221,2,1,"5-day","Day 3",1.30883896913565,"Only one dataset with sufficient replicates",
+"Q5FWK3","S",51,10,3,"24h","Oocyte",3.82522483636529,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q5HZI1","S",525,1,1,,,,"Insufficient conditions",
+"Q5HZI1","S",533,1,1,,,,"Insufficient conditions",
+"Q5HZI1","S",535,7,2,"24h","Zygote",0.375646378069868,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q5HZI1","S",612,3,2,"24h","Oocyte",1.12221278455616,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q5HZI1","S",617,1,1,,,,"Insufficient conditions",
+"Q5HZI1","S",810,1,1,,,,"Insufficient conditions",
+"Q5HZI1","S",1143,3,2,"24h","Zygote",0.14467016776071,"Ambiguous maximum (<0.25 log2)",
+"Q5HZI1","S",1164,2,1,"24h","Oocyte",1.78619737065876,"Only one dataset with sufficient replicates",
+"Q5HZI1","S",1185,1,1,,,,"Insufficient conditions",
+"Q5HZI1","S",1206,1,1,,,,"Insufficient conditions",
+"Q5HZI1","S",1208,4,2,"24h","Zygote",1.4960196647963,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q5HZI1","T",230,7,3,"24h","Oocyte",1.31127244509012,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q5HZI1","T",496,1,1,,,,"Insufficient conditions",
+"Q5HZI1","T",529,3,1,"48h","LH",0.0925326508463709,"Only one dataset with sufficient replicates",
+"Q5M6W3","Y",78,2,1,"24h","Zygote",1.15696722094839,"Only one dataset with sufficient replicates",
+"Q5ND04","T",585,1,1,,,,"Insufficient conditions",
+"Q5RL79","T",124,4,1,"5-day","Day 1",1.7723861663167,"Only one dataset with sufficient replicates",
+"Q5SF07","S",162,2,2,"5-day","Day 1",1.8596586752302,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q5SF07","S",164,5,2,"5-day","Day 1",1.31872781765058,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q5SFM8","T",447,1,1,,,,"Insufficient conditions",
+"Q5SSL4","S",57,1,1,,,,"Insufficient conditions",
+"Q5SSL4","S",72,1,1,,,,"Insufficient conditions",
+"Q5SSL4","T",636,2,1,"24h","Oocyte",3.36668782487914,"Only one dataset with sufficient replicates",
+"Q5SV85","S",764,1,1,,,,"Insufficient conditions",
+"Q5SWY7","S",633,1,1,,,,"Insufficient conditions",
+"Q5SWY7","S",664,2,2,"5-day","Day 1",0.562696993824932,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q5SWY7","S",727,3,2,"5-day","Day 1",0.0905106476464415,"Ambiguous maximum (<0.25 log2)",
+"Q5SWY7","S",773,1,1,,,,"Insufficient conditions",
+"Q5U430","S",1199,2,1,"24h","Oocyte",0.169558832266748,"Only one dataset with sufficient replicates",
+"Q5XFR0","S",76,1,1,,,,"Insufficient conditions",
+"Q5XG73","S",418,3,1,"5-day","Day 1",0.0873734316234387,"Only one dataset with sufficient replicates",
+"Q5XJY5","S",493,3,1,"5-day","Day 2",0.450885972723437,"Only one dataset with sufficient replicates",
+"Q60520","S",10,2,2,"24h","Oocyte",2.84139393914544,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q60520","S",941,2,2,"24h","Oocyte",2.29557665491703,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q60520","S",1113,1,1,,,,"Insufficient conditions",
+"Q60520","T",436,1,1,,,,"Insufficient conditions",
+"Q60520","T",1111,1,1,,,,"Insufficient conditions",
+"Q60662","S",497,4,1,"5-day","Day 2",0.395990010566424,"Only one dataset with sufficient replicates",
+"Q60662","S",812,7,2,"48h","HH",0.401647501107618,"Provisional anchor-aligned maximum","48h / HH"
+"Q60698","S",477,2,1,"24h","Zygote",0.66905249890384,"Only one dataset with sufficient replicates",
+"Q60710","T",310,5,2,"48h","HH",0.0304228375581452,"Ambiguous maximum (<0.25 log2)",
+"Q60710","T",634,9,3,"24h","Zygote",0.0295627225796249,"Ambiguous maximum (<0.25 log2)",
+"Q60805","Y",193,2,1,"5-day","Day 4",0.0448833093951748,"Only one dataset with sufficient replicates",
+"Q60899","S",221,2,2,"5-day","Day 1",0.609935013011095,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q60902","S",108,2,1,"5-day","Day 1",0.689140217625429,"Only one dataset with sufficient replicates",
+"Q60902","S",229,6,2,"24h","Oocyte",0.91968731533321,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q60902","S",255,7,2,"5-day","Day 5",3.974159258453,"Provisional anchor-aligned maximum","5-day / Day 5"
+"Q60949","S",621,2,1,"24h","Oocyte",0.764664375319677,"Only one dataset with sufficient replicates",
+"Q60949","T",739,2,1,"24h","Oocyte",2.63517725837456,"Only one dataset with sufficient replicates",
+"Q60953","S",528,3,1,"5-day","Day 4",0.411682026061571,"Only one dataset with sufficient replicates",
+"Q61029","T",159,1,1,,,,"Insufficient conditions",
+"Q61029","T",317,1,1,,,,"Insufficient conditions",
+"Q61033","T",74,3,1,"5-day","Day 5",0.171747198248806,"Only one dataset with sufficient replicates",
+"Q61033","T",159,5,1,"5-day","Day 4",0.288114415301205,"Only one dataset with sufficient replicates",
+"Q61087","T",641,1,1,,,,"Insufficient conditions",
+"Q61140","S",143,2,1,"24h","Oocyte",1.01110495145137,"Only one dataset with sufficient replicates",
+"Q61142","S",39,5,2,"24h","Oocyte",0.723536312678739,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q61142","S",124,9,3,"5-day","Day 2",0.847167412876818,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q61142","S",199,10,3,"24h","Zygote",0.3072790011888,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q61160","S",191,1,1,,,,"Insufficient conditions",
+"Q61165","S",697,2,1,"24h","Oocyte",0.528067279540823,"Only one dataset with sufficient replicates",
+"Q61188","T",487,6,2,"5-day","Day 3",0.499418324620247,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q61233","S",5,4,2,"5-day","Day 4",2.04686790907966,"Provisional anchor-aligned maximum","5-day / Day 4"
+"Q61233","S",257,8,2,"48h","HH",0.21205177764768,"Ambiguous maximum (<0.25 log2)",
+"Q61316","S",503,5,2,"48h","LH",0.310744407809068,"Provisional anchor-aligned maximum","48h / LH"
+"Q61316","S",548,2,1,"24h","Zygote",0.227221317977207,"Only one dataset with sufficient replicates",
+"Q61316","T",540,9,3,"24h","Oocyte",1.88409254325463,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q61410","S",446,3,1,"48h","HL",0.0791982734046446,"Only one dataset with sufficient replicates",
+"Q61464","S",128,1,1,,,,"Insufficient conditions",
+"Q61595","S",75,10,3,"5-day","Day 1",0.710654474893019,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q61595","S",90,4,2,"24h","Oocyte",1.91636468824963,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q61655","S",85,3,2,"24h","Oocyte",3.51356294265763,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q61687","S",92,1,1,,,,"Insufficient conditions",
+"Q61687","S",590,7,2,"5-day","Day 3",0.120023333965346,"Ambiguous maximum (<0.25 log2)",
+"Q61696","T",295,2,1,"24h","Zygote",0.778357714396947,"Only one dataset with sufficient replicates",
+"Q61696","T",298,2,1,"24h","Zygote",0.778357714396947,"Only one dataset with sufficient replicates",
+"Q61696","Y",294,2,1,"24h","Zygote",0.778357714396947,"Only one dataset with sufficient replicates",
+"Q61699","S",810,10,3,"5-day","Day 2",0.0139048507516293,"Ambiguous maximum (<0.25 log2)",
+"Q61699","T",486,2,1,"24h","Zygote",0.352521276036972,"Only one dataset with sufficient replicates",
+"Q61699","T",816,3,2,"24h","Oocyte",0.728160455720939,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q61749","S",21,2,1,"24h","Oocyte",1.73217544783422,"Only one dataset with sufficient replicates",
+"Q61768","S",933,6,2,"24h","Oocyte",0.368423111472501,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q61937","S",70,7,2,"5-day","Day 3",0.0428164136662694,"Ambiguous maximum (<0.25 log2)",
+"Q61937","S",252,4,2,"48h","LH",0.120919119382078,"Ambiguous maximum (<0.25 log2)",
+"Q61937","T",217,5,2,"24h","Oocyte",1.26058443753922,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q61990","S",185,10,3,"24h","Oocyte",0.463960640542471,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q62093","S",26,5,2,"24h","Oocyte",1.92061360877414,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q62093","T",25,7,2,"5-day","Day 5",0.384756985650547,"Provisional anchor-aligned maximum","5-day / Day 5"
+"Q62093","Y",23,3,1,"48h","HL",0.542356838845912,"Only one dataset with sufficient replicates",
+"Q62101","S",203,5,2,"24h","Oocyte",0.0871816930086684,"Ambiguous maximum (<0.25 log2)",
+"Q62101","S",407,2,1,"24h","Oocyte",0.338497449023805,"Only one dataset with sufficient replicates",
+"Q62136","S",492,2,1,"24h","Oocyte",0.715230490562899,"Only one dataset with sufficient replicates",
+"Q62136","S",590,2,1,"24h","Oocyte",0.342966388399008,"Only one dataset with sufficient replicates",
+"Q62136","S",637,2,1,"24h","Oocyte",0.761996320460955,"Only one dataset with sufficient replicates",
+"Q62136","S",658,1,1,,,,"Insufficient conditions",
+"Q62136","S",777,2,1,"24h","Oocyte",1.57699128535854,"Only one dataset with sufficient replicates",
+"Q62136","S",799,2,1,"24h","Zygote",1.25217035232593,"Only one dataset with sufficient replicates",
+"Q62167","S",520,3,1,"48h","HH",0.136313161271875,"Only one dataset with sufficient replicates",
+"Q62247","S",4,1,1,,,,"Insufficient conditions",
+"Q62261","S",2137,9,3,"24h","Oocyte",0.887502422811458,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q62261","S",2340,2,1,"24h","Oocyte",1.68499266632009,"Only one dataset with sufficient replicates",
+"Q62315","S",124,2,1,"5-day","Day 3",0.933187551853488,"Only one dataset with sufficient replicates",
+"Q62318","S",473,6,2,"5-day","Day 5",0.539748845117785,"Provisional anchor-aligned maximum","5-day / Day 5"
+"Q62376","S",226,5,1,"5-day","Day 4",0.611264193939965,"Only one dataset with sufficient replicates",
+"Q62383","S",125,2,1,"24h","Oocyte",2.00110389282889,"Only one dataset with sufficient replicates",
+"Q62393","S",36,5,2,"24h","Zygote",1.88885050190258,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q62393","S",40,5,2,"24h","Zygote",0.602476085714592,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q62393","S",170,2,1,"24h","Oocyte",7.11360379003481,"Only one dataset with sufficient replicates",
+"Q62393","S",175,2,1,"24h","Oocyte",1.62454044984281,"Only one dataset with sufficient replicates",
+"Q62393","T",35,7,2,"48h","HL",0.23136011021348,"Ambiguous maximum (<0.25 log2)",
+"Q62417","S",96,4,2,"24h","Oocyte",1.60686266651513,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q62417","S",185,4,2,"24h","Oocyte",0.494732572129122,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q62417","S",250,2,2,"5-day","Day 1",0.0105815065837405,"Ambiguous maximum (<0.25 log2)",
+"Q62417","S",261,1,1,,,,"Insufficient conditions",
+"Q62417","S",432,1,1,,,,"Insufficient conditions",
+"Q62417","S",1201,4,2,"24h","Oocyte",0.917847729557712,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q62417","S",1209,4,2,"24h","Oocyte",2.5480108122379,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q62417","Y",1198,3,1,"48h","LH",0.169540805817766,"Only one dataset with sufficient replicates",
+"Q62418","S",277,7,2,"5-day","Day 5",0.386964173672601,"Provisional anchor-aligned maximum","5-day / Day 5"
+"Q62418","S",291,1,1,,,,"Insufficient conditions",
+"Q62418","T",299,3,1,"5-day","Day 5",0.159556554632802,"Only one dataset with sufficient replicates",
+"Q62426","Y",97,2,1,"5-day","Day 5",0.627273221136093,"Only one dataset with sufficient replicates",
+"Q62433","S",330,2,1,"5-day","Day 5",0.819746619332916,"Only one dataset with sufficient replicates",
+"Q62433","S",367,2,1,"5-day","Day 5",1.04155070746208,"Only one dataset with sufficient replicates",
+"Q62433","T",328,2,1,"5-day","Day 4",0.15251828238299,"Only one dataset with sufficient replicates",
+"Q62441","S",208,3,1,"5-day","Day 4",0.234090830857841,"Only one dataset with sufficient replicates",
+"Q62446","S",34,1,1,,,,"Insufficient conditions",
+"Q62448","T",507,8,2,"5-day","Day 3",0.864832191307748,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q63850","S",412,1,1,,,,"Insufficient conditions",
+"Q63932","T",395,2,1,"24h","Oocyte",1.02967195130696,"Only one dataset with sufficient replicates",
+"Q63ZW7","S",524,2,1,"24h","Oocyte",0.280445570165901,"Only one dataset with sufficient replicates",
+"Q64010","S",83,3,1,"5-day","Day 1",0.896030330084706,"Only one dataset with sufficient replicates",
+"Q64012","S",135,6,2,"5-day","Day 4",0.204077473276996,"Ambiguous maximum (<0.25 log2)",
+"Q64012","S",270,3,1,"5-day","Day 4",0.305662161071448,"Only one dataset with sufficient replicates",
+"Q640Q5","S",192,1,1,,,,"Insufficient conditions",
+"Q64327","S",170,1,1,,,,"Insufficient conditions",
+"Q64337","T",272,2,1,"24h","Oocyte",0.974186566010205,"Only one dataset with sufficient replicates",
+"Q64362","S",30,2,1,"24h","Oocyte",0.349969736794499,"Only one dataset with sufficient replicates",
+"Q64GA5","T",424,2,1,"24h","Oocyte",0.331712228843667,"Only one dataset with sufficient replicates",
+"Q64GA5","T",492,5,2,"24h","Zygote",0.117719009565917,"Ambiguous maximum (<0.25 log2)",
+"Q65Z40","S",77,1,1,,,,"Insufficient conditions",
+"Q66JS6","T",114,1,1,,,,"Insufficient conditions",
+"Q66JT0","S",71,1,1,,,,"Insufficient conditions",
+"Q66JT0","S",105,1,1,,,,"Insufficient conditions",
+"Q66JT0","S",145,1,1,,,,"Insufficient conditions",
+"Q66JT0","T",106,1,1,,,,"Insufficient conditions",
+"Q66JT0","T",133,1,1,,,,"Insufficient conditions",
+"Q66JT0","T",153,2,2,"24h","Oocyte",1.01273809254531,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q66JY2","S",227,1,1,,,,"Insufficient conditions",
+"Q66L42","T",242,1,1,,,,"Insufficient conditions",
+"Q66X05","T",87,2,1,"24h","Oocyte",0.852249283653613,"Only one dataset with sufficient replicates",
+"Q66X22","S",672,4,1,"5-day","Day 2",0.0863760333336341,"Only one dataset with sufficient replicates",
+"Q68FE2","S",656,5,2,"24h","Oocyte",1.12938174813701,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q68FF6","S",371,1,1,,,,"Insufficient conditions",
+"Q68FF7","S",420,1,1,,,,"Insufficient conditions",
+"Q68FF7","S",429,1,1,,,,"Insufficient conditions",
+"Q68FF7","T",215,1,1,,,,"Insufficient conditions",
+"Q68FH0","S",775,1,1,,,,"Insufficient conditions",
+"Q68FL4","S",109,3,2,"24h","Oocyte",0.16668322592302,"Ambiguous maximum (<0.25 log2)",
+"Q68FL6","S",827,2,1,"24h","Oocyte",0.829791346294261,"Only one dataset with sufficient replicates",
+"Q69ZR2","S",632,5,2,"24h","Oocyte",0.970937366351997,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q69ZR2","S",641,3,2,"24h","Oocyte",0.394152702086338,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q69ZR2","S",1777,2,1,"24h","Oocyte",0.975912688813297,"Only one dataset with sufficient replicates",
+"Q69ZR2","T",1347,2,1,"5-day","Day 1",0.991846751906357,"Only one dataset with sufficient replicates",
+"Q6A037","T",425,1,1,,,,"Insufficient conditions",
+"Q6A0A2","S",489,1,1,,,,"Insufficient conditions",
+"Q6B966","S",13,10,3,"24h","Oocyte",1.75222472320038,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6B966","S",19,10,3,"5-day","Day 1",1.45282153063702,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q6B966","S",186,2,1,"24h","Zygote",0.441737949490836,"Only one dataset with sufficient replicates",
+"Q6B966","T",17,10,3,"5-day","Day 2",0.660339648332769,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q6B966","T",183,2,1,"24h","Zygote",0.441737949490836,"Only one dataset with sufficient replicates",
+"Q6DFV7","S",298,3,1,"48h","HL",0.95775500905585,"Only one dataset with sufficient replicates",
+"Q6DIA9","S",271,2,1,"24h","Zygote",1.93865100924582,"Only one dataset with sufficient replicates",
+"Q6DVA0","S",507,1,1,,,,"Insufficient conditions",
+"Q6EDY6","S",1103,1,1,,,,"Insufficient conditions",
+"Q6EDY6","S",1289,2,1,"24h","Oocyte",2.4088719087568,"Only one dataset with sufficient replicates",
+"Q6EDY6","S",1294,1,1,,,,"Insufficient conditions",
+"Q6EDY6","S",1295,7,2,"24h","Oocyte",1.36185387200725,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6NVE8","S",405,2,1,"24h","Oocyte",0.430377736954433,"Only one dataset with sufficient replicates",
+"Q6NXJ0","S",1001,2,1,"24h","Oocyte",0.651751378830138,"Only one dataset with sufficient replicates",
+"Q6NXJ0","T",999,3,1,"48h","HH",0.119808440959682,"Only one dataset with sufficient replicates",
+"Q6NXN1","S",39,2,1,"24h","Zygote",1.53918743922035,"Only one dataset with sufficient replicates",
+"Q6NXN1","S",74,1,1,,,,"Insufficient conditions",
+"Q6NXN1","S",107,2,1,"24h","Oocyte",2.13547337037794,"Only one dataset with sufficient replicates",
+"Q6NZA9","T",172,1,1,,,,"Insufficient conditions",
+"Q6NZC7","S",600,4,2,"24h","Oocyte",1.90875807322992,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6NZC7","S",735,2,1,"24h","Oocyte",1.11126607065236,"Only one dataset with sufficient replicates",
+"Q6NZC7","S",748,2,1,"24h","Oocyte",0.794619935303515,"Only one dataset with sufficient replicates",
+"Q6NZE7","S",23,3,1,"5-day","Day 5",0.179484322581148,"Only one dataset with sufficient replicates",
+"Q6NZF1","S",677,3,1,"5-day","Day 4",0.566127407286254,"Only one dataset with sufficient replicates",
+"Q6NZJ6","S",347,5,1,"5-day","Day 1",1.88071394745868,"Only one dataset with sufficient replicates",
+"Q6NZJ6","S",1096,7,2,"24h","Oocyte",0.586621795799838,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6NZJ6","S",1211,1,1,,,,"Insufficient conditions",
+"Q6NZJ6","S",1231,2,1,"24h","Oocyte",1.12635797280939,"Only one dataset with sufficient replicates",
+"Q6NZJ6","S",1597,2,1,"24h","Oocyte",0.0187273448816043,"Only one dataset with sufficient replicates",
+"Q6NZN0","S",127,2,1,"5-day","Day 4",0.676876998216351,"Only one dataset with sufficient replicates",
+"Q6NZR5","S",240,3,1,"5-day","Day 2",0.444613716881209,"Only one dataset with sufficient replicates",
+"Q6NZR5","S",253,4,2,"24h","Oocyte",0.118255457459883,"Ambiguous maximum (<0.25 log2)",
+"Q6P1G2","S",26,8,3,"5-day","Day 1",0.374411478470654,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q6P1G2","S",418,8,3,"5-day","Day 1",0.43672911302412,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q6P1G2","S",447,8,3,"24h","Zygote",0.10234091179424,"Ambiguous maximum (<0.25 log2)",
+"Q6P1G2","S",470,3,1,"5-day","Day 3",1.78833600867527,"Only one dataset with sufficient replicates",
+"Q6P1G2","S",566,4,2,"24h","Oocyte",2.06555782576673,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6P1G2","S",821,2,1,"5-day","Day 1",0.978924371710745,"Only one dataset with sufficient replicates",
+"Q6P1G2","S",887,10,3,"24h","Oocyte",0.905967172597048,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6P1G2","S",948,4,2,"5-day","Day 2",0.506335516097678,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q6P1G2","S",952,2,1,"5-day","Day 1",0.152461430541491,"Only one dataset with sufficient replicates",
+"Q6P1G2","S",991,9,3,"24h","Oocyte",0.127250747075685,"Ambiguous maximum (<0.25 log2)",
+"Q6P1G2","S",1002,2,1,"24h","Oocyte",0.636312505915384,"Only one dataset with sufficient replicates",
+"Q6P1G2","S",1004,9,3,"5-day","Day 2",0.283061012231222,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q6P1G2","S",1022,6,2,"5-day","Day 1",0.220715412144951,"Ambiguous maximum (<0.25 log2)",
+"Q6P1G2","T",420,3,1,"48h","HH",0.0403896203126788,"Only one dataset with sufficient replicates",
+"Q6P1G2","T",422,9,3,"5-day","Day 2",0.124305557129837,"Ambiguous maximum (<0.25 log2)",
+"Q6P1G2","T",466,4,1,"5-day","Day 3",1.4302271902776,"Only one dataset with sufficient replicates",
+"Q6P1H6","S",275,1,1,,,,"Insufficient conditions",
+"Q6P1H6","S",537,1,1,,,,"Insufficient conditions",
+"Q6P4T0","S",1799,2,2,"24h","Oocyte",0.555298106548246,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6P4T2","S",225,3,2,"24h","Oocyte",0.512996621855036,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6P542","S",194,10,3,"24h","Oocyte",0.313842017500416,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6P560","Y",501,2,1,"24h","Zygote",0.605739203540427,"Only one dataset with sufficient replicates",
+"Q6P8I4","T",139,3,2,"24h","Oocyte",0.368770314583143,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6PAM1","S",515,1,1,,,,"Insufficient conditions",
+"Q6PAM1","S",523,4,1,"5-day","Day 1",0.158168782827588,"Only one dataset with sufficient replicates",
+"Q6PCP5","S",131,2,1,"24h","Oocyte",0.0682505640450248,"Only one dataset with sufficient replicates",
+"Q6PD29","S",85,1,1,,,,"Insufficient conditions",
+"Q6PDI5","S",1402,3,1,"48h","HL",0.317134851411502,"Only one dataset with sufficient replicates",
+"Q6PDM2","S",199,5,1,"5-day","Day 4",0.374945569884623,"Only one dataset with sufficient replicates",
+"Q6PF93","T",752,2,1,"24h","Oocyte",0.684966096341395,"Only one dataset with sufficient replicates",
+"Q6PFD9","S",839,1,1,,,,"Insufficient conditions",
+"Q6PFD9","S",888,3,1,"5-day","Day 1",1.01173630414397,"Only one dataset with sufficient replicates",
+"Q6PFD9","T",670,2,1,"24h","Oocyte",3.60866811499234,"Only one dataset with sufficient replicates",
+"Q6PFR5","T",200,4,1,"5-day","Day 3",0.192661945879141,"Only one dataset with sufficient replicates",
+"Q6PG16","S",388,1,1,,,,"Insufficient conditions",
+"Q6PGE7","S",598,8,3,"48h","HL",0.129305293478289,"Ambiguous maximum (<0.25 log2)",
+"Q6PGE7","S",600,10,3,"5-day","Day 2",0.348583111333555,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q6PGH2","S",30,6,3,"24h","Oocyte",2.27990196833211,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6PGH2","S",97,9,3,"24h","Oocyte",5.05618671521861,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6PGH2","T",76,8,3,"24h","Oocyte",1.48350994476995,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6PGL7","S",747,10,3,"24h","Oocyte",0.50377387978579,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6PGL7","S",781,2,1,"24h","Oocyte",0.17388543250923,"Only one dataset with sufficient replicates",
+"Q6PGL7","S",832,1,1,,,,"Insufficient conditions",
+"Q6PGL7","T",938,1,1,,,,"Insufficient conditions",
+"Q6PGN3","S",307,5,2,"24h","Oocyte",0.0343168730841441,"Ambiguous maximum (<0.25 log2)",
+"Q6PGN3","S",359,3,1,"5-day","Day 2",0.303688140546731,"Only one dataset with sufficient replicates",
+"Q6PGN3","S",361,8,3,"24h","Oocyte",0.218973282924923,"Ambiguous maximum (<0.25 log2)",
+"Q6PIJ4","S",1288,1,1,,,,"Insufficient conditions",
+"Q6QI06","S",1352,1,1,,,,"Insufficient conditions",
+"Q6QI06","S",1395,1,1,,,,"Insufficient conditions",
+"Q6RHR9","S",930,2,2,"24h","Oocyte",1.00990019268065,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6RT24","S",815,8,3,"24h","Oocyte",0.0107140798170722,"Ambiguous maximum (<0.25 log2)",
+"Q6RT24","S",2414,1,1,,,,"Insufficient conditions",
+"Q6RT24","Y",2166,2,1,"24h","Zygote",0.0362667651858661,"Only one dataset with sufficient replicates",
+"Q6ZPF4","S",172,2,1,"24h","Zygote",0.111790611727503,"Only one dataset with sufficient replicates",
+"Q6ZPF4","S",174,4,2,"24h","Oocyte",1.14695759565729,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6ZPJ0","S",294,2,1,"24h","Oocyte",0.0434077113516729,"Only one dataset with sufficient replicates",
+"Q6ZPJ3","S",833,1,1,,,,"Insufficient conditions",
+"Q6ZPJ3","S",836,1,1,,,,"Insufficient conditions",
+"Q6ZPJ3","S",893,7,3,"24h","Oocyte",1.53974415775685,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q6ZPY2","T",877,2,1,"48h","HL",2.57444326103365,"Only one dataset with sufficient replicates",
+"Q6ZQ03","S",487,5,1,"5-day","Day 1",0.365852685904839,"Only one dataset with sufficient replicates",
+"Q6ZQ38","S",1047,5,2,"24h","Zygote",0.419272331010822,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q6ZQ58","S",604,2,1,"5-day","Day 2",0.0870650904715706,"Only one dataset with sufficient replicates",
+"Q6ZQ58","Y",610,1,1,,,,"Insufficient conditions",
+"Q6ZQB6","T",1071,6,3,"24h","Oocyte",0.203014769133333,"Ambiguous maximum (<0.25 log2)",
+"Q6ZWV3","Y",57,3,1,"5-day","Day 4",0.0983417813581404,"Only one dataset with sufficient replicates",
+"Q76KJ5","S",170,4,1,"5-day","Day 3",0.211356175685557,"Only one dataset with sufficient replicates",
+"Q76LL6","T",1475,1,1,,,,"Insufficient conditions",
+"Q76MZ3","S",116,2,1,"24h","Oocyte",0.222010402385836,"Only one dataset with sufficient replicates",
+"Q78ZA7","S",125,7,3,"24h","Zygote",0.640349972301976,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q78ZA7","S",294,2,1,"5-day","Day 1",0.585003681936401,"Only one dataset with sufficient replicates",
+"Q78ZA7","T",51,7,3,"24h","Oocyte",1.87169779333621,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7M753","S",55,8,3,"48h","HH",0.0226435420376205,"Ambiguous maximum (<0.25 log2)",
+"Q7M753","S",56,10,3,"24h","Oocyte",0.394571708770506,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7M753","S",75,2,1,"24h","Oocyte",0.790000035392403,"Only one dataset with sufficient replicates",
+"Q7TMY8","S",1084,3,2,"24h","Oocyte",2.0342136114548,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TMY8","S",1907,9,3,"48h","HH",0.182432568952578,"Ambiguous maximum (<0.25 log2)",
+"Q7TMY8","S",2535,3,1,"48h","LH",0.032126306992911,"Only one dataset with sufficient replicates",
+"Q7TMY8","S",3127,3,2,"24h","Oocyte",1.56711283678959,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TMY8","S",3758,4,2,"5-day","Day 1",0.5136459588772,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q7TN29","S",219,2,1,"24h","Oocyte",1.68823537375813,"Only one dataset with sufficient replicates",
+"Q7TPE5","S",257,2,1,"24h","Oocyte",1.64365605964846,"Only one dataset with sufficient replicates",
+"Q7TPE5","T",42,2,2,"24h","Oocyte",1.97499445827194,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TPM6","S",486,1,1,,,,"Insufficient conditions",
+"Q7TPS5","S",295,2,1,"24h","Oocyte",1.22340163637767,"Only one dataset with sufficient replicates",
+"Q7TPS5","S",643,2,1,"24h","Oocyte",1.01386088157332,"Only one dataset with sufficient replicates",
+"Q7TPS5","S",659,1,1,,,,"Insufficient conditions",
+"Q7TPS5","T",285,5,2,"24h","Oocyte",0.888820306049281,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TPV4","S",742,2,1,"5-day","Day 4",0.291467604970311,"Only one dataset with sufficient replicates",
+"Q7TPV4","S",1164,3,1,"5-day","Day 4",0.740128835467177,"Only one dataset with sufficient replicates",
+"Q7TPV4","S",1253,4,1,"5-day","Day 4",0.194910352413073,"Only one dataset with sufficient replicates",
+"Q7TPV4","S",1280,7,2,"5-day","Day 3",0.0931891001706351,"Ambiguous maximum (<0.25 log2)",
+"Q7TPV4","T",1232,7,2,"48h","LH",0.054195945573559,"Ambiguous maximum (<0.25 log2)",
+"Q7TPW1","S",16,9,3,"24h","Zygote",0.57483246839482,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q7TPW1","S",23,9,3,"24h","Oocyte",0.130700407507955,"Ambiguous maximum (<0.25 log2)",
+"Q7TPW1","S",281,2,1,"24h","Oocyte",0.0542175034379735,"Only one dataset with sufficient replicates",
+"Q7TPW1","S",288,4,2,"24h","Oocyte",1.25291062214952,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TPW1","S",296,8,3,"24h","Zygote",0.92938897586254,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q7TPW1","S",299,9,3,"24h","Zygote",0.729673078864783,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q7TPW1","S",436,4,2,"24h","Oocyte",1.02571971083495,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TPW1","T",294,2,1,"24h","Oocyte",0.350464068859969,"Only one dataset with sufficient replicates",
+"Q7TPW1","T",301,2,2,"24h","Oocyte",1.77711539888931,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TPX8","S",135,1,1,,,,"Insufficient conditions",
+"Q7TQ95","S",177,1,1,,,,"Insufficient conditions",
+"Q7TQ95","S",194,1,1,,,,"Insufficient conditions",
+"Q7TQ95","S",222,2,2,"24h","Oocyte",1.83083724054181,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TQ95","S",404,1,1,,,,"Insufficient conditions",
+"Q7TQ95","S",411,2,1,"5-day","Day 1",2.38501642260214,"Only one dataset with sufficient replicates",
+"Q7TQH0","S",109,1,1,,,,"Insufficient conditions",
+"Q7TQH0","S",304,1,1,,,,"Insufficient conditions",
+"Q7TQH0","S",337,7,2,"5-day","Day 3",0.307091664672553,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q7TQH0","S",388,2,1,"5-day","Day 4",0.577461981124982,"Only one dataset with sufficient replicates",
+"Q7TQH0","S",562,1,1,,,,"Insufficient conditions",
+"Q7TQH0","S",597,10,3,"24h","Oocyte",0.961608726629414,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q7TQH0","S",687,9,3,"24h","Oocyte",0.20473183136866,"Ambiguous maximum (<0.25 log2)",
+"Q7TQH0","T",505,1,1,,,,"Insufficient conditions",
+"Q7TQK0","S",477,1,1,,,,"Insufficient conditions",
+"Q7TQK5","S",507,3,1,"48h","HH",0.0967835086675812,"Only one dataset with sufficient replicates",
+"Q7TSC1","S",808,5,1,"5-day","Day 3",0.734030840481211,"Only one dataset with sufficient replicates",
+"Q7TSC1","S",1145,1,1,,,,"Insufficient conditions",
+"Q7TSC1","T",1349,1,1,,,,"Insufficient conditions",
+"Q7TSI3","S",738,1,1,,,,"Insufficient conditions",
+"Q7TSI3","S",745,1,1,,,,"Insufficient conditions",
+"Q7TT50","S",1692,5,1,"5-day","Day 3",0.31142007392873,"Only one dataset with sufficient replicates",
+"Q80SU3","S",161,2,2,"24h","Oocyte",0.465317498350725,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80SU3","S",244,1,1,,,,"Insufficient conditions",
+"Q80TL1","S",471,3,1,"48h","HH",0.151450550087251,"Only one dataset with sufficient replicates",
+"Q80U28","T",922,1,1,,,,"Insufficient conditions",
+"Q80U62","S",655,2,2,"24h","Oocyte",2.16959125184222,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80U87","S",392,1,1,,,,"Insufficient conditions",
+"Q80U87","S",653,4,2,"24h","Oocyte",0.575378349711233,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80U93","S",655,1,1,,,,"Insufficient conditions",
+"Q80U93","S",1050,1,1,,,,"Insufficient conditions",
+"Q80UJ7","S",399,1,1,,,,"Insufficient conditions",
+"Q80UJ7","S",536,7,3,"24h","Oocyte",1.11197661676862,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80UJ7","S",540,4,2,"5-day","Day 2",0.420291478131125,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q80UJ7","T",535,2,1,"5-day","Day 1",1.54901249641324,"Only one dataset with sufficient replicates",
+"Q80UP8","S",268,1,1,,,,"Insufficient conditions",
+"Q80UU9","T",205,10,3,"5-day","Day 1",0.496265018370067,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q80UU9","Y",204,2,1,"24h","Oocyte",0.104482976378392,"Only one dataset with sufficient replicates",
+"Q80UY2","S",189,3,2,"24h","Oocyte",0.619986657402523,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80VC9","S",193,2,2,"24h","Oocyte",0.300656401876878,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80VC9","S",202,3,2,"24h","Oocyte",0.505430060234723,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80VC9","S",334,2,1,"24h","Oocyte",2.05532951613085,"Only one dataset with sufficient replicates",
+"Q80VC9","S",380,1,1,,,,"Insufficient conditions",
+"Q80VC9","S",431,3,1,"5-day","Day 1",1.62718654244904,"Only one dataset with sufficient replicates",
+"Q80VC9","S",555,1,1,,,,"Insufficient conditions",
+"Q80VC9","S",812,4,2,"24h","Oocyte",1.07531761398136,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80VC9","S",1103,3,2,"24h","Oocyte",0.656303994511468,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80VC9","T",797,1,1,,,,"Insufficient conditions",
+"Q80VC9","T",830,3,1,"5-day","Day 1",0.565290424808827,"Only one dataset with sufficient replicates",
+"Q80VL1","T",248,1,1,,,,"Insufficient conditions",
+"Q80W00","S",451,5,2,"24h","Oocyte",0.622713262831388,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80W47","S",394,5,2,"24h","Oocyte",0.356975326079549,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80W47","S",395,2,1,"24h","Zygote",0.0336693702859137,"Only one dataset with sufficient replicates",
+"Q80W47","T",397,5,1,"5-day","Day 2",0.676972794228341,"Only one dataset with sufficient replicates",
+"Q80W85","S",5,8,2,"48h","HH",0.344991822932649,"Provisional anchor-aligned maximum","48h / HH"
+"Q80W85","S",7,2,1,"24h","Zygote",0.0446107164640974,"Only one dataset with sufficient replicates",
+"Q80W85","S",8,8,2,"48h","HH",0.513986402277034,"Provisional anchor-aligned maximum","48h / HH"
+"Q80W85","S",95,9,3,"24h","Oocyte",0.500191181988381,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80W85","S",165,1,1,,,,"Insufficient conditions",
+"Q80W85","S",184,10,3,"24h","Oocyte",0.283495908940164,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80W85","S",189,2,1,"24h","Oocyte",2.46024060292837,"Only one dataset with sufficient replicates",
+"Q80W85","T",6,2,1,"24h","Zygote",0.109865439216442,"Only one dataset with sufficient replicates",
+"Q80W85","T",179,4,2,"24h","Zygote",2.43637374561779,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q80W93","S",1988,3,1,"5-day","Day 1",0.142580435668554,"Only one dataset with sufficient replicates",
+"Q80WE4","S",1694,1,1,,,,"Insufficient conditions",
+"Q80WJ7","S",423,7,2,"24h","Oocyte",0.821400692830288,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80WJ7","T",96,1,1,,,,"Insufficient conditions",
+"Q80WQ2","T",11,1,1,,,,"Insufficient conditions",
+"Q80WQ6","Y",423,1,1,,,,"Insufficient conditions",
+"Q80X50","S",491,3,1,"5-day","Day 3",0.284762010953603,"Only one dataset with sufficient replicates",
+"Q80X90","S",730,1,1,,,,"Insufficient conditions",
+"Q80X90","S",886,2,2,"24h","Oocyte",0.426751765241196,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80X90","S",932,2,2,"24h","Oocyte",0.728729876212382,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80X90","S",983,3,2,"24h","Oocyte",2.2803919383331,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80X90","S",1316,1,1,,,,"Insufficient conditions",
+"Q80X90","S",1505,3,2,"5-day","Day 1",1.33139645740645,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q80X90","S",1965,2,1,"24h","Zygote",0.452048756140254,"Only one dataset with sufficient replicates",
+"Q80X90","S",2465,1,1,,,,"Insufficient conditions",
+"Q80XU3","S",19,4,1,"5-day","Day 2",1.18082610788244,"Only one dataset with sufficient replicates",
+"Q80XU3","S",181,5,2,"24h","Zygote",1.27271136623027,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q80XU3","S",214,8,3,"24h","Zygote",0.253219875546611,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q80XU3","T",179,2,1,"24h","Oocyte",0.351325466342711,"Only one dataset with sufficient replicates",
+"Q80Y61","S",471,2,1,"24h","Oocyte",0.407664341038208,"Only one dataset with sufficient replicates",
+"Q80Y81","S",797,3,2,"24h","Oocyte",0.586947033643307,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q80YR5","S",387,5,1,"5-day","Day 4",0.0690645766924902,"Only one dataset with sufficient replicates",
+"Q80YV2","S",369,3,1,"5-day","Day 3",0.969321454864504,"Only one dataset with sufficient replicates",
+"Q80YV2","S",393,3,1,"5-day","Day 3",0.564272437213374,"Only one dataset with sufficient replicates",
+"Q80ZN5","Y",84,3,1,"48h","HH",0.104798295926493,"Only one dataset with sufficient replicates",
+"Q80ZX8","S",703,1,1,,,,"Insufficient conditions",
+"Q811J3","S",158,2,1,"24h","Zygote",0.434769231491254,"Only one dataset with sufficient replicates",
+"Q812F8","T",94,2,1,"24h","Oocyte",0.393651846102898,"Only one dataset with sufficient replicates",
+"Q8BFZ3","S",339,4,1,"5-day","Day 1",0.682415239398825,"Only one dataset with sufficient replicates",
+"Q8BFZ3","T",130,5,1,"5-day","Day 5",0.0557354211141288,"Only one dataset with sufficient replicates",
+"Q8BG05","S",359,1,1,,,,"Insufficient conditions",
+"Q8BG87","S",497,1,1,,,,"Insufficient conditions",
+"Q8BG87","S",503,1,1,,,,"Insufficient conditions",
+"Q8BG87","T",583,1,1,,,,"Insufficient conditions",
+"Q8BG92","S",302,1,1,,,,"Insufficient conditions",
+"Q8BGC0","S",441,1,1,,,,"Insufficient conditions",
+"Q8BGC0","S",679,2,1,"24h","Oocyte",0.803630675632029,"Only one dataset with sufficient replicates",
+"Q8BGD4","S",15,3,1,"5-day","Day 5",0.288833503321912,"Only one dataset with sufficient replicates",
+"Q8BGD9","S",93,4,2,"24h","Oocyte",0.834920601642265,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BGD9","S",418,2,1,"5-day","Day 3",0.131343296724067,"Only one dataset with sufficient replicates",
+"Q8BGD9","S",422,5,2,"48h","HL",0.15007395773649,"Ambiguous maximum (<0.25 log2)",
+"Q8BGD9","S",425,5,2,"48h","HL",0.0781773360963136,"Ambiguous maximum (<0.25 log2)",
+"Q8BGD9","S",445,5,2,"24h","Zygote",0.5153290639006,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8BGD9","S",497,5,2,"24h","Zygote",1.40009890174909,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8BGD9","S",498,5,2,"24h","Oocyte",0.918386420297372,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BGD9","S",504,9,3,"24h","Oocyte",1.22774670845245,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BGD9","T",97,2,1,"24h","Zygote",0.797174164726764,"Only one dataset with sufficient replicates",
+"Q8BGD9","T",420,5,1,"5-day","Day 2",0.242815482878008,"Only one dataset with sufficient replicates",
+"Q8BGD9","Y",96,3,1,"48h","HH",0.278456955591755,"Only one dataset with sufficient replicates",
+"Q8BGF7","S",474,3,2,"24h","Oocyte",0.067252593606602,"Ambiguous maximum (<0.25 log2)",
+"Q8BGF7","S",1188,2,1,"24h","Oocyte",2.69437825897983,"Only one dataset with sufficient replicates",
+"Q8BGF7","T",205,1,1,,,,"Insufficient conditions",
+"Q8BGF7","T",1187,5,2,"24h","Oocyte",1.61538859919766,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BGQ1","S",119,3,1,"48h","HH",0.155413454495969,"Only one dataset with sufficient replicates",
+"Q8BGQ1","T",81,1,1,,,,"Insufficient conditions",
+"Q8BGQ1","T",130,1,1,,,,"Insufficient conditions",
+"Q8BGS1","T",387,5,2,"48h","LH",0.275847757235724,"Provisional anchor-aligned maximum","48h / LH"
+"Q8BGS7","T",40,1,1,,,,"Insufficient conditions",
+"Q8BH24","Y",129,5,1,"5-day","Day 1",0.0225023016440602,"Only one dataset with sufficient replicates",
+"Q8BH24","Y",130,5,1,"5-day","Day 1",0.0225023016440602,"Only one dataset with sufficient replicates",
+"Q8BH50","S",66,1,1,,,,"Insufficient conditions",
+"Q8BH66","S",10,2,1,"24h","Oocyte",0.655008847798713,"Only one dataset with sufficient replicates",
+"Q8BH66","S",22,2,1,"24h","Oocyte",0.191237830371179,"Only one dataset with sufficient replicates",
+"Q8BH66","S",23,4,2,"24h","Oocyte",0.259212830447577,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BH74","S",11,4,2,"24h","Oocyte",1.52299627693122,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BH74","S",87,1,1,,,,"Insufficient conditions",
+"Q8BHL3","S",644,5,1,"5-day","Day 3",0.15006904531953,"Only one dataset with sufficient replicates",
+"Q8BHL3","S",664,4,1,"5-day","Day 4",0.369787085906587,"Only one dataset with sufficient replicates",
+"Q8BHL8","S",153,9,3,"5-day","Day 1",0.0344582452859328,"Ambiguous maximum (<0.25 log2)",
+"Q8BHN1","S",79,1,1,,,,"Insufficient conditions",
+"Q8BHZ4","S",39,1,1,,,,"Insufficient conditions",
+"Q8BI84","S",1915,2,1,"24h","Oocyte",1.30167128907036,"Only one dataset with sufficient replicates",
+"Q8BIG4","S",235,1,1,,,,"Insufficient conditions",
+"Q8BIJ7","S",52,9,3,"24h","Oocyte",2.00163147496187,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BIL5","S",235,1,1,,,,"Insufficient conditions",
+"Q8BIZ6","S",18,4,1,"5-day","Day 3",0.161711859919524,"Only one dataset with sufficient replicates",
+"Q8BJ37","S",119,2,1,"24h","Oocyte",2.92606800884833,"Only one dataset with sufficient replicates",
+"Q8BJF9","S",199,2,1,"24h","Oocyte",0.360331138732857,"Only one dataset with sufficient replicates",
+"Q8BJH1","S",212,1,1,,,,"Insufficient conditions",
+"Q8BJH1","S",224,1,1,,,,"Insufficient conditions",
+"Q8BJL1","S",383,2,2,"24h","Oocyte",2.33320465633103,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BJU0","S",309,2,1,"24h","Oocyte",1.06564000548474,"Only one dataset with sufficient replicates",
+"Q8BJU0","T",82,4,1,"5-day","Day 2",0.200677787248912,"Only one dataset with sufficient replicates",
+"Q8BK63","T",321,2,1,"24h","Oocyte",2.73035110464545,"Only one dataset with sufficient replicates",
+"Q8BL99","S",1206,1,1,,,,"Insufficient conditions",
+"Q8BL99","S",1209,1,1,,,,"Insufficient conditions",
+"Q8BLH7","S",545,1,1,,,,"Insufficient conditions",
+"Q8BLH7","S",546,2,2,"5-day","Day 1",0.57540564134662,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8BLH7","S",559,2,1,"24h","Oocyte",2.38907551022385,"Only one dataset with sufficient replicates",
+"Q8BLH7","S",564,3,2,"24h","Oocyte",2.02104140642535,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BLH7","S",575,4,2,"24h","Oocyte",1.78210894804917,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BLH7","T",167,2,1,"24h","Oocyte",2.13730697815327,"Only one dataset with sufficient replicates",
+"Q8BLH7","T",547,1,1,,,,"Insufficient conditions",
+"Q8BMF4","T",308,3,1,"48h","HL",0.5586553080058,"Only one dataset with sufficient replicates",
+"Q8BMG7","S",448,1,1,,,,"Insufficient conditions",
+"Q8BMG7","T",29,1,1,,,,"Insufficient conditions",
+"Q8BMJ2","Y",770,1,1,,,,"Insufficient conditions",
+"Q8BMP6","S",126,3,2,"24h","Oocyte",0.492164176982886,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BN58","S",685,1,1,,,,"Insufficient conditions",
+"Q8BP27","S",67,10,3,"24h","Oocyte",1.24327456436739,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BP27","S",71,7,2,"24h","Oocyte",1.37621474696947,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BP27","S",83,10,3,"24h","Oocyte",1.24327456436739,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BP27","S",87,7,2,"24h","Oocyte",1.37621474696947,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BP27","S",99,10,3,"24h","Oocyte",1.24327456436739,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BP27","S",103,7,2,"24h","Oocyte",1.37621474696947,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BP27","S",115,2,1,"24h","Zygote",0.488616127627576,"Only one dataset with sufficient replicates",
+"Q8BP27","T",70,5,1,"5-day","Day 3",0.826515063043811,"Only one dataset with sufficient replicates",
+"Q8BP27","T",86,5,1,"5-day","Day 3",0.826515063043811,"Only one dataset with sufficient replicates",
+"Q8BP27","T",102,5,1,"5-day","Day 3",0.826515063043811,"Only one dataset with sufficient replicates",
+"Q8BP27","T",129,2,1,"24h","Oocyte",0.486374092650021,"Only one dataset with sufficient replicates",
+"Q8BQ33","S",599,1,1,,,,"Insufficient conditions",
+"Q8BR63","S",65,2,1,"24h","Oocyte",1.2478351856692,"Only one dataset with sufficient replicates",
+"Q8BR63","T",66,1,1,,,,"Insufficient conditions",
+"Q8BR63","Y",64,2,1,"24h","Oocyte",0.955795385765496,"Only one dataset with sufficient replicates",
+"Q8BR65","S",234,3,1,"5-day","Day 4",0.314358407941274,"Only one dataset with sufficient replicates",
+"Q8BRF7","S",300,10,3,"24h","Oocyte",1.40200470769508,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BRN9","S",502,3,2,"5-day","Day 1",0.150879234334635,"Ambiguous maximum (<0.25 log2)",
+"Q8BRN9","T",499,1,1,,,,"Insufficient conditions",
+"Q8BS90","T",504,1,1,,,,"Insufficient conditions",
+"Q8BTI8","S",433,4,1,"5-day","Day 3",0.870271028688679,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",435,4,1,"5-day","Day 4",0.184216140406217,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",962,4,1,"5-day","Day 4",0.282189931062684,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",964,1,1,,,,"Insufficient conditions",
+"Q8BTI8","S",1068,5,2,"24h","Oocyte",0.36333039553069,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BTI8","S",1077,2,1,"24h","Oocyte",0.36333039553069,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",1151,5,2,"24h","Zygote",0.590565493902584,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8BTI8","S",1216,2,1,"24h","Oocyte",0.499849666721399,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",1278,7,2,"5-day","Day 3",0.203370704647833,"Ambiguous maximum (<0.25 log2)",
+"Q8BTI8","S",1305,10,3,"24h","Oocyte",1.08302369874455,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BTI8","S",1360,10,3,"24h","Zygote",0.481763868011724,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8BTI8","S",2054,5,1,"5-day","Day 4",0.289433474333279,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",2224,2,1,"24h","Oocyte",1.95783657866777,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",2308,4,2,"24h","Oocyte",3.77488372431362,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BTI8","S",2335,2,2,"24h","Oocyte",1.89533162808056,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BTI8","S",2351,6,2,"24h","Oocyte",1.14217202057111,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BTI8","S",2360,2,1,"24h","Oocyte",0.852195449160565,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",2404,2,1,"24h","Oocyte",1.04536543414176,"Only one dataset with sufficient replicates",
+"Q8BTI8","S",2535,7,2,"5-day","Day 4",0.0142409343287557,"Ambiguous maximum (<0.25 log2)",
+"Q8BTI8","T",955,3,1,"48h","HH",0.144645689147225,"Only one dataset with sufficient replicates",
+"Q8BTI8","T",973,10,3,"5-day","Day 3",0.6865854108264,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q8BTI8","T",2241,1,1,,,,"Insufficient conditions",
+"Q8BTI8","T",2310,3,2,"24h","Oocyte",2.39571237523938,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BTI8","T",2334,1,1,,,,"Insufficient conditions",
+"Q8BTI8","T",2350,2,1,"24h","Oocyte",1.60743689908615,"Only one dataset with sufficient replicates",
+"Q8BTI8","T",2362,10,3,"5-day","Day 4",0.528060490052662,"Provisional anchor-aligned maximum","5-day / Day 4"
+"Q8BTI8","T",2420,6,2,"5-day","Day 1",0.571607622939762,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8BTM8","S",1084,4,2,"24h","Oocyte",0.428392148076195,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BTM8","S",1533,1,1,,,,"Insufficient conditions",
+"Q8BTM8","T",1089,1,1,,,,"Insufficient conditions",
+"Q8BU85","S",242,1,1,,,,"Insufficient conditions",
+"Q8BU85","S",244,6,3,"24h","Oocyte",0.958587763782159,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BUK6","S",238,1,1,,,,"Insufficient conditions",
+"Q8BVI5","S",39,1,1,,,,"Insufficient conditions",
+"Q8BVL3","S",335,3,1,"5-day","Day 4",0.637849327981939,"Only one dataset with sufficient replicates",
+"Q8BVY0","S",326,1,1,,,,"Insufficient conditions",
+"Q8BVY0","T",376,1,1,,,,"Insufficient conditions",
+"Q8BW70","S",575,1,1,,,,"Insufficient conditions",
+"Q8BWW4","S",578,5,1,"5-day","Day 3",1.05832037141295,"Only one dataset with sufficient replicates",
+"Q8BWW4","S",642,7,2,"5-day","Day 3",0.549686165040773,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q8BWW4","S",717,4,1,"5-day","Day 3",0.826028391664229,"Only one dataset with sufficient replicates",
+"Q8BWW4","T",644,2,1,"48h","HH",0.158629775514603,"Only one dataset with sufficient replicates",
+"Q8BX09","Y",167,2,1,"24h","Oocyte",0.344133721499654,"Only one dataset with sufficient replicates",
+"Q8BX10","S",79,2,1,"5-day","Day 2",0.632976519822043,"Only one dataset with sufficient replicates",
+"Q8BX22","S",122,4,2,"24h","Oocyte",0.556797627038804,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BX22","S",305,1,1,,,,"Insufficient conditions",
+"Q8BX22","T",159,2,2,"24h","Oocyte",1.22036364981251,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BY87","S",832,7,3,"24h","Oocyte",0.808801885066968,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BY87","S",835,2,1,"24h","Oocyte",3.10955393853482,"Only one dataset with sufficient replicates",
+"Q8BY89","T",14,2,1,"24h","Oocyte",1.67884144115813,"Only one dataset with sufficient replicates",
+"Q8BYK8","S",476,5,2,"24h","Oocyte",1.59570937815836,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BYK8","S",565,2,1,"24h","Oocyte",2.09120790121292,"Only one dataset with sufficient replicates",
+"Q8BYK8","S",1150,4,2,"24h","Oocyte",0.871327515966527,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8BZ03","S",197,2,1,"5-day","Day 1",0.57343378780738,"Only one dataset with sufficient replicates",
+"Q8C079","S",335,6,2,"24h","Oocyte",1.21643277772795,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8C080","S",29,2,1,"24h","Oocyte",0.652954120640599,"Only one dataset with sufficient replicates",
+"Q8C0D4","S",101,1,1,,,,"Insufficient conditions",
+"Q8C0D4","S",238,4,2,"24h","Oocyte",0.412626512167718,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8C0D4","S",431,1,1,,,,"Insufficient conditions",
+"Q8C0D4","T",229,4,2,"24h","Oocyte",0.412626512167718,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8C0I1","S",52,4,1,"5-day","Day 2",0.0334029737725583,"Only one dataset with sufficient replicates",
+"Q8C0I1","S",57,3,1,"48h","LH",0.8527099238938,"Only one dataset with sufficient replicates",
+"Q8C0I1","T",61,1,1,,,,"Insufficient conditions",
+"Q8C0J2","S",70,7,3,"24h","Oocyte",0.408725446445487,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8C0J2","S",269,3,2,"24h","Oocyte",0.610418557358496,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8C0J2","S",287,9,3,"5-day","Day 1",0.293228059820287,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8C0J6","S",211,5,2,"24h","Oocyte",0.220334597563689,"Ambiguous maximum (<0.25 log2)",
+"Q8C0P0","S",235,1,1,,,,"Insufficient conditions",
+"Q8C0P0","S",587,1,1,,,,"Insufficient conditions",
+"Q8C0P0","T",193,1,1,,,,"Insufficient conditions",
+"Q8C0P0","T",508,2,1,"24h","Oocyte",2.02717533373447,"Only one dataset with sufficient replicates",
+"Q8C142","T",194,2,1,"24h","Oocyte",0.99261446679421,"Only one dataset with sufficient replicates",
+"Q8C145","S",488,1,1,,,,"Insufficient conditions",
+"Q8C156","S",25,1,1,,,,"Insufficient conditions",
+"Q8C156","S",83,1,1,,,,"Insufficient conditions",
+"Q8C156","S",425,1,1,,,,"Insufficient conditions",
+"Q8C166","T",525,1,1,,,,"Insufficient conditions",
+"Q8C190","T",104,1,1,,,,"Insufficient conditions",
+"Q8C1B2","S",34,2,1,"24h","Oocyte",0.674582552295789,"Only one dataset with sufficient replicates",
+"Q8C1D8","S",345,3,1,"5-day","Day 4",0.691339898078155,"Only one dataset with sufficient replicates",
+"Q8C1S0","S",226,3,1,"5-day","Day 3",0.284033222567054,"Only one dataset with sufficient replicates",
+"Q8C263","S",389,1,1,,,,"Insufficient conditions",
+"Q8C3F2","S",407,2,1,"24h","Zygote",0.869739555677006,"Only one dataset with sufficient replicates",
+"Q8C4J7","T",496,2,1,"24h","Oocyte",0.849073766134982,"Only one dataset with sufficient replicates",
+"Q8C5L3","S",165,9,3,"24h","Zygote",0.329601462479028,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8C5L6","S",301,4,2,"5-day","Day 1",0.807628167766552,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8C5P7","S",60,2,1,"24h","Oocyte",0.681600501618309,"Only one dataset with sufficient replicates",
+"Q8C5P7","S",62,1,1,,,,"Insufficient conditions",
+"Q8C5R2","S",225,2,1,"5-day","Day 3",0.243258005165798,"Only one dataset with sufficient replicates",
+"Q8C7E7","S",64,3,2,"24h","Oocyte",0.0537108960570478,"Ambiguous maximum (<0.25 log2)",
+"Q8C7E7","S",137,1,1,,,,"Insufficient conditions",
+"Q8C811","S",37,1,1,,,,"Insufficient conditions",
+"Q8C811","T",43,1,1,,,,"Insufficient conditions",
+"Q8C9J3","S",1310,2,1,"24h","Zygote",0.521841974835905,"Only one dataset with sufficient replicates",
+"Q8C9J3","T",1315,2,1,"24h","Zygote",0.521841974835905,"Only one dataset with sufficient replicates",
+"Q8CAA7","S",175,9,3,"24h","Zygote",0.806742599491763,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8CAA7","T",173,4,1,"5-day","Day 1",0.0724729464317253,"Only one dataset with sufficient replicates",
+"Q8CAQ8","S",232,3,1,"48h","HH",0.259611885764647,"Only one dataset with sufficient replicates",
+"Q8CAQ8","T",230,3,1,"48h","HH",0.259611885764647,"Only one dataset with sufficient replicates",
+"Q8CB87","S",869,3,1,"48h","LH",0.441936991351819,"Only one dataset with sufficient replicates",
+"Q8CB87","T",868,3,1,"48h","LH",0.441936991351819,"Only one dataset with sufficient replicates",
+"Q8CB87","T",874,3,1,"48h","LH",0.441936991351819,"Only one dataset with sufficient replicates",
+"Q8CBW3","S",183,5,1,"5-day","Day 5",0.0052621866335798,"Only one dataset with sufficient replicates",
+"Q8CBW3","S",216,2,2,"24h","Oocyte",0.614250702109171,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8CD92","Y",285,3,1,"5-day","Day 5",0.183248346654263,"Only one dataset with sufficient replicates",
+"Q8CDA1","S",1103,1,1,,,,"Insufficient conditions",
+"Q8CDA1","Y",391,2,1,"24h","Oocyte",0.381756838341612,"Only one dataset with sufficient replicates",
+"Q8CDG3","S",996,1,1,,,,"Insufficient conditions",
+"Q8CDJ3","T",11,1,1,,,,"Insufficient conditions",
+"Q8CEC0","S",710,2,1,"24h","Oocyte",1.86007594523391,"Only one dataset with sufficient replicates",
+"Q8CFE4","T",708,1,1,,,,"Insufficient conditions",
+"Q8CFI0","S",477,3,1,"5-day","Day 5",0.282030982069619,"Only one dataset with sufficient replicates",
+"Q8CFI0","S",478,3,1,"5-day","Day 5",0.0744864892639292,"Only one dataset with sufficient replicates",
+"Q8CG76","S",40,1,1,,,,"Insufficient conditions",
+"Q8CG79","S",736,3,1,"5-day","Day 3",0.86027763435489,"Only one dataset with sufficient replicates",
+"Q8CGA2","S",92,2,1,"24h","Zygote",0.135847910302989,"Only one dataset with sufficient replicates",
+"Q8CGC4","S",165,2,1,"24h","Oocyte",1.6452389551223,"Only one dataset with sufficient replicates",
+"Q8CGI1","S",1151,2,1,"24h","Zygote",0.329900855487944,"Only one dataset with sufficient replicates",
+"Q8CGZ0","S",913,1,1,,,,"Insufficient conditions",
+"Q8CH25","S",999,4,1,"5-day","Day 4",0.0754705688434072,"Only one dataset with sufficient replicates",
+"Q8CHC4","S",1084,2,2,"24h","Oocyte",1.70186334598481,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8CHC4","S",1175,2,2,"24h","Oocyte",0.442767973813485,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8CHC4","S",1350,3,2,"24h","Oocyte",1.21087480406,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8CHC4","S",1445,1,1,,,,"Insufficient conditions",
+"Q8CHC4","T",1075,2,2,"5-day","Day 1",0.426031900338405,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8CHS8","S",18,1,1,,,,"Insufficient conditions",
+"Q8CHW4","S",540,10,3,"24h","Zygote",0.0492628636237544,"Ambiguous maximum (<0.25 log2)",
+"Q8CHY6","S",96,2,1,"5-day","Day 4",0.706521638309036,"Only one dataset with sufficient replicates",
+"Q8CI08","S",48,2,1,"24h","Oocyte",0.323534761573779,"Only one dataset with sufficient replicates",
+"Q8CI11","S",505,3,1,"5-day","Day 3",0.121270708864726,"Only one dataset with sufficient replicates",
+"Q8CI95","S",186,6,2,"24h","Oocyte",0.173306044154735,"Ambiguous maximum (<0.25 log2)",
+"Q8CI95","T",27,1,1,,,,"Insufficient conditions",
+"Q8CIB5","S",666,2,1,"24h","Oocyte",0.776366841041124,"Only one dataset with sufficient replicates",
+"Q8CIE6","S",173,5,2,"24h","Oocyte",2.90745375336525,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8CIG3","S",17,2,1,"24h","Oocyte",1.61111680174255,"Only one dataset with sufficient replicates",
+"Q8CIW6","S",643,2,2,"24h","Oocyte",0.931503519911406,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8CIW6","S",751,2,1,"24h","Oocyte",0.65768739905868,"Only one dataset with sufficient replicates",
+"Q8JZK9","S",495,5,2,"5-day","Day 1",0.522267071349541,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8JZQ2","Y",332,1,1,,,,"Insufficient conditions",
+"Q8JZQ5","S",306,2,1,"24h","Zygote",0.100653474708054,"Only one dataset with sufficient replicates",
+"Q8JZQ9","S",79,3,1,"5-day","Day 3",0.268227682420646,"Only one dataset with sufficient replicates",
+"Q8JZQ9","S",111,3,2,"24h","Oocyte",1.90597355339964,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8JZQ9","S",120,8,3,"24h","Zygote",0.160560037878483,"Ambiguous maximum (<0.25 log2)",
+"Q8JZQ9","S",123,10,3,"24h","Zygote",0.122764960286005,"Ambiguous maximum (<0.25 log2)",
+"Q8JZY4","S",295,5,1,"5-day","Day 2",0.057831125691763,"Only one dataset with sufficient replicates",
+"Q8K012","S",295,5,2,"24h","Zygote",0.421438768743958,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8K012","S",488,4,2,"5-day","Day 1",0.46594088530645,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8K012","S",489,4,1,"5-day","Day 3",0.130678069512038,"Only one dataset with sufficient replicates",
+"Q8K012","S",501,9,3,"24h","Oocyte",0.0987329227854641,"Ambiguous maximum (<0.25 log2)",
+"Q8K012","T",507,1,1,,,,"Insufficient conditions",
+"Q8K012","Y",506,1,1,,,,"Insufficient conditions",
+"Q8K019","S",177,7,2,"5-day","Day 4",0.349983100598243,"Provisional anchor-aligned maximum","5-day / Day 4"
+"Q8K019","S",284,4,1,"5-day","Day 5",0.0154934039085948,"Only one dataset with sufficient replicates",
+"Q8K019","S",289,4,1,"5-day","Day 3",0.952247066435593,"Only one dataset with sufficient replicates",
+"Q8K019","S",510,2,1,"5-day","Day 5",1.40089940363049,"Only one dataset with sufficient replicates",
+"Q8K019","S",656,4,1,"5-day","Day 4",0.114540792077815,"Only one dataset with sufficient replicates",
+"Q8K019","T",400,3,1,"5-day","Day 3",0.392796255822853,"Only one dataset with sufficient replicates",
+"Q8K021","S",43,1,1,,,,"Insufficient conditions",
+"Q8K021","T",45,1,1,,,,"Insufficient conditions",
+"Q8K0S2","S",161,4,2,"24h","Oocyte",1.15821148345456,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K0S2","T",90,2,2,"24h","Oocyte",1.62265192006681,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K0U4","S",23,1,1,,,,"Insufficient conditions",
+"Q8K0U4","S",24,1,1,,,,"Insufficient conditions",
+"Q8K0V4","S",299,5,2,"24h","Zygote",0.167184996565743,"Ambiguous maximum (<0.25 log2)",
+"Q8K136","S",182,1,1,,,,"Insufficient conditions",
+"Q8K1A5","S",10,4,2,"24h","Oocyte",0.634036253475983,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K1A5","S",17,1,1,,,,"Insufficient conditions",
+"Q8K1A5","T",12,1,1,,,,"Insufficient conditions",
+"Q8K1J5","S",269,3,1,"5-day","Day 3",0.689964377957891,"Only one dataset with sufficient replicates",
+"Q8K1L6","S",86,2,1,"24h","Oocyte",1.74264781801832,"Only one dataset with sufficient replicates",
+"Q8K1M6","S",622,10,3,"24h","Oocyte",0.480934790885328,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K1X1","S",208,2,1,"5-day","Day 2",0.691930645580754,"Only one dataset with sufficient replicates",
+"Q8K1X1","S",209,2,1,"24h","Oocyte",1.34723339716894,"Only one dataset with sufficient replicates",
+"Q8K212","S",23,4,2,"24h","Oocyte",2.38445110579638,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K212","S",493,2,1,"24h","Zygote",0.390352473863176,"Only one dataset with sufficient replicates",
+"Q8K212","S",526,1,1,,,,"Insufficient conditions",
+"Q8K212","S",529,1,1,,,,"Insufficient conditions",
+"Q8K212","T",44,5,2,"24h","Oocyte",0.563664294129328,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K221","S",72,1,1,,,,"Insufficient conditions",
+"Q8K245","S",497,2,1,"24h","Oocyte",1.12727301912183,"Only one dataset with sufficient replicates",
+"Q8K298","S",180,5,1,"5-day","Day 3",0.241009020935858,"Only one dataset with sufficient replicates",
+"Q8K298","S",293,2,1,"24h","Oocyte",1.98754024293135,"Only one dataset with sufficient replicates",
+"Q8K298","S",444,1,1,,,,"Insufficient conditions",
+"Q8K298","S",637,2,1,"24h","Oocyte",1.50307994996569,"Only one dataset with sufficient replicates",
+"Q8K2C9","S",114,7,3,"48h","HH",0.0415602871788465,"Ambiguous maximum (<0.25 log2)",
+"Q8K2C9","S",138,2,1,"5-day","Day 1",0.562824522752889,"Only one dataset with sufficient replicates",
+"Q8K2F8","S",183,2,1,"24h","Oocyte",0.272341242624371,"Only one dataset with sufficient replicates",
+"Q8K2F8","S",192,9,3,"5-day","Day 3",0.00790826065038353,"Ambiguous maximum (<0.25 log2)",
+"Q8K2K6","S",181,6,2,"24h","Oocyte",0.806378606120372,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K2L8","S",309,4,2,"24h","Oocyte",0.667719826920058,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K2L8","S",314,4,2,"24h","Oocyte",0.972646417666432,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K2V1","S",443,4,2,"24h","Oocyte",1.59465852357551,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K2V1","S",482,2,1,"5-day","Day 1",0.0960425912774365,"Only one dataset with sufficient replicates",
+"Q8K2W6","S",123,1,1,,,,"Insufficient conditions",
+"Q8K2Z2","S",239,3,1,"48h","HL",0.0938067235897524,"Only one dataset with sufficient replicates",
+"Q8K310","S",188,1,1,,,,"Insufficient conditions",
+"Q8K310","S",195,1,1,,,,"Insufficient conditions",
+"Q8K327","S",394,1,1,,,,"Insufficient conditions",
+"Q8K327","S",532,4,2,"5-day","Day 3",0.543351166140441,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q8K330","S",88,1,1,,,,"Insufficient conditions",
+"Q8K330","S",591,2,1,"24h","Zygote",0.224403386305832,"Only one dataset with sufficient replicates",
+"Q8K330","S",594,2,1,"5-day","Day 2",0.646767870914003,"Only one dataset with sufficient replicates",
+"Q8K330","S",627,2,2,"24h","Oocyte",0.371244308603954,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K341","S",315,1,1,,,,"Insufficient conditions",
+"Q8K382","S",520,2,1,"5-day","Day 1",0.0392770995972107,"Only one dataset with sufficient replicates",
+"Q8K3V4","S",53,2,1,"24h","Oocyte",0.787520137691235,"Only one dataset with sufficient replicates",
+"Q8K3V4","S",54,5,2,"5-day","Day 1",0.408215657951351,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8K3V4","S",55,3,1,"48h","HH",0.588379458065425,"Only one dataset with sufficient replicates",
+"Q8K3V4","S",68,8,3,"5-day","Day 2",0.322523056473026,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q8K3V4","S",83,7,3,"24h","Oocyte",3.04783113696075,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K3V4","S",214,5,1,"5-day","Day 1",0.709823168332267,"Only one dataset with sufficient replicates",
+"Q8K3V4","S",218,10,3,"48h","HH",0.0154446237064647,"Ambiguous maximum (<0.25 log2)",
+"Q8K3V4","S",371,8,3,"24h","Zygote",0.548482984645494,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8K3V4","T",360,7,3,"5-day","Day 2",0.111563063036552,"Ambiguous maximum (<0.25 log2)",
+"Q8K3V4","T",383,8,3,"24h","Oocyte",3.53355656244916,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K3V4","Y",380,2,1,"24h","Zygote",0.0688226726025523,"Only one dataset with sufficient replicates",
+"Q8K3W3","S",263,3,1,"5-day","Day 3",0.0356853429851682,"Only one dataset with sufficient replicates",
+"Q8K3X4","S",195,3,1,"5-day","Day 4",0.619035895104554,"Only one dataset with sufficient replicates",
+"Q8K3Y3","S",200,1,1,,,,"Insufficient conditions",
+"Q8K482","S",599,3,1,"48h","HL",0.0875191599889149,"Only one dataset with sufficient replicates",
+"Q8K4P0","S",1204,3,2,"24h","Oocyte",0.93747459599358,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K4R9","S",70,7,3,"24h","Oocyte",0.422625180939974,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8K4R9","S",328,2,1,"24h","Oocyte",1.75441433362472,"Only one dataset with sufficient replicates",
+"Q8K4R9","S",598,1,1,,,,"Insufficient conditions",
+"Q8K4R9","S",620,1,1,,,,"Insufficient conditions",
+"Q8N7N5","S",100,6,3,"24h","Zygote",0.259552947756777,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8N9S3","S",189,1,1,,,,"Insufficient conditions",
+"Q8QZY3","T",16,5,2,"24h","Oocyte",3.00407913865146,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R001","S",207,4,2,"48h","LH",0.236127728669093,"Ambiguous maximum (<0.25 log2)",
+"Q8R001","S",208,2,1,"24h","Oocyte",3.22402424896044,"Only one dataset with sufficient replicates",
+"Q8R001","S",215,1,1,,,,"Insufficient conditions",
+"Q8R001","S",222,2,1,"24h","Zygote",0.95317249312123,"Only one dataset with sufficient replicates",
+"Q8R001","T",216,5,2,"24h","Oocyte",1.48884147531463,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R010","S",36,2,2,"5-day","Day 1",1.55653090170354,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8R080","S",200,1,1,,,,"Insufficient conditions",
+"Q8R080","S",257,1,1,,,,"Insufficient conditions",
+"Q8R080","S",311,1,1,,,,"Insufficient conditions",
+"Q8R080","S",534,1,1,,,,"Insufficient conditions",
+"Q8R080","S",736,1,1,,,,"Insufficient conditions",
+"Q8R080","T",107,3,2,"24h","Oocyte",0.696255591818112,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R080","T",420,3,2,"24h","Oocyte",0.813729339707345,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R080","T",656,2,2,"24h","Oocyte",0.831373611118094,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R183","S",264,4,1,"5-day","Day 3",1.27150736023741,"Only one dataset with sufficient replicates",
+"Q8R1B4","S",39,2,1,"24h","Zygote",0.74583146674088,"Only one dataset with sufficient replicates",
+"Q8R1B4","S",166,10,3,"24h","Oocyte",0.0563581207746182,"Ambiguous maximum (<0.25 log2)",
+"Q8R1F6","S",593,4,2,"24h","Zygote",0.200051892383732,"Ambiguous maximum (<0.25 log2)",
+"Q8R1F6","T",584,1,1,,,,"Insufficient conditions",
+"Q8R1G6","S",199,1,1,,,,"Insufficient conditions",
+"Q8R1K1","S",296,1,1,,,,"Insufficient conditions",
+"Q8R1K1","S",301,2,1,"5-day","Day 1",2.29303985739758,"Only one dataset with sufficient replicates",
+"Q8R1Q8","S",207,8,3,"24h","Oocyte",0.684430043986524,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R1Q8","S",398,3,2,"5-day","Day 2",0.375875443318698,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q8R1Q8","S",421,10,3,"24h","Oocyte",1.63204101502184,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R1Q8","S",510,5,2,"5-day","Day 1",1.0902331171181,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8R1X6","S",126,4,2,"24h","Oocyte",0.521448326241044,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R2M2","T",342,6,2,"5-day","Day 3",0.612835121328352,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q8R310","S",216,3,1,"5-day","Day 1",0.424959824061087,"Only one dataset with sufficient replicates",
+"Q8R317","S",4,2,1,"24h","Zygote",0.935670606026051,"Only one dataset with sufficient replicates",
+"Q8R317","S",7,2,1,"24h","Zygote",2.34886316436907,"Only one dataset with sufficient replicates",
+"Q8R3C0","T",160,2,1,"24h","Oocyte",1.7340291488097,"Only one dataset with sufficient replicates",
+"Q8R3I2","S",472,1,1,,,,"Insufficient conditions",
+"Q8R3Q2","S",670,2,1,"24h","Zygote",0.0032476198099527,"Only one dataset with sufficient replicates",
+"Q8R3Q2","T",672,2,1,"24h","Oocyte",0.986208658306452,"Only one dataset with sufficient replicates",
+"Q8R418","S",1016,1,1,,,,"Insufficient conditions",
+"Q8R4E9","T",165,1,1,,,,"Insufficient conditions",
+"Q8R4R6","S",73,3,1,"48h","HL",0.429295421786264,"Only one dataset with sufficient replicates",
+"Q8R4R6","S",99,1,1,,,,"Insufficient conditions",
+"Q8R4R6","S",100,1,1,,,,"Insufficient conditions",
+"Q8R4R6","S",257,2,2,"5-day","Day 1",3.01107011517077,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8R4R6","S",258,1,1,,,,"Insufficient conditions",
+"Q8R4R6","S",303,1,1,,,,"Insufficient conditions",
+"Q8R4R6","T",48,2,2,"24h","Oocyte",1.0214941071288,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R4R6","T",106,1,1,,,,"Insufficient conditions",
+"Q8R4R6","T",265,2,2,"5-day","Day 1",4.22220883836412,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8R4R6","T",307,4,2,"24h","Oocyte",0.272039577714995,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R550","S",78,4,3,"24h","Oocyte",0.625817020675582,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R550","S",274,5,2,"5-day","Day 1",0.242063951890479,"Ambiguous maximum (<0.25 log2)",
+"Q8R550","S",631,5,2,"24h","Oocyte",0.463071569405159,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R574","S",227,4,1,"5-day","Day 3",0.426806647737594,"Only one dataset with sufficient replicates",
+"Q8R5C5","S",3,2,1,"24h","Zygote",0.683380629116289,"Only one dataset with sufficient replicates",
+"Q8R5C5","Y",4,2,1,"24h","Zygote",0.683380629116289,"Only one dataset with sufficient replicates",
+"Q8R5H1","S",229,6,3,"24h","Oocyte",0.376255980847741,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8R5H1","S",242,3,2,"24h","Oocyte",0.221180933820255,"Ambiguous maximum (<0.25 log2)",
+"Q8VBT9","S",230,3,2,"24h","Oocyte",1.47210684690985,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VBT9","S",279,7,3,"24h","Oocyte",2.34735042874384,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VBZ3","T",622,1,1,,,,"Insufficient conditions",
+"Q8VCB1","S",434,1,1,,,,"Insufficient conditions",
+"Q8VCB1","T",415,3,2,"24h","Oocyte",1.64885717020729,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VCD6","S",150,2,1,"24h","Oocyte",0.0344589135050359,"Only one dataset with sufficient replicates",
+"Q8VCD6","S",152,10,3,"5-day","Day 1",0.325947962033133,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q8VCD6","S",210,6,3,"24h","Oocyte",0.285509264189049,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VCE2","S",314,1,1,,,,"Insufficient conditions",
+"Q8VCI5","S",35,10,3,"24h","Oocyte",1.40917337257482,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VCM3","S",17,1,1,,,,"Insufficient conditions",
+"Q8VCU0","S",38,2,1,"24h","Oocyte",0.546995568897643,"Only one dataset with sufficient replicates",
+"Q8VD46","S",271,1,1,,,,"Insufficient conditions",
+"Q8VD63","S",89,1,1,,,,"Insufficient conditions",
+"Q8VD65","S",813,8,3,"24h","Zygote",0.45156669811182,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8VDF2","S",76,9,3,"5-day","Day 1",0.0406878120400869,"Ambiguous maximum (<0.25 log2)",
+"Q8VDF2","S",91,10,3,"24h","Zygote",0.337676989173243,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8VDF2","S",93,5,2,"24h","Zygote",0.177863840815323,"Ambiguous maximum (<0.25 log2)",
+"Q8VDF2","S",95,4,2,"24h","Zygote",2.05045313097533,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8VDF2","S",107,3,1,"48h","HH",0.0923352003714406,"Only one dataset with sufficient replicates",
+"Q8VDF2","S",289,10,3,"5-day","Day 1",0.158832683219437,"Ambiguous maximum (<0.25 log2)",
+"Q8VDF2","S",638,1,1,,,,"Insufficient conditions",
+"Q8VDF2","S",655,7,2,"5-day","Day 2",0.762042659949714,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q8VDF2","S",656,5,2,"24h","Oocyte",0.264493799855359,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VDF2","S",759,5,2,"24h","Zygote",1.05986330456186,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q8VDF2","T",109,4,2,"48h","LH",0.665509503198031,"Provisional anchor-aligned maximum","48h / LH"
+"Q8VDF2","T",173,2,1,"24h","Oocyte",0.639652037265355,"Only one dataset with sufficient replicates",
+"Q8VDM4","T",20,3,2,"24h","Oocyte",1.26515291704241,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VDM4","T",86,1,1,,,,"Insufficient conditions",
+"Q8VDM6","Y",658,1,1,,,,"Insufficient conditions",
+"Q8VDQ8","S",368,2,1,"5-day","Day 1",0.580678820134764,"Only one dataset with sufficient replicates",
+"Q8VDS7","S",45,1,1,,,,"Insufficient conditions",
+"Q8VDV3","S",169,2,1,"24h","Oocyte",2.1335710380785,"Only one dataset with sufficient replicates",
+"Q8VDV3","S",180,2,1,"24h","Oocyte",2.1335710380785,"Only one dataset with sufficient replicates",
+"Q8VE37","S",11,5,2,"24h","Zygote",0.0638987015686929,"Ambiguous maximum (<0.25 log2)",
+"Q8VE88","S",119,1,1,,,,"Insufficient conditions",
+"Q8VE99","T",90,4,2,"24h","Oocyte",1.43553315647384,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VEB3","S",24,1,1,,,,"Insufficient conditions",
+"Q8VED8","S",137,1,1,,,,"Insufficient conditions",
+"Q8VEK6","T",142,1,1,,,,"Insufficient conditions",
+"Q8VEL2","S",479,7,3,"24h","Oocyte",1.20823232242765,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VEL2","S",481,2,1,"24h","Oocyte",1.84119830706504,"Only one dataset with sufficient replicates",
+"Q8VEL2","S",482,3,1,"48h","HH",0.325811991329342,"Only one dataset with sufficient replicates",
+"Q8VEL2","S",483,10,3,"24h","Oocyte",0.597381643177336,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VEL2","S",495,2,1,"5-day","Day 1",2.40645431131124,"Only one dataset with sufficient replicates",
+"Q8VEL2","S",510,2,1,"24h","Oocyte",0.498770391366932,"Only one dataset with sufficient replicates",
+"Q8VEL2","S",512,2,1,"24h","Oocyte",0.52916907278466,"Only one dataset with sufficient replicates",
+"Q8VEL2","S",527,2,1,"24h","Oocyte",3.37055771794935,"Only one dataset with sufficient replicates",
+"Q8VEL2","S",528,8,3,"24h","Oocyte",2.85318704635943,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VEL2","S",622,9,3,"24h","Oocyte",2.68421220706564,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q8VEL2","S",644,2,1,"24h","Oocyte",0.233899731516825,"Only one dataset with sufficient replicates",
+"Q8VH51","S",97,3,1,"5-day","Day 4",0.00250741603377236,"Only one dataset with sufficient replicates",
+"Q8VHG0","S",173,2,1,"24h","Zygote",0.499714005326435,"Only one dataset with sufficient replicates",
+"Q8VHH5","S",478,2,1,"24h","Oocyte",2.32380524643958,"Only one dataset with sufficient replicates",
+"Q8VIH1","S",277,2,1,"24h","Oocyte",0.913775617709831,"Only one dataset with sufficient replicates",
+"Q8VIH1","T",176,1,1,,,,"Insufficient conditions",
+"Q8VIJ6","T",679,1,1,,,,"Insufficient conditions",
+"Q91V04","S",365,3,1,"5-day","Day 5",0.747198962603624,"Only one dataset with sufficient replicates",
+"Q91V92","S",455,9,3,"5-day","Day 2",0.103566971764325,"Ambiguous maximum (<0.25 log2)",
+"Q91VH2","S",175,1,1,,,,"Insufficient conditions",
+"Q91VT8","S",79,2,1,"5-day","Day 1",1.2843485469602,"Only one dataset with sufficient replicates",
+"Q91VW5","S",73,7,3,"24h","Oocyte",0.574392067768031,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91VW5","T",626,1,1,,,,"Insufficient conditions",
+"Q91VX2","S",634,4,1,"5-day","Day 4",0.069442102963162,"Only one dataset with sufficient replicates",
+"Q91W45","S",23,2,2,"24h","Oocyte",0.983026274854051,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91W69","T",389,2,1,"5-day","Day 5",0.590222426458791,"Only one dataset with sufficient replicates",
+"Q91W97","T",336,2,1,"24h","Zygote",0.040431556637051,"Only one dataset with sufficient replicates",
+"Q91WE1","S",227,1,1,,,,"Insufficient conditions",
+"Q91WK0","S",111,10,3,"5-day","Day 1",0.307051124337965,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q91WK2","S",17,1,1,,,,"Insufficient conditions",
+"Q91WS7","S",18,1,1,,,,"Insufficient conditions",
+"Q91WS7","S",152,1,1,,,,"Insufficient conditions",
+"Q91WS7","S",170,3,2,"24h","Zygote",0.357373001220944,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q91WS7","S",184,3,2,"24h","Oocyte",0.138890732902951,"Ambiguous maximum (<0.25 log2)",
+"Q91X58","S",163,4,2,"24h","Oocyte",2.51602798425062,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91XA2","S",319,2,1,"24h","Zygote",0.45348436604954,"Only one dataset with sufficient replicates",
+"Q91XU0","S",153,1,1,,,,"Insufficient conditions",
+"Q91Y86","S",377,1,1,,,,"Insufficient conditions",
+"Q91YD3","S",372,7,2,"5-day","Day 1",0.418993882154856,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q91YD3","S",392,1,1,,,,"Insufficient conditions",
+"Q91YD3","S",542,4,2,"24h","Oocyte",0.974734572113597,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91YD3","S",543,5,2,"24h","Oocyte",2.37928858229928,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91YD3","S",545,6,2,"24h","Oocyte",0.691527844841072,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91YD3","T",366,1,1,,,,"Insufficient conditions",
+"Q91YD3","T",367,1,1,,,,"Insufficient conditions",
+"Q91YD3","T",420,8,3,"24h","Oocyte",2.13728074701769,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91YD3","T",449,1,1,,,,"Insufficient conditions",
+"Q91YE3","S",129,7,2,"24h","Oocyte",0.48581530389033,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91YE5","S",528,2,1,"24h","Oocyte",0.920142384943691,"Only one dataset with sufficient replicates",
+"Q91YE5","S",1174,4,1,"5-day","Day 3",0.933988815688695,"Only one dataset with sufficient replicates",
+"Q91Z31","S",308,5,3,"24h","Oocyte",0.727054430208103,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91Z38","S",30,2,2,"24h","Oocyte",0.903686782532811,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q91ZV0","S",1143,3,1,"48h","HH",0.142779778887849,"Only one dataset with sufficient replicates",
+"Q91ZW3","S",802,2,1,"5-day","Day 1",2.63130971353109,"Only one dataset with sufficient replicates",
+"Q921R4","T",629,3,1,"5-day","Day 1",0.597934070701593,"Only one dataset with sufficient replicates",
+"Q921T2","S",140,1,1,,,,"Insufficient conditions",
+"Q922D8","S",549,1,1,,,,"Insufficient conditions",
+"Q922F4","T",18,2,1,"24h","Oocyte",0.059677069950876,"Only one dataset with sufficient replicates",
+"Q922F4","Y",106,2,1,"24h","Oocyte",0.380166708882996,"Only one dataset with sufficient replicates",
+"Q922U2","S",326,2,1,"48h","LH",1.36273803478759,"Only one dataset with sufficient replicates",
+"Q923A2","S",558,6,2,"24h","Oocyte",0.632354099044409,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q923Q2","T",471,5,2,"24h","Zygote",0.663489624660007,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q923Q2","Y",468,2,1,"5-day","Day 1",0.361882953591245,"Only one dataset with sufficient replicates",
+"Q924T3","Y",227,2,1,"5-day","Day 2",1.19678082166351,"Only one dataset with sufficient replicates",
+"Q925H1","S",90,2,1,"24h","Oocyte",1.10962818960327,"Only one dataset with sufficient replicates",
+"Q925H1","S",92,2,1,"24h","Oocyte",2.83623956017027,"Only one dataset with sufficient replicates",
+"Q925H1","S",830,1,1,,,,"Insufficient conditions",
+"Q925H1","S",1041,1,1,,,,"Insufficient conditions",
+"Q925H1","T",929,1,1,,,,"Insufficient conditions",
+"Q99104","S",600,2,1,"24h","Zygote",0.0956289139910851,"Only one dataset with sufficient replicates",
+"Q99J36","S",86,2,1,"24h","Oocyte",0.27408158255413,"Only one dataset with sufficient replicates",
+"Q99J36","S",88,2,1,"24h","Oocyte",0.27408158255413,"Only one dataset with sufficient replicates",
+"Q99JF8","S",105,1,1,,,,"Insufficient conditions",
+"Q99JF8","S",106,2,1,"24h","Zygote",0.926301559630975,"Only one dataset with sufficient replicates",
+"Q99JF8","S",176,1,1,,,,"Insufficient conditions",
+"Q99JF8","T",141,3,2,"24h","Oocyte",1.97353496458289,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99JX3","S",418,3,2,"24h","Oocyte",1.08780527480295,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99JX3","T",225,10,3,"24h","Oocyte",2.91874860342801,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99JX3","T",417,4,2,"24h","Oocyte",1.74248607605613,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99K01","S",652,3,2,"5-day","Day 1",0.0152574739222899,"Ambiguous maximum (<0.25 log2)",
+"Q99K01","S",748,6,3,"24h","Oocyte",0.151181524338217,"Ambiguous maximum (<0.25 log2)",
+"Q99K01","T",687,10,3,"24h","Oocyte",0.311934915230468,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99K01","T",691,2,1,"5-day","Day 1",0.253294068577542,"Only one dataset with sufficient replicates",
+"Q99K43","S",510,1,1,,,,"Insufficient conditions",
+"Q99K43","T",470,4,2,"5-day","Day 1",0.248627951855296,"Ambiguous maximum (<0.25 log2)",
+"Q99K70","T",393,1,1,,,,"Insufficient conditions",
+"Q99K85","Y",70,2,1,"24h","Zygote",0.34657325901348,"Only one dataset with sufficient replicates",
+"Q99KG3","S",723,3,1,"5-day","Day 4",0.0555205222066455,"Only one dataset with sufficient replicates",
+"Q99KH8","T",178,3,1,"48h","HL",0.0444300905001267,"Only one dataset with sufficient replicates",
+"Q99KH8","T",182,2,1,"48h","HL",0.506816220327186,"Only one dataset with sufficient replicates",
+"Q99KX1","S",237,7,2,"24h","Oocyte",0.0333150625684713,"Ambiguous maximum (<0.25 log2)",
+"Q99KY4","S",1116,1,1,,,,"Insufficient conditions",
+"Q99L43","S",20,2,1,"24h","Zygote",0.567941812972606,"Only one dataset with sufficient replicates",
+"Q99L43","S",32,5,2,"24h","Zygote",0.356197201288085,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q99L43","S",34,1,1,,,,"Insufficient conditions",
+"Q99L47","S",180,1,1,,,,"Insufficient conditions",
+"Q99LD4","S",448,10,3,"24h","Oocyte",1.49091593704804,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99LD4","S",454,10,3,"24h","Oocyte",0.603193365189284,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99LI2","S",429,1,1,,,,"Insufficient conditions",
+"Q99LI2","S",433,1,1,,,,"Insufficient conditions",
+"Q99LI2","S",498,2,1,"24h","Oocyte",1.76846709571456,"Only one dataset with sufficient replicates",
+"Q99M54","S",197,1,1,,,,"Insufficient conditions",
+"Q99M54","S",207,1,1,,,,"Insufficient conditions",
+"Q99M87","S",398,2,1,"24h","Oocyte",0.46608092696205,"Only one dataset with sufficient replicates",
+"Q99M87","Y",399,2,1,"24h","Oocyte",0.46608092696205,"Only one dataset with sufficient replicates",
+"Q99MD9","S",127,3,2,"5-day","Day 2",0.251928211434906,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q99MD9","S",188,9,3,"24h","Oocyte",0.830811240376509,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99MD9","S",466,6,3,"24h","Oocyte",1.19805292723703,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99MD9","S",483,2,1,"24h","Oocyte",1.03253397582411,"Only one dataset with sufficient replicates",
+"Q99MD9","S",489,4,1,"5-day","Day 2",0.146079125481327,"Only one dataset with sufficient replicates",
+"Q99MD9","S",617,1,1,,,,"Insufficient conditions",
+"Q99MD9","T",463,10,3,"24h","Oocyte",0.398265317781686,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99MD9","T",479,1,1,,,,"Insufficient conditions",
+"Q99MP8","S",116,8,3,"24h","Oocyte",0.502945683934108,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99MR6","T",543,7,2,"5-day","Day 1",0.0978734256306826,"Ambiguous maximum (<0.25 log2)",
+"Q99N50","S",302,1,1,,,,"Insufficient conditions",
+"Q99N50","S",511,2,1,"24h","Oocyte",1.24972721408243,"Only one dataset with sufficient replicates",
+"Q99N57","S",244,1,1,,,,"Insufficient conditions",
+"Q99NB9","T",211,1,1,,,,"Insufficient conditions",
+"Q99P72","S",105,7,2,"5-day","Day 1",1.09650829563987,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q99P72","S",489,1,1,,,,"Insufficient conditions",
+"Q99PI5","S",106,5,2,"24h","Oocyte",0.848007400962972,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99PI5","S",151,8,3,"24h","Oocyte",1.39742395986057,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99PI5","S",243,5,2,"24h","Zygote",0.472813427239279,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q99PI5","T",120,3,2,"24h","Oocyte",1.377010875667,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q99PI5","T",291,1,1,,,,"Insufficient conditions",
+"Q9CPN8","S",165,7,2,"24h","Oocyte",2.6335745773763,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CPT0","S",44,3,1,"5-day","Day 3",0.790843993707249,"Only one dataset with sufficient replicates",
+"Q9CPY3","S",222,1,1,,,,"Insufficient conditions",
+"Q9CQ22","S",26,2,1,"24h","Oocyte",1.89170360856697,"Only one dataset with sufficient replicates",
+"Q9CQ22","T",28,10,3,"24h","Oocyte",0.807359735774696,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CQ37","S",193,1,1,,,,"Insufficient conditions",
+"Q9CQ73","S",102,3,1,"5-day","Day 4",0.164470624234864,"Only one dataset with sufficient replicates",
+"Q9CQJ6","S",73,4,2,"24h","Oocyte",0.500472224994313,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CQJ7","S",162,5,2,"24h","Oocyte",0.926263845020577,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CQS8","S",13,4,2,"24h","Oocyte",2.8251132544839,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CQS8","S",17,10,3,"24h","Oocyte",0.0170248264483739,"Ambiguous maximum (<0.25 log2)",
+"Q9CQV4","S",320,6,3,"5-day","Day 1",0.33827783036817,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9CQV4","S",360,2,2,"5-day","Day 1",1.49399325733663,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9CQX2","Y",90,1,1,,,,"Insufficient conditions",
+"Q9CQX8","T",59,3,1,"48h","HL",0.042665015557823,"Only one dataset with sufficient replicates",
+"Q9CR00","S",128,9,3,"24h","Oocyte",0.251470223420638,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CR57","S",139,2,1,"24h","Oocyte",1.48439862105271,"Only one dataset with sufficient replicates",
+"Q9CR86","S",31,5,2,"48h","HL",0.0840303084383613,"Ambiguous maximum (<0.25 log2)",
+"Q9CR86","S",33,5,2,"48h","HL",0.0840303084383613,"Ambiguous maximum (<0.25 log2)",
+"Q9CR86","S",42,10,3,"48h","HH",0.0680960347704698,"Ambiguous maximum (<0.25 log2)",
+"Q9CR86","S",53,10,3,"48h","HH",0.0641174628760837,"Ambiguous maximum (<0.25 log2)",
+"Q9CR95","T",211,1,1,,,,"Insufficient conditions",
+"Q9CRD0","S",108,1,1,,,,"Insufficient conditions",
+"Q9CRD0","S",123,2,1,"24h","Oocyte",0.937718232921036,"Only one dataset with sufficient replicates",
+"Q9CRG1","T",561,1,1,,,,"Insufficient conditions",
+"Q9CW46","S",676,1,1,,,,"Insufficient conditions",
+"Q9CW46","S",677,1,1,,,,"Insufficient conditions",
+"Q9CW46","T",494,1,1,,,,"Insufficient conditions",
+"Q9CWE0","S",235,4,2,"24h","Oocyte",0.544848650209557,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CWE6","S",26,5,2,"24h","Oocyte",0.264943463895401,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CWE6","S",136,5,2,"48h","LH",0.196416164248056,"Ambiguous maximum (<0.25 log2)",
+"Q9CWE6","T",5,9,3,"5-day","Day 2",0.047236711394838,"Ambiguous maximum (<0.25 log2)",
+"Q9CWF6","T",7,2,1,"24h","Oocyte",0.32702101145779,"Only one dataset with sufficient replicates",
+"Q9CWG9","Y",105,1,1,,,,"Insufficient conditions",
+"Q9CWK3","S",49,1,1,,,,"Insufficient conditions",
+"Q9CWU5","S",188,4,2,"5-day","Day 1",0.426588348748036,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9CWU5","S",349,4,2,"24h","Oocyte",0.510424582943717,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CWU5","T",346,7,3,"24h","Oocyte",0.199888709203965,"Ambiguous maximum (<0.25 log2)",
+"Q9CX66","S",66,2,2,"24h","Oocyte",0.334317440354802,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CX66","S",177,7,3,"24h","Oocyte",2.22229356032217,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CXF4","S",205,7,3,"24h","Oocyte",0.0101418735067149,"Ambiguous maximum (<0.25 log2)",
+"Q9CXZ1","T",54,2,1,"24h","Zygote",0.0314204436649366,"Only one dataset with sufficient replicates",
+"Q9CY58","S",234,1,1,,,,"Insufficient conditions",
+"Q9CY58","S",329,6,2,"5-day","Day 1",0.871541266901355,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9CYA6","S",660,1,1,,,,"Insufficient conditions",
+"Q9CYA6","T",376,1,1,,,,"Insufficient conditions",
+"Q9CYC5","S",79,1,1,,,,"Insufficient conditions",
+"Q9CYC5","S",331,1,1,,,,"Insufficient conditions",
+"Q9CYC5","S",344,1,1,,,,"Insufficient conditions",
+"Q9CYG7","S",8,1,1,,,,"Insufficient conditions",
+"Q9CYG7","S",186,2,1,"24h","Oocyte",1.2744594872811,"Only one dataset with sufficient replicates",
+"Q9CYI0","S",18,2,1,"24h","Zygote",0.608641594736664,"Only one dataset with sufficient replicates",
+"Q9CYZ2","S",180,2,1,"24h","Oocyte",2.10380282888784,"Only one dataset with sufficient replicates",
+"Q9CZ28","S",37,2,1,"24h","Oocyte",0.271478345570124,"Only one dataset with sufficient replicates",
+"Q9CZ44","S",114,7,3,"24h","Oocyte",0.548623091092978,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CZ44","S",140,5,2,"24h","Oocyte",0.978510409089829,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CZ44","S",176,8,3,"24h","Oocyte",0.180924772395086,"Ambiguous maximum (<0.25 log2)",
+"Q9CZ44","S",272,3,2,"24h","Oocyte",0.752887734696611,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9CZ44","T",270,2,1,"48h","HH",1.6214135126891,"Only one dataset with sufficient replicates",
+"Q9CZT4","S",161,3,1,"48h","LH",0.520585402595849,"Only one dataset with sufficient replicates",
+"Q9CZV8","T",417,3,1,"5-day","Day 3",0.0674166889372998,"Only one dataset with sufficient replicates",
+"Q9CZW5","S",94,10,3,"24h","Oocyte",0.337108100676062,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D0B0","S",212,4,1,"5-day","Day 3",0.2458032155512,"Only one dataset with sufficient replicates",
+"Q9D0F9","S",117,10,3,"5-day","Day 1",0.0659822261508509,"Ambiguous maximum (<0.25 log2)",
+"Q9D0L1","S",135,4,2,"24h","Zygote",0.865849633488221,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9D0L1","S",191,10,3,"24h","Oocyte",0.550580516974804,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D0L1","S",201,10,3,"24h","Oocyte",2.08459827319827,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D0L1","S",218,8,3,"24h","Oocyte",0.774277285730047,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D0L7","S",41,2,1,"24h","Oocyte",2.2427441178921,"Only one dataset with sufficient replicates",
+"Q9D0L7","S",43,4,2,"24h","Oocyte",0.121424038483761,"Ambiguous maximum (<0.25 log2)",
+"Q9D0L8","S",66,2,1,"24h","Oocyte",0.360428388344994,"Only one dataset with sufficient replicates",
+"Q9D0R2","S",8,1,1,,,,"Insufficient conditions",
+"Q9D0S9","S",52,3,1,"48h","HH",0.098770634093917,"Only one dataset with sufficient replicates",
+"Q9D0V7","S",36,10,3,"24h","Oocyte",0.173729184389225,"Ambiguous maximum (<0.25 log2)",
+"Q9D1E6","S",110,4,2,"24h","Oocyte",1.28454741266119,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D1F4","S",184,10,3,"48h","HL",0.178256721397149,"Ambiguous maximum (<0.25 log2)",
+"Q9D1F5","S",140,2,1,"5-day","Day 1",0.757018914800327,"Only one dataset with sufficient replicates",
+"Q9D1L0","S",45,9,3,"24h","Oocyte",3.3267272620138,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D1L0","T",13,1,1,,,,"Insufficient conditions",
+"Q9D1R2","S",157,1,1,,,,"Insufficient conditions",
+"Q9D2M8","Y",73,2,1,"24h","Zygote",2.2520370983558,"Only one dataset with sufficient replicates",
+"Q9D4A5","T",282,1,1,,,,"Insufficient conditions",
+"Q9D4H9","S",828,2,1,"24h","Oocyte",1.15436996619705,"Only one dataset with sufficient replicates",
+"Q9D5R2","S",432,8,3,"24h","Oocyte",0.14368102568692,"Ambiguous maximum (<0.25 log2)",
+"Q9D5T0","S",317,1,1,,,,"Insufficient conditions",
+"Q9D5T0","S",322,5,2,"5-day","Day 1",0.350142225521829,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9D620","S",236,3,1,"48h","LH",0.48662770723276,"Only one dataset with sufficient replicates",
+"Q9D620","S",358,3,1,"48h","HL",1.07594214125849,"Only one dataset with sufficient replicates",
+"Q9D6E4","T",112,2,1,"24h","Oocyte",1.35787336299769,"Only one dataset with sufficient replicates",
+"Q9D6K7","T",252,1,1,,,,"Insufficient conditions",
+"Q9D6Z1","S",513,3,1,"48h","HL",0.708574770436963,"Only one dataset with sufficient replicates",
+"Q9D6Z1","S",536,4,1,"5-day","Day 5",1.83857617007825,"Only one dataset with sufficient replicates",
+"Q9D6Z1","S",543,4,1,"5-day","Day 3",0.594035856969107,"Only one dataset with sufficient replicates",
+"Q9D6Z1","T",546,2,1,"5-day","Day 3",0.0180109872568615,"Only one dataset with sufficient replicates",
+"Q9D7X8","S",173,8,3,"24h","Oocyte",0.141108285032072,"Ambiguous maximum (<0.25 log2)",
+"Q9D824","S",235,2,2,"24h","Oocyte",0.0880901973937664,"Ambiguous maximum (<0.25 log2)",
+"Q9D824","S",280,1,1,,,,"Insufficient conditions",
+"Q9D824","S",479,7,2,"24h","Oocyte",1.21424783381197,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D824","S",487,2,1,"24h","Zygote",0.281433908600587,"Only one dataset with sufficient replicates",
+"Q9D824","T",481,2,1,"24h","Oocyte",2.16778326860135,"Only one dataset with sufficient replicates",
+"Q9D842","S",149,8,3,"24h","Oocyte",0.67873617027343,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D898","S",64,4,2,"24h","Oocyte",0.417413905610944,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D8B3","S",184,2,1,"24h","Oocyte",0.517573004453679,"Only one dataset with sufficient replicates",
+"Q9D8S3","S",331,4,2,"24h","Oocyte",1.7226057467507,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D8S3","T",202,7,3,"24h","Oocyte",0.620715042267406,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9D8S9","S",81,1,1,,,,"Insufficient conditions",
+"Q9D8W5","S",385,2,1,"24h","Zygote",0.0827854201906373,"Only one dataset with sufficient replicates",
+"Q9D8W5","S",389,2,1,"24h","Zygote",0.0827854201906373,"Only one dataset with sufficient replicates",
+"Q9D920","S",75,1,1,,,,"Insufficient conditions",
+"Q9DAK9","Y",46,3,1,"48h","HH",0.0240158696799391,"Only one dataset with sufficient replicates",
+"Q9DAR0","S",170,2,1,"24h","Oocyte",1.34639212127478,"Only one dataset with sufficient replicates",
+"Q9DAS9","S",10,1,1,,,,"Insufficient conditions",
+"Q9DAT2","S",195,1,1,,,,"Insufficient conditions",
+"Q9DAZ9","S",219,5,2,"48h","HH",0.276823674824758,"Provisional anchor-aligned maximum","48h / HH"
+"Q9DAZ9","S",280,5,2,"48h","HL",0.385200884325673,"Provisional anchor-aligned maximum","48h / HL"
+"Q9DB43","T",197,5,2,"48h","HH",0.019975812742496,"Ambiguous maximum (<0.25 log2)",
+"Q9DB85","S",177,3,1,"5-day","Day 4",0.424515859157911,"Only one dataset with sufficient replicates",
+"Q9DB94","T",190,1,1,,,,"Insufficient conditions",
+"Q9DBC3","S",30,5,1,"5-day","Day 5",0.255326197703857,"Only one dataset with sufficient replicates",
+"Q9DBC7","S",83,5,2,"24h","Oocyte",1.49386929032761,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9DBJ3","S",281,1,1,,,,"Insufficient conditions",
+"Q9DBJ3","S",332,2,1,"24h","Zygote",1.55341291842728,"Only one dataset with sufficient replicates",
+"Q9DBJ3","S",421,5,2,"24h","Zygote",1.17713576356517,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9DBT5","S",38,2,2,"24h","Oocyte",1.33886920700882,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9DBY1","S",608,1,1,,,,"Insufficient conditions",
+"Q9DC22","S",336,1,1,,,,"Insufficient conditions",
+"Q9DCL8","S",23,3,2,"24h","Oocyte",0.401148960245218,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9DCT6","S",96,3,1,"5-day","Day 3",0.075855079285617,"Only one dataset with sufficient replicates",
+"Q9EPK5","S",93,3,1,"5-day","Day 3",0.145924981088299,"Only one dataset with sufficient replicates",
+"Q9EQH3","S",7,1,1,,,,"Insufficient conditions",
+"Q9EQN3","S",271,1,1,,,,"Insufficient conditions",
+"Q9EQP2","S",459,7,3,"24h","Oocyte",1.80763926882837,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9EQU5","S",30,7,2,"5-day","Day 4",0.253480033126255,"Provisional anchor-aligned maximum","5-day / Day 4"
+"Q9EQY0","S",724,1,1,,,,"Insufficient conditions",
+"Q9EQY0","T",548,1,1,,,,"Insufficient conditions",
+"Q9ER99","S",154,2,2,"24h","Oocyte",0.846701726986289,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9ERD6","S",429,1,1,,,,"Insufficient conditions",
+"Q9ERH4","T",323,1,1,,,,"Insufficient conditions",
+"Q9ERV1","T",122,2,1,"5-day","Day 1",0.865922166916818,"Only one dataset with sufficient replicates",
+"Q9ES00","S",86,8,2,"5-day","Day 1",0.12649853799539,"Ambiguous maximum (<0.25 log2)",
+"Q9ES00","S",88,2,1,"24h","Oocyte",2.75820083661747,"Only one dataset with sufficient replicates",
+"Q9ES00","S",90,2,1,"24h","Oocyte",2.46783065572787,"Only one dataset with sufficient replicates",
+"Q9ES00","S",674,1,1,,,,"Insufficient conditions",
+"Q9ES28","S",228,2,1,"24h","Zygote",0.580929074956693,"Only one dataset with sufficient replicates",
+"Q9ES28","S",497,3,1,"48h","HL",0.171144484001312,"Only one dataset with sufficient replicates",
+"Q9ES28","S",673,2,1,"24h","Zygote",0.397036635368837,"Only one dataset with sufficient replicates",
+"Q9ES28","T",582,2,1,"5-day","Day 1",1.47958207552917,"Only one dataset with sufficient replicates",
+"Q9ESK9","S",261,1,1,,,,"Insufficient conditions",
+"Q9ESN5","T",197,2,1,"24h","Oocyte",0.198309654862456,"Only one dataset with sufficient replicates",
+"Q9EST3","S",77,2,1,"24h","Oocyte",2.24111523504392,"Only one dataset with sufficient replicates",
+"Q9EST3","S",114,2,2,"5-day","Day 1",1.88500102069938,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9EST3","S",586,1,1,,,,"Insufficient conditions",
+"Q9EST3","S",949,1,1,,,,"Insufficient conditions",
+"Q9ET54","S",901,1,1,,,,"Insufficient conditions",
+"Q9JHE3","T",212,3,1,"48h","HH",0.082879021860446,"Only one dataset with sufficient replicates",
+"Q9JHW4","S",524,2,1,"24h","Oocyte",2.95473861354741,"Only one dataset with sufficient replicates",
+"Q9JHW4","T",532,1,1,,,,"Insufficient conditions",
+"Q9JI75","S",21,3,1,"48h","HH",0.0932175824473678,"Only one dataset with sufficient replicates",
+"Q9JIA7","S",364,1,1,,,,"Insufficient conditions",
+"Q9JIA7","S",379,1,1,,,,"Insufficient conditions",
+"Q9JIF7","S",773,1,1,,,,"Insufficient conditions",
+"Q9JIH2","S",234,1,1,,,,"Insufficient conditions",
+"Q9JIK5","S",118,3,1,"5-day","Day 3",0.201223339730047,"Only one dataset with sufficient replicates",
+"Q9JIK5","S",243,6,2,"48h","HL",0.19074219553865,"Ambiguous maximum (<0.25 log2)",
+"Q9JIX8","S",710,5,1,"5-day","Day 4",0.00228014988186942,"Only one dataset with sufficient replicates",
+"Q9JIX8","S",1003,5,1,"5-day","Day 5",0.29813505971163,"Only one dataset with sufficient replicates",
+"Q9JJ11","S",71,7,3,"24h","Zygote",1.45876802539997,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9JJ11","S",347,2,1,"24h","Oocyte",1.69040016650562,"Only one dataset with sufficient replicates",
+"Q9JJ11","T",59,9,3,"24h","Zygote",0.618949184627141,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9JJG0","S",138,2,1,"24h","Oocyte",1.36205287809299,"Only one dataset with sufficient replicates",
+"Q9JJG0","S",139,3,2,"5-day","Day 1",0.750761223671971,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9JJG0","S",141,2,1,"5-day","Day 1",1.17719625273541,"Only one dataset with sufficient replicates",
+"Q9JJG0","S",150,2,1,"24h","Oocyte",1.36205287809299,"Only one dataset with sufficient replicates",
+"Q9JJG0","S",205,2,1,"5-day","Day 1",0.167294221575688,"Only one dataset with sufficient replicates",
+"Q9JJG0","S",354,8,3,"24h","Oocyte",1.46788110136149,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9JJG0","S",419,10,3,"24h","Oocyte",0.530442596726022,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9JJG0","S",510,8,3,"24h","Zygote",0.16664531304863,"Ambiguous maximum (<0.25 log2)",
+"Q9JJG0","S",514,7,3,"24h","Zygote",0.265897594182357,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9JJG0","S",587,2,1,"24h","Oocyte",1.95211115416474,"Only one dataset with sufficient replicates",
+"Q9JJG0","S",714,5,2,"24h","Oocyte",2.37675551507522,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9JJG0","S",759,7,3,"24h","Zygote",0.00235766625272049,"Ambiguous maximum (<0.25 log2)",
+"Q9JJG0","S",763,4,2,"24h","Oocyte",1.58035215980068,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9JJG0","T",340,1,1,,,,"Insufficient conditions",
+"Q9JJG0","T",743,8,3,"24h","Oocyte",2.58668503966387,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9JJY4","S",472,2,1,"5-day","Day 3",1.55997114445531,"Only one dataset with sufficient replicates",
+"Q9JK24","Y",330,1,1,,,,"Insufficient conditions",
+"Q9JKB3","S",328,2,1,"5-day","Day 3",1.24347245400457,"Only one dataset with sufficient replicates",
+"Q9JKS4","S",4,4,1,"5-day","Day 5",0.110085344720076,"Only one dataset with sufficient replicates",
+"Q9JKV1","T",217,8,3,"24h","Oocyte",2.06799078050824,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9JKX6","S",9,2,1,"24h","Zygote",4.69413060697515,"Only one dataset with sufficient replicates",
+"Q9JL04","S",724,2,1,"24h","Oocyte",0.66879012264398,"Only one dataset with sufficient replicates",
+"Q9JL35","T",29,1,1,,,,"Insufficient conditions",
+"Q9JLI8","S",643,3,1,"48h","LH",0.612753381369291,"Only one dataset with sufficient replicates",
+"Q9JLN9","S",567,1,1,,,,"Insufficient conditions",
+"Q9JLN9","Y",2449,4,1,"5-day","Day 3",0.436798490267389,"Only one dataset with sufficient replicates",
+"Q9JLQ0","S",404,5,2,"24h","Zygote",0.358805322806145,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9JLQ0","S",458,3,2,"5-day","Day 1",0.485668209405226,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9JLQ0","S",510,2,1,"5-day","Day 5",0.427609372256338,"Only one dataset with sufficient replicates",
+"Q9JLQ0","T",563,1,1,,,,"Insufficient conditions",
+"Q9JM52","S",729,1,1,,,,"Insufficient conditions",
+"Q9JMA1","S",393,4,2,"24h","Oocyte",1.16317055401725,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9JMC3","S",77,2,1,"5-day","Day 1",0.890909771008591,"Only one dataset with sufficient replicates",
+"Q9JMG3","S",71,1,1,,,,"Insufficient conditions",
+"Q9JMH9","S",102,3,1,"48h","LH",0.0682601724915575,"Only one dataset with sufficient replicates",
+"Q9JMH9","S",2016,8,3,"5-day","Day 1",0.278840876927248,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9QUK4","S",1157,2,1,"5-day","Day 3",0.740736672578098,"Only one dataset with sufficient replicates",
+"Q9QXK3","T",597,1,1,,,,"Insufficient conditions",
+"Q9QXS1","S",4393,5,1,"5-day","Day 5",0.351929122874411,"Only one dataset with sufficient replicates",
+"Q9QXS1","S",4633,2,1,"5-day","Day 5",0.103895606769203,"Only one dataset with sufficient replicates",
+"Q9QXS1","S",4649,5,1,"5-day","Day 3",1.60184129813971,"Only one dataset with sufficient replicates",
+"Q9QXX0","S",1154,1,1,,,,"Insufficient conditions",
+"Q9QXY1","S",343,2,1,"5-day","Day 5",0.513571041731302,"Only one dataset with sufficient replicates",
+"Q9QXY6","S",456,1,1,,,,"Insufficient conditions",
+"Q9QXZ0","S",4483,5,2,"24h","Oocyte",0.0273569633783719,"Ambiguous maximum (<0.25 log2)",
+"Q9QXZ0","S",7258,2,2,"24h","Oocyte",2.13574584801424,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QXZ0","T",4460,2,1,"24h","Oocyte",0.785359742102075,"Only one dataset with sufficient replicates",
+"Q9QXZ0","T",7179,1,1,,,,"Insufficient conditions",
+"Q9QY76","S",159,2,2,"5-day","Day 1",0.507663086048245,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9QYC0","S",12,1,1,,,,"Insufficient conditions",
+"Q9QYC0","S",464,1,1,,,,"Insufficient conditions",
+"Q9QYC0","S",465,2,1,"24h","Oocyte",1.32331920130319,"Only one dataset with sufficient replicates",
+"Q9QYC0","T",11,1,1,,,,"Insufficient conditions",
+"Q9QYE6","S",116,3,1,"48h","LH",0.389544558971521,"Only one dataset with sufficient replicates",
+"Q9QYE6","S",150,1,1,,,,"Insufficient conditions",
+"Q9QYE6","S",153,4,2,"24h","Oocyte",1.36691130989141,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QYE6","S",178,2,1,"5-day","Day 1",1.82695322705912,"Only one dataset with sufficient replicates",
+"Q9QYE6","T",211,2,1,"5-day","Day 1",2.91325395449812,"Only one dataset with sufficient replicates",
+"Q9QYY8","S",91,2,2,"24h","Oocyte",0.816195468245899,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QYY8","S",99,5,2,"24h","Oocyte",3.08420102010027,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QYY8","T",301,1,1,,,,"Insufficient conditions",
+"Q9QZ05","S",230,1,1,,,,"Insufficient conditions",
+"Q9QZM0","S",25,4,1,"5-day","Day 1",0.366089448674002,"Only one dataset with sufficient replicates",
+"Q9QZN0","S",99,8,2,"5-day","Day 3",0.440332332532208,"Provisional anchor-aligned maximum","5-day / Day 3"
+"Q9QZN4","S",276,2,1,"48h","HL",0.639004709824381,"Only one dataset with sufficient replicates",
+"Q9QZN4","S",278,3,1,"5-day","Day 5",0.16519242096274,"Only one dataset with sufficient replicates",
+"Q9QZQ1","S",216,5,2,"24h","Oocyte",0.853165434234189,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QZQ1","S",655,9,3,"5-day","Day 1",0.477793319277321,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9QZQ1","S",1083,6,2,"5-day","Day 1",0.181806593790535,"Ambiguous maximum (<0.25 log2)",
+"Q9QZQ1","S",1107,10,3,"5-day","Day 1",0.215705894773922,"Ambiguous maximum (<0.25 log2)",
+"Q9QZQ1","S",1172,6,2,"24h","Oocyte",0.538386074530013,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QZQ1","S",1173,6,2,"24h","Oocyte",0.235690601726697,"Ambiguous maximum (<0.25 log2)",
+"Q9QZQ1","S",1182,7,2,"24h","Oocyte",0.128567275546835,"Ambiguous maximum (<0.25 log2)",
+"Q9QZQ1","S",1275,5,2,"24h","Oocyte",0.244789811586354,"Ambiguous maximum (<0.25 log2)",
+"Q9QZQ1","S",1454,3,2,"5-day","Day 1",0.090433706416281,"Ambiguous maximum (<0.25 log2)",
+"Q9QZQ1","S",1510,2,2,"24h","Oocyte",1.07504912714644,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QZQ1","S",1719,2,2,"24h","Oocyte",0.508163863836424,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9QZQ1","S",1770,2,1,"24h","Zygote",0.224877848445562,"Only one dataset with sufficient replicates",
+"Q9QZQ1","S",1795,2,1,"24h","Zygote",0.686415087330852,"Only one dataset with sufficient replicates",
+"Q9QZQ1","T",1345,1,1,,,,"Insufficient conditions",
+"Q9QZS2","T",116,1,1,,,,"Insufficient conditions",
+"Q9QZS3","S",362,2,1,"5-day","Day 3",0.190826035920725,"Only one dataset with sufficient replicates",
+"Q9R020","S",153,10,3,"24h","Oocyte",0.189042598324145,"Ambiguous maximum (<0.25 log2)",
+"Q9R020","S",188,8,3,"24h","Oocyte",0.644211917515266,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R062","S",320,7,3,"5-day","Day 1",0.182249916500266,"Ambiguous maximum (<0.25 log2)",
+"Q9R062","Y",315,5,2,"24h","Oocyte",0.62770768497926,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R078","S",40,5,2,"24h","Oocyte",1.70827467898076,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R0A0","S",232,2,1,"24h","Oocyte",1.29166171432622,"Only one dataset with sufficient replicates",
+"Q9R0A0","S",282,2,1,"24h","Oocyte",1.68252082557782,"Only one dataset with sufficient replicates",
+"Q9R0A0","S",334,7,3,"48h","HH",0.228794899410092,"Ambiguous maximum (<0.25 log2)",
+"Q9R0G7","S",641,3,1,"48h","HH",0.579795675942684,"Only one dataset with sufficient replicates",
+"Q9R0L6","S",644,1,1,,,,"Insufficient conditions",
+"Q9R0L6","S",645,1,1,,,,"Insufficient conditions",
+"Q9R0L6","S",859,1,1,,,,"Insufficient conditions",
+"Q9R0L6","S",1228,1,1,,,,"Insufficient conditions",
+"Q9R0L6","S",1729,1,1,,,,"Insufficient conditions",
+"Q9R0L6","T",1847,1,1,,,,"Insufficient conditions",
+"Q9R0N5","S",95,1,1,,,,"Insufficient conditions",
+"Q9R0P4","S",17,4,1,"5-day","Day 3",0.52962750678104,"Only one dataset with sufficient replicates",
+"Q9R0P9","S",89,2,1,"24h","Oocyte",0.371294428629813,"Only one dataset with sufficient replicates",
+"Q9R0P9","S",192,7,3,"5-day","Day 1",0.47593837690296,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9R0P9","T",92,2,1,"24h","Oocyte",0.371294428629813,"Only one dataset with sufficient replicates",
+"Q9R0Q1","S",275,5,2,"24h","Zygote",0.268382703502111,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9R0Q7","S",113,4,1,"5-day","Day 2",0.023284989333991,"Only one dataset with sufficient replicates",
+"Q9R0X5","S",915,2,1,"24h","Zygote",0.80629845168149,"Only one dataset with sufficient replicates",
+"Q9R1B9","T",68,2,1,"24h","Zygote",0.497448477744211,"Only one dataset with sufficient replicates",
+"Q9R1B9","T",71,2,1,"24h","Zygote",0.497448477744211,"Only one dataset with sufficient replicates",
+"Q9R1C0","S",201,1,1,,,,"Insufficient conditions",
+"Q9R1C0","S",256,2,1,"24h","Oocyte",1.87768375567831,"Only one dataset with sufficient replicates",
+"Q9R1K9","S",20,5,2,"24h","Oocyte",1.88719204577057,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1L5","T",508,3,1,"48h","LH",0.17607994002827,"Only one dataset with sufficient replicates",
+"Q9R1M5","S",29,8,3,"24h","Oocyte",1.06397683576861,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",34,1,1,,,,"Insufficient conditions",
+"Q9R1M5","S",36,2,1,"24h","Oocyte",2.34986284446905,"Only one dataset with sufficient replicates",
+"Q9R1M5","S",49,4,2,"24h","Oocyte",0.631186941364371,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",81,8,3,"24h","Oocyte",1.06397683576861,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",86,1,1,,,,"Insufficient conditions",
+"Q9R1M5","S",88,2,1,"24h","Oocyte",2.34986284446905,"Only one dataset with sufficient replicates",
+"Q9R1M5","S",101,4,2,"24h","Oocyte",0.631186941364371,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",127,8,3,"24h","Oocyte",1.14419885576142,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",132,10,3,"24h","Oocyte",2.31472965776313,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",145,10,3,"24h","Oocyte",1.27092859697755,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",147,9,3,"48h","HH",0.161093650004148,"Ambiguous maximum (<0.25 log2)",
+"Q9R1M5","S",154,7,3,"24h","Oocyte",2.39104337883142,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",160,8,3,"24h","Oocyte",0.363807019632954,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",165,1,1,,,,"Insufficient conditions",
+"Q9R1M5","S",167,1,1,,,,"Insufficient conditions",
+"Q9R1M5","S",180,6,2,"5-day","Day 2",0.385115651164703,"Provisional anchor-aligned maximum","5-day / Day 2"
+"Q9R1M5","S",185,8,3,"24h","Oocyte",0.810340438854528,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","S",223,1,1,,,,"Insufficient conditions",
+"Q9R1M5","S",276,5,2,"24h","Zygote",1.11754687786045,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9R1M5","S",341,3,1,"48h","HH",0.415335717606476,"Only one dataset with sufficient replicates",
+"Q9R1M5","T",28,2,1,"48h","LH",1.73149317431948,"Only one dataset with sufficient replicates",
+"Q9R1M5","T",80,2,1,"48h","LH",1.73149317431948,"Only one dataset with sufficient replicates",
+"Q9R1M5","T",130,1,1,,,,"Insufficient conditions",
+"Q9R1M5","T",159,2,1,"48h","LH",1.73149317431948,"Only one dataset with sufficient replicates",
+"Q9R1M5","T",192,5,2,"24h","Oocyte",1.92824282872609,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9R1M5","T",490,3,1,"48h","HH",7.98116089040235e-05,"Only one dataset with sufficient replicates",
+"Q9R1N9","S",538,2,1,"24h","Oocyte",0.341579556197917,"Only one dataset with sufficient replicates",
+"Q9R1P4","S",14,1,1,,,,"Insufficient conditions",
+"Q9R1S0","S",126,3,1,"48h","HL",0.443009332371053,"Only one dataset with sufficient replicates",
+"Q9R210","S",331,3,1,"5-day","Day 4",1.05609694224162,"Only one dataset with sufficient replicates",
+"Q9WTP2","S",126,10,3,"24h","Oocyte",0.101322584672033,"Ambiguous maximum (<0.25 log2)",
+"Q9WTQ5","S",234,10,3,"24h","Zygote",0.752300660289784,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9WTQ5","S",270,1,1,,,,"Insufficient conditions",
+"Q9WTQ5","S",273,5,2,"24h","Oocyte",2.91999784326702,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WTQ5","S",350,7,3,"24h","Oocyte",0.636498843430649,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WTQ5","S",489,9,3,"24h","Zygote",0.347729011658309,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9WTQ5","S",498,2,1,"24h","Oocyte",3.46562038741627,"Only one dataset with sufficient replicates",
+"Q9WTQ5","S",543,8,3,"24h","Oocyte",0.0586630225197506,"Ambiguous maximum (<0.25 log2)",
+"Q9WTQ5","S",584,9,3,"24h","Zygote",0.324671477812203,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9WTQ5","S",598,8,2,"5-day","Day 1",0.742566546043042,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9WTQ5","S",613,2,1,"24h","Zygote",0.426224829701589,"Only one dataset with sufficient replicates",
+"Q9WTQ5","S",767,4,2,"24h","Oocyte",0.617315957445713,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WTQ5","S",1351,4,2,"5-day","Day 1",0.869840909785562,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9WTQ5","S",1355,9,3,"24h","Oocyte",1.6216293965632,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WTQ5","S",1645,4,2,"24h","Oocyte",0.544011327800218,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WTQ5","T",265,1,1,,,,"Insufficient conditions",
+"Q9WTQ5","T",344,2,1,"48h","HH",0.592990005866847,"Only one dataset with sufficient replicates",
+"Q9WTQ5","T",538,2,1,"24h","Oocyte",0.485865676538953,"Only one dataset with sufficient replicates",
+"Q9WTQ5","Y",533,2,1,"24h","Zygote",0.264917348228982,"Only one dataset with sufficient replicates",
+"Q9WTR6","S",26,2,1,"24h","Oocyte",0.533347064970716,"Only one dataset with sufficient replicates",
+"Q9WUD1","S",20,7,3,"24h","Oocyte",0.878547034729806,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WUD1","S",24,6,2,"24h","Oocyte",0.741305906737407,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WUD1","S",274,2,1,"24h","Oocyte",1.26531453093586,"Only one dataset with sufficient replicates",
+"Q9WUD1","T",272,3,2,"24h","Oocyte",1.0716851311645,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WV32","S",310,3,1,"5-day","Day 1",0.494126205690009,"Only one dataset with sufficient replicates",
+"Q9WV32","S",311,1,1,,,,"Insufficient conditions",
+"Q9WV55","S",164,3,2,"5-day","Day 1",0.38015394631401,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9WV55","S",214,2,1,"5-day","Day 2",0.110441264292868,"Only one dataset with sufficient replicates",
+"Q9WV55","T",99,3,1,"48h","HH",0.223909934584274,"Only one dataset with sufficient replicates",
+"Q9WV92","S",804,7,3,"24h","Oocyte",0.247753260885476,"Ambiguous maximum (<0.25 log2)",
+"Q9WVA4","S",94,2,1,"24h","Oocyte",0.399543982353249,"Only one dataset with sufficient replicates",
+"Q9WVB3","S",8,8,3,"24h","Oocyte",0.345480327716416,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVB3","S",115,2,2,"5-day","Day 1",0.0338304008103343,"Ambiguous maximum (<0.25 log2)",
+"Q9WVB3","S",125,4,2,"24h","Oocyte",4.37168691443688,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVB3","S",209,10,3,"24h","Zygote",0.390395475736536,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9WVB3","S",211,10,3,"24h","Zygote",0.465013220063284,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9WVB3","S",213,10,3,"24h","Zygote",0.616337351482766,"Provisional anchor-aligned maximum","24h / Zygote"
+"Q9WVB3","S",221,9,3,"24h","Oocyte",0.284923459514392,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVB3","S",234,2,1,"24h","Oocyte",0.820230898377817,"Only one dataset with sufficient replicates",
+"Q9WVB3","S",302,5,2,"24h","Oocyte",0.69562859022289,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVB3","S",303,5,2,"24h","Oocyte",0.69562859022289,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVB3","T",10,3,1,"5-day","Day 1",1.1360198286658,"Only one dataset with sufficient replicates",
+"Q9WVB3","T",65,3,1,"5-day","Day 1",3.17868781902105,"Only one dataset with sufficient replicates",
+"Q9WVB3","T",126,10,3,"24h","Oocyte",3.09619268741559,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVB3","T",305,5,2,"24h","Oocyte",0.69562859022289,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVK4","S",456,1,1,,,,"Insufficient conditions",
+"Q9WVL3","S",50,6,3,"5-day","Day 1",0.0132975481982101,"Ambiguous maximum (<0.25 log2)",
+"Q9WVL3","T",973,2,1,"24h","Oocyte",1.6653779559505,"Only one dataset with sufficient replicates",
+"Q9WVL3","T",980,2,1,"24h","Zygote",0.681100964734291,"Only one dataset with sufficient replicates",
+"Q9WVM1","T",278,9,3,"24h","Oocyte",0.263015820180895,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9WVM1","T",561,1,1,,,,"Insufficient conditions",
+"Q9WVM1","T",564,1,1,,,,"Insufficient conditions",
+"Q9WVR4","S",602,7,2,"5-day","Day 3",0.0453803802406298,"Ambiguous maximum (<0.25 log2)",
+"Q9Z0F8","S",794,3,2,"24h","Oocyte",0.524099902341909,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z0H8","S",18,2,1,"24h","Oocyte",0.370397153716107,"Only one dataset with sufficient replicates",
+"Q9Z0H8","S",295,3,1,"5-day","Day 2",0.052399927922675,"Only one dataset with sufficient replicates",
+"Q9Z0H8","S",924,2,2,"5-day","Day 1",0.419200169151489,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9Z0N1","T",66,2,1,"24h","Zygote",0.271645590536947,"Only one dataset with sufficient replicates",
+"Q9Z0U1","S",239,1,1,,,,"Insufficient conditions",
+"Q9Z0U1","S",1136,1,1,,,,"Insufficient conditions",
+"Q9Z0W3","S",1117,1,1,,,,"Insufficient conditions",
+"Q9Z0X4","S",462,3,1,"5-day","Day 1",0.19709829900953,"Only one dataset with sufficient replicates",
+"Q9Z0X4","S",470,5,2,"5-day","Day 1",0.579410868685855,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9Z0X4","S",490,2,1,"24h","Zygote",1.23251931010435,"Only one dataset with sufficient replicates",
+"Q9Z0X4","S",492,2,1,"5-day","Day 1",1.27198910247081,"Only one dataset with sufficient replicates",
+"Q9Z0X4","S",495,2,1,"5-day","Day 1",0.863651255361267,"Only one dataset with sufficient replicates",
+"Q9Z0X4","T",494,3,1,"48h","LH",0.149883712054121,"Only one dataset with sufficient replicates",
+"Q9Z0Z7","S",340,3,1,"5-day","Day 3",0.272741110020108,"Only one dataset with sufficient replicates",
+"Q9Z1D1","S",42,2,1,"24h","Oocyte",0.755633864211093,"Only one dataset with sufficient replicates",
+"Q9Z1D1","T",38,10,3,"24h","Oocyte",0.139720769191261,"Ambiguous maximum (<0.25 log2)",
+"Q9Z1E4","S",652,2,1,"24h","Zygote",0.62951328630837,"Only one dataset with sufficient replicates",
+"Q9Z1E4","S",653,1,1,,,,"Insufficient conditions",
+"Q9Z1E4","S",657,2,1,"24h","Zygote",0.62951328630837,"Only one dataset with sufficient replicates",
+"Q9Z1J1","S",166,1,1,,,,"Insufficient conditions",
+"Q9Z1N2","T",349,1,1,,,,"Insufficient conditions",
+"Q9Z1R2","S",986,2,1,"24h","Oocyte",0.150857821428474,"Only one dataset with sufficient replicates",
+"Q9Z1R2","S",995,10,3,"48h","HH",0.171404115918437,"Ambiguous maximum (<0.25 log2)",
+"Q9Z1R2","S",1139,3,2,"24h","Oocyte",0.671163403549533,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z1S0","S",428,1,1,,,,"Insufficient conditions",
+"Q9Z1S0","S",502,4,2,"24h","Oocyte",3.4899054313175,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z1S0","S",535,7,3,"24h","Oocyte",3.70795181936621,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z1S0","S",659,8,3,"24h","Oocyte",1.80942931475671,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z1S0","S",678,1,1,,,,"Insufficient conditions",
+"Q9Z1S0","S",1050,1,1,,,,"Insufficient conditions",
+"Q9Z1T1","S",276,8,3,"24h","Oocyte",0.192824717242885,"Ambiguous maximum (<0.25 log2)",
+"Q9Z1T1","S",610,4,2,"24h","Oocyte",1.32108387525237,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z1X4","S",341,3,1,"5-day","Day 3",0.637729227636477,"Only one dataset with sufficient replicates",
+"Q9Z204","S",229,3,1,"48h","LH",0.62365534231488,"Only one dataset with sufficient replicates",
+"Q9Z204","S",306,2,1,"24h","Oocyte",1.48752867748277,"Only one dataset with sufficient replicates",
+"Q9Z280","S",45,1,1,,,,"Insufficient conditions",
+"Q9Z2A0","S",38,7,3,"24h","Oocyte",1.24608782860144,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z2A0","S",244,5,2,"24h","Zygote",0.0197986778593418,"Ambiguous maximum (<0.25 log2)",
+"Q9Z2A0","T",248,3,1,"48h","HL",0.00151467017572493,"Only one dataset with sufficient replicates",
+"Q9Z2A7","S",40,6,2,"5-day","Day 1",0.609504481763988,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9Z2C8","S",210,3,2,"24h","Oocyte",0.771224506056519,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z2C8","S",252,4,2,"5-day","Day 1",0.927455037327114,"Provisional anchor-aligned maximum","5-day / Day 1"
+"Q9Z2C8","T",67,7,3,"24h","Oocyte",0.382192479763713,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z2C8","T",78,5,2,"24h","Oocyte",1.60939706257618,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z2C9","S",652,2,1,"24h","Zygote",0.25515501507372,"Only one dataset with sufficient replicates",
+"Q9Z2C9","T",578,3,2,"24h","Oocyte",0.886630199098702,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z2U1","S",16,2,2,"24h","Oocyte",1.09976934654144,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z2U1","T",213,1,1,,,,"Insufficient conditions",
+"Q9Z2V5","S",21,4,2,"24h","Oocyte",1.23043771943508,"Provisional anchor-aligned maximum","24h / Oocyte"
+"Q9Z2V5","S",859,2,1,"5-day","Day 2",0.36142318823191,"Only one dataset with sufficient replicates",
+"Q9Z2V5","S",910,1,1,,,,"Insufficient conditions",
+"Q9Z2W1","T",174,2,1,"24h","Zygote",0.341516367685744,"Only one dataset with sufficient replicates",
