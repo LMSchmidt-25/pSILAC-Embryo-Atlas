@@ -285,19 +285,23 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
    column(4,div(style='width:100%;',uiOutput('protein_identity'))),
    column(4,div(style='width:100%;',uiOutput('protein_metrics')))
  ),
- fluidRow(column(6,div(class='cardx',h3('5 day abundance'),plotOutput('abundance',height=320),p(class='smallnote','Mean log2 protein SumIntensity ± SD across available replicates over the first 5 days of embryogenesis. Missing days are not interpolated.'))),
-          column(6,div(class='cardx',h3('5 day incorporation dynamics'),plotOutput('incorp',height=320),p(class='smallnote','Mean heavy-label incorporation ± SD; dashed curve is an assumption-dependent model, shown only when a valid early-onset fit exists.')))),
+ fluidRow(column(6,div(class='cardx',h3('5 day abundance'),plotOutput('abundance',height=390),p(class='smallnote','Mean log2 protein SumIntensity ± SD across available replicates over the first 5 days of embryogenesis. Missing days are not interpolated.'))),
+          column(6,div(class='cardx',h3('5 day incorporation dynamics'),plotOutput('incorp',height=390),p(class='smallnote','Mean heavy-label incorporation ± SD; dashed curve is an assumption-dependent model, shown only when a valid early-onset fit exists.')))),
  div(class='cardx',h3('24 h and 48 h pulsed-SILAC'),
  fluidRow(column(3,selectInput('metric','Measurement',choices=metric_choices)),
           column(3,selectInput('axis_mode','Y-axis',c('Auto','Custom'))),
           column(3,numericInput('ymin','Y minimum',0)),column(3,numericInput('ymax','Y maximum',30))),
  p(class='smallnote','Intensities are log2-transformed and averaged per replicate. Pulse-Chase SILAC 48 h data are described according to the used Label: HH = H -> H, HL = H -> L, LH = L -> H. Labeling was applied for 24 h.'),
- fluidRow(column(6,h4('24 h: Oocyte vs 2-cell Embryo'),plotOutput('short24',height=420)),
-          column(6,h4('48 h: Developmental Stages and Labelling'),plotOutput('short48',height=420)))),
+ fluidRow(column(6,h4('24 h: Oocyte vs 2-cell Embryo'),plotOutput('short24',height=480)),
+          column(6,h4('48 h: Developmental Stages and Labelling'),plotOutput('short48',height=480)))),
  div(class='cardx',h3('Identified phosphosites'),
-     p(class='smallnote','Motifs and motif classes are read from phosphosite_annotations.csv. Reported-site, functional, and kinase annotations are displayed only when supplied by a curated local annotation file; Not annotated does not mean novel. Motif classes are heuristic sequence patterns (S/T-P; R/K at -3/-2; D/E at +1 to +3; at least 3 prolines within ±7), can overlap, and do not establish kinase activity.'),
+     p(class='smallnote','Motifs and motif classes are read from the validated v39 combined annotation RDS. Reported-site, functional, and kinase annotations are displayed only when supplied by a curated local annotation file; Not annotated does not mean novel. Motif classes are heuristic sequence patterns (S/T-P; R/K at -3/-2; D/E at +1 to +3; at least 3 prolines within ±7), can overlap, and do not establish kinase activity.'),
      selectInput('phospho_report_filter','UniProt annotation',choices=c('All sites','Reported in UniProt','Not annotated in UniProt'),selected='All sites'),
-     DTOutput('protein_phosphosites'))),
+      selectInput('phospho_source_filter','Measurement source',
+        choices=c('All sources','Original pSILAC','Enrichment only','Original pSILAC + enrichment')),
+      textOutput('phospho_source_summary'),
+      p(class='smallnote','Maximum incorporation is available only for sites quantified in the original pSILAC experiments; enrichment-only sites have no incorporation value.'),
+      DTOutput('protein_phosphosites'))),
  tabPanel('Protein Discovery',fluidRow(
   column(3,div(class='cardx',h3('Discovery filters'),     textInput('discovery_search','Search within results',placeholder='Gene, protein name or UniProt ID'),
      actionButton('reset_discovery','Reset search and filters',width='100%'),
@@ -334,7 +338,7 @@ body{background:#f7f8fb}.container-fluid{max-width:1700px}
         column(6,actionButton('clear_compare','Clear comparison',width='100%'))
       ),
       textOutput('compare_status'),
-      plotOutput('compareplot',height=440),
+      plotOutput('compareplot',height=500),
       p(class='smallnote','These are descriptive trajectories, not statistical correlations. Different proteins may have different missingness.'))))),
  tabPanel('Network',
    div(class='network-busy-overlay',div(class='network-spinner'),div('Calculating network…'),div(class='smallnote',style='margin-top:4px;font-weight:400;','Large protein groups can take a few seconds.')),
@@ -447,7 +451,8 @@ server <- function(input,output,session) {
       slice_head(n=100)
    ch <- setNames(hit$UniProtID,paste0(hit$GeneSymbol,' · ',hit$UniProtID))
    updateSelectInput(session,'protein_hits',choices=ch,
-                     selected=if(active_protein() %in% unname(ch)) active_protein() else character(0))
+                     selected=if(length(ch)) unname(ch)[1] else character(0))
+   if(length(ch)) active_protein(as.character(unname(ch)[1]))
  },ignoreInit=TRUE)
 
  observeEvent(input$protein_hits,{
@@ -492,80 +497,151 @@ server <- function(input,output,session) {
      div(class='metricbox',div(class='metricvalue',h),
          div(class='metriclabel','Apparent incorporation half-life (model)*')),
      div(class='metricbox',div(class='metricvalue',sites),
-         div(class='metriclabel','Detected phosphosites'))
+         div(class='metriclabel','Original pSILAC phosphosites'))
    ),
    p(class='smallnote',
      '* Apparent incorporation half-lifes are model-based and should be interpreted cautiously. Stage-specific synthesis and maternal protein persistence may affect incorporation kinetics. See tab "About" for details.')
    )
  })
 
- # Optional, locally curated mouse phosphosite annotations.
- # No database evidence is inferred from the motif or from an absent record.
- annotation_path <- file.path(root,'shiny_data','phosphosite_annotations_v38_CORRECTED.csv')
- annotation_columns <- c('UniProtID','Residue','Position','Reported','FunctionalAnnotation','KinaseEvidence','SequenceMotif','MotifClass','MotifQC','Highest abundance stage')
- if(file.exists(annotation_path)) {
-   site_annotations <- tryCatch(read.csv(annotation_path,stringsAsFactors=FALSE,
-                                         check.names=FALSE),error=function(e) {
-     warning('Phosphosite annotation CSV could not be read: ',conditionMessage(e))
-     data.frame()
-   })
- } else site_annotations <- data.frame()
- if(!all(annotation_columns %in% names(site_annotations))) {
-   if(nrow(site_annotations)) warning('Motif annotation CSV missing required columns; annotations disabled.')
-   site_annotations <- as.data.frame(setNames(replicate(length(annotation_columns),
-                                        character(0),simplify=FALSE),annotation_columns))
- }
- site_annotations <- site_annotations %>%
-   mutate(UniProtID=as.character(UniProtID),
-          Residue=toupper(trimws(as.character(Residue))),
-          Position=suppressWarnings(as.integer(Position))) %>%
-   filter(!is.na(Position),Residue %in% c('S','T','Y'),
-          !is.na(UniProtID),nzchar(UniProtID)) %>%
-   distinct(UniProtID,Residue,Position,.keep_all=TRUE)
- message('[Phosphosite annotations / precomputed motifs] ',nrow(site_annotations),
-         ' unique accession/residue/position records loaded from ',
-         if(file.exists(annotation_path)) annotation_path else 'no precomputed annotation file (copy the fixed CSV into shiny_data)')
+   # v39: validated annotations are a separate file; original v38 is untouched.
+  annotation_path <- file.path(root, 'shiny_data', 'phosphosite_annotations_combined_12002.rds')
+  enrichment_path <- file.path(root, 'shiny_data', 'phosphosite_enrichment_9634_PSP_annotated.rds')
+  site_annotations <- readRDS(annotation_path)
+  enrichment <- readRDS(enrichment_path)
+  annotation_columns <- c('UniProtID','Residue','Position','Reported',
+    'FunctionalAnnotation','KinaseEvidence','SequenceMotif','MotifClass',
+    'MotifQC','Highest abundance stage','Data source','Stages compared')
+  enrichment_columns <- c('UniProtID','Residue','Position','site_id',
+    'logFC','P.Value','adj.P.Val','adj_logFC','adj_P','adj_adjP',
+    'n_valid_oocyte','n_valid_zygote','Probability','quant_track','onoff_track',
+    'onoff_dir','Data source','Stages compared')
+  stopifnot(is.data.frame(site_annotations),is.data.frame(enrichment),
+    all(annotation_columns %in% names(site_annotations)),
+    all(enrichment_columns %in% names(enrichment)),
+    nrow(site_annotations)==12002L,nrow(enrichment)==9634L)
+  site_annotations <- site_annotations %>%
+    mutate(UniProtID=as.character(UniProtID),
+           Residue=toupper(trimws(as.character(Residue))),
+           Position=as.integer(Position))
+  enrichment <- enrichment %>%
+    mutate(UniProtID=as.character(UniProtID),
+           Residue=toupper(trimws(as.character(Residue))),
+           Position=as.integer(Position))
+  site_key <- function(d) paste(d$UniProtID,d$Residue,d$Position,sep='|')
+  stopifnot(!anyDuplicated(site_key(site_annotations)),
+            !anyDuplicated(site_key(enrichment)),
+            all(site_key(enrichment) %in% site_key(site_annotations)))
+  message('[v39] Annotations: ',nrow(site_annotations),
+          '; enrichment sites: ',nrow(enrichment),
+          '; original pSILAC phosphosites: ',nrow(phospho_sites))
+  evidence <- function(x, missing='Not annotated') {
+    x <- trimws(as.character(x))
+    ifelse(is.na(x) | !nzchar(x),missing,x)
+  }
+  # Enrichment is site-level abundance evidence, NOT SILAC incorporation.
+  enrichment_view <- enrichment %>%
+    transmute(UniProtID,Residue,Position,
+      `Enrichment site ID`=as.character(site_id),
+      `Localization probability`=suppressWarnings(as.numeric(Probability)),
+      `Oocyte quantified (n)`=as.integer(n_valid_oocyte),
+      `Zygote quantified (n)`=as.integer(n_valid_zygote),
+      `Enrichment log2FC`=suppressWarnings(as.numeric(logFC)),
+      `Enrichment P value`=suppressWarnings(as.numeric(P.Value)),
+      `Enrichment FDR`=suppressWarnings(as.numeric(adj.P.Val)),
+      `Protein-adjusted log2FC`=suppressWarnings(as.numeric(adj_logFC)),
+      `Protein-adjusted P value`=suppressWarnings(as.numeric(adj_P)),
+      `Protein-adjusted FDR`=suppressWarnings(as.numeric(adj_adjP)),
+      `Quantification track`=as.character(quant_track),
+      `On/off track`=as.character(onoff_track),
+      `On/off direction`=as.character(onoff_dir))
 
- output$protein_phosphosites <- DT::renderDT({
-   z <- phospho_detail %>% filter(UniProtID == chosen())
-   validate(need(nrow(z)>0,'No identified phosphosites for this protein in the available phosphoproteomics datasets.'))
-   z <- z %>% group_by(UniProtID,PhosphositeID) %>%
-     summarise(`Maximum incorporation (%)`=
-       if(any(is.finite(Incorporation))) 100*max(Incorporation[is.finite(Incorporation)])
-       else NA_real_,.groups='drop')
-   parsed <- regmatches(z$PhosphositeID,
-     regexpr('(?<![A-Za-z])[STYsty]\\s*[0-9]+',z$PhosphositeID,perl=TRUE))
-   z$Residue <- ifelse(nzchar(parsed),toupper(substr(parsed,1,1)),NA_character_)
-   z$Position <- suppressWarnings(as.integer(sub('^[STYsty]\\s*','',parsed)))
-   z <- left_join(z,site_annotations,by=c('UniProtID','Residue','Position'))
-   z$`Motif (+/-7 AA)` <- as.character(z$SequenceMotif)
-   z$`Motif class` <- as.character(z$MotifClass)
-   z$`Motif class`[is.na(z$`Motif class`) | !nzchar(trimws(z$`Motif class`))] <- 'Not mapped'
-   evidence <- function(x) {
-     x <- trimws(as.character(x))
-     ifelse(is.na(x)|!nzchar(x),'Not annotated',x)
-   }
-   z$`Previously reported` <- evidence(z$Reported)
-   z$`Functional annotation` <- evidence(z$FunctionalAnnotation)
-   z$`Kinase evidence` <- evidence(z$KinaseEvidence)
-    z$`Highest abundance stage` <- evidence(z$`Highest abundance stage`)
-    z$`Highest abundance stage`[z$`Highest abundance stage`=='Not annotated'] <- 'Not assigned'
-   if(identical(input$phospho_report_filter,'Reported in UniProt'))
-     z <- z[!is.na(z$Reported) & nzchar(trimws(z$Reported)),,drop=FALSE]
-   if(identical(input$phospho_report_filter,'Not annotated in UniProt'))
-     z <- z[is.na(z$Reported) | !nzchar(trimws(z$Reported)),,drop=FALSE]
-   z$`Maximum incorporation (%)` <- round(z$`Maximum incorporation (%)`,1)
-   z <- z %>% select(`Phosphosite ID`=PhosphositeID,
-     `Maximum incorporation (%)`, `Highest abundance stage`,
-     `Motif (+/-7 AA)`, `Motif class`, `Previously reported`,
-     `Functional annotation`, `Kinase evidence`)
-   DT::datatable(z,rownames=FALSE,filter='top',extensions='Buttons',
-     options=list(pageLength=10,scrollX=TRUE,dom='Bftip',buttons=list(list(extend='csv',text='Export filtered CSV',exportOptions=list(columns=':visible',modifier=list(search='applied',order='applied',page='all'))))))  },server=FALSE)
+  original_site_view <- reactive({
+    z <- phospho_detail %>% filter(UniProtID==chosen())
+    if(!nrow(z)) return(tibble(UniProtID=character(),Residue=character(),
+      Position=integer(),`Original phosphosite ID`=character(),
+      `Maximum incorporation (%)`=double()))
+    parsed <- regmatches(z$PhosphositeID,
+      regexpr('(?<![A-Za-z])[STYsty]\\s*[0-9]+',z$PhosphositeID,perl=TRUE))
+    z$Residue <- ifelse(nzchar(parsed),toupper(substr(parsed,1,1)),NA_character_)
+    z$Position <- suppressWarnings(as.integer(sub('^[STYsty]\\s*','',parsed)))
+    if(any(!is.finite(z$Incorporation))) {
+      message('[v39 QC] ',chosen(),': original phosphosite rows with finite incorporation: ',
+        sum(is.finite(z$Incorporation)),' / ',nrow(z),
+        '; sites with parsed residue/position: ',sum(!is.na(z$Position)))
+    }
+    z %>% filter(!is.na(Position),Residue %in% c('S','T','Y')) %>%
+      group_by(UniProtID,Residue,Position) %>%
+      summarise(`Original phosphosite ID`=paste(sort(unique(PhosphositeID)),collapse='; '),
+        `Maximum incorporation (%)`=if(any(is.finite(Incorporation)))
+          100*max(Incorporation[is.finite(Incorporation)]) else NA_real_,
+        .groups='drop')
+  })
+  phosphosite_view <- reactive({
+    original <- original_site_view()
+    extra <- enrichment_view %>% filter(UniProtID==chosen())
+    keys <- bind_rows(original %>% select(UniProtID,Residue,Position),
+                      extra %>% select(UniProtID,Residue,Position)) %>% distinct()
+    validate(need(nrow(keys)>0,'No phosphosites measured for this protein.'))
+    z <- keys %>%
+      left_join(original,by=c('UniProtID','Residue','Position')) %>%
+      left_join(extra,by=c('UniProtID','Residue','Position')) %>%
+      left_join(site_annotations,by=c('UniProtID','Residue','Position'))
+    z$`Measurement source` <- case_when(
+      !is.na(z$`Original phosphosite ID`) & !is.na(z$`Enrichment site ID`) ~ 'Original pSILAC + enrichment',
+      !is.na(z$`Original phosphosite ID`) ~ 'Original pSILAC',
+      TRUE ~ 'Enrichment only')
+    z$`Phosphosite` <- paste0(z$Residue,z$Position)
+    z$`Motif (+/-7 AA)` <- evidence(z$SequenceMotif,'Not mapped')
+    z$`Motif class` <- evidence(z$MotifClass,'Not mapped')
+    z$`Previously reported` <- evidence(z$Reported)
+    z$`Functional annotation` <- evidence(z$FunctionalAnnotation)
+    z$`Kinase evidence` <- evidence(z$KinaseEvidence)
+    z$`Highest abundance stage` <- evidence(z$`Highest abundance stage`,'Not assigned')
+    z$`Maximum incorporation (%)` <- round(z$`Maximum incorporation (%)`,1)
+    z
+  })
+  output$phospho_source_summary <- renderText({
+    z <- phosphosite_view()
+    paste0(nrow(z),' unique measured sites: ',
+      sum(z$`Measurement source`=='Original pSILAC'),' original only; ',
+      sum(z$`Measurement source`=='Enrichment only'),' enrichment only; ',
+      sum(z$`Measurement source`=='Original pSILAC + enrichment'),' measured in both. ',
+      'Incorporation is shown only for original pSILAC measurements.')
+  })
+  output$protein_phosphosites <- DT::renderDT({
+    z <- phosphosite_view()
+    if(identical(input$phospho_report_filter,'Reported in UniProt'))
+      z <- z[!is.na(z$Reported) & nzchar(trimws(z$Reported)),,drop=FALSE]
+    if(identical(input$phospho_report_filter,'Not annotated in UniProt'))
+      z <- z[is.na(z$Reported) | !nzchar(trimws(z$Reported)),,drop=FALSE]
+    if(!is.null(input$phospho_source_filter) && input$phospho_source_filter!='All sources')
+      z <- z[z$`Measurement source`==input$phospho_source_filter,,drop=FALSE]
+    # Keep the original v38 table columns; source is the only additional column.
+    # For enrichment-only sites, use the canonical residue-position identifier.
+    z$`Phosphosite ID` <- ifelse(
+      !is.na(z$`Original phosphosite ID`) & nzchar(z$`Original phosphosite ID`),
+      z$`Original phosphosite ID`,z$Phosphosite)
+    z$`Maximum incorporation (%)` <- ifelse(
+      is.finite(z$`Maximum incorporation (%)`),
+      as.character(z$`Maximum incorporation (%)`),
+      ifelse(z$`Measurement source`=='Enrichment only',
+             'Not measured (enrichment only)', 'No valid incorporation measurement'))
+    z <- z %>% select(`Phosphosite ID`,`Measurement source`,
+      `Maximum incorporation (%)`,`Highest abundance stage`,
+      `Motif (+/-7 AA)`,`Motif class`,`Previously reported`,
+      `Functional annotation`,`Kinase evidence`)
+    DT::datatable(z,rownames=FALSE,filter='top',extensions='Buttons',
+      options=list(pageLength=10,scrollX=TRUE,dom='Bftip',
+        buttons=list(list(extend='csv',text='Export filtered CSV',
+          exportOptions=list(columns=':visible',
+            modifier=list(search='applied',order='applied',page='all'))))))
+  },server=FALSE)
 
-  # Draw lines only between consecutive measured days. Missing days remain gaps.
+# Draw lines only between consecutive measured days. Missing days remain gaps.
  draw_consecutive <- function(day,value,pch=19,lwd=2,lty=1) {
    ord <- order(day); day <- day[ord]; value <- value[ord]
-   points(day,value,pch=pch)
+   points(day,value,pch=pch,cex=1.3)
    if(length(day) >= 2) {
      for(i in seq_len(length(day)-1)) {
        if(is.finite(day[i]) && is.finite(day[i+1]) &&
@@ -578,6 +654,7 @@ server <- function(input,output,session) {
  }
 
  output$abundance <- renderPlot({
+   par(cex.axis=1.2,cex.lab=1.3,mar=c(5.3,5.4,3.0,1.5),mgp=c(3.2,0.85,0))
    d <- daily %>% filter(UniProtID==chosen(),is.finite(Day),is.finite(log2Abundance)) %>% arrange(Day)
    validate(need(nrow(d)>0,'No measured 5 day abundance.'))
 
@@ -588,7 +665,7 @@ server <- function(input,output,session) {
         xlab='Day',ylab='Mean log2 SumIntensity',ylim=yl,
         xlim=c(1,5),xaxt='n')
    axis(1,at=1:5,labels=1:5)
-   draw_consecutive(d$Day,d$log2Abundance,pch=19,lwd=2)
+   draw_consecutive(d$Day,d$log2Abundance,pch=19,lwd=2.7)
    ok <- is.finite(d$sdAbundance)
    if(any(ok)) arrows(d$Day[ok],d$log2Abundance[ok]-d$sdAbundance[ok],
                       d$Day[ok],d$log2Abundance[ok]+d$sdAbundance[ok],
@@ -597,6 +674,7 @@ server <- function(input,output,session) {
  })
 
  output$incorp <- renderPlot({
+   par(cex.axis=1.2,cex.lab=1.3,mar=c(5.3,5.4,3.0,1.5),mgp=c(3.2,0.85,0))
    d <- daily %>%
      filter(UniProtID==chosen(),is.finite(Day),is.finite(Incorporation)) %>%
      arrange(Day)
@@ -608,7 +686,7 @@ server <- function(input,output,session) {
         xlim=c(1,5),ylim=c(0,1),
         xaxt='n',yaxt='n')
    axis(1,at=1:5,labels=1:5)
-   draw_consecutive(d$Day,d$Incorporation,pch=19,lwd=2)
+   draw_consecutive(d$Day,d$Incorporation,pch=19,lwd=2.7)
    axis(2,at=seq(0,1,.2),labels=paste0(seq(0,100,20),'%'),las=1)
 
    ok <- is.finite(d$sdIncorp)
@@ -652,10 +730,16 @@ server <- function(input,output,session) {
  shortdata <- reactive({
    req(input$metric, chosen())
    d <- short %>% filter(UniProtID == chosen())
+   # Preserve the plotting schema even when a protein has no 24/48 h rows.
+   # Returning the unmodified empty table previously caused errors when
+   # the plots attempted to filter on AppDataset or PlotStage.
+   d$AppDataset <- character(nrow(d))
+   d$Value <- rep(NA_real_, nrow(d))
+   d$PlotStage <- rep(NA_character_, nrow(d))
+   d$PlotCondition <- rep(NA_character_, nrow(d))
    if (!nrow(d)) return(d)
-
-   # Explicit source-table mapping, validated against atlas_pSILAC_proteome_public.rds.
-   # Table03 is the 1X experiment and is excluded from the 5X explorer.
+   validate(need(all(c('Table','Duration','Origin','Stage','Condition') %in% names(d)),
+                 'The 24/48 h dataset is missing required metadata.'))
    tab <- trimws(as.character(d$Table))
    dur <- trimws(as.character(d$Duration))
    d$AppDataset <- case_when(
@@ -665,13 +749,11 @@ server <- function(input,output,session) {
    )
    d <- d[!is.na(d$AppDataset), , drop=FALSE]
    if (!nrow(d)) return(d)
-
    validate(need(input$metric %in% names(d),
                  'Selected measurement is unavailable in this dataset.'))
    d$Value <- suppressWarnings(as.numeric(d[[input$metric]]))
    if (input$metric %in% c('SumIntensity','H','L'))
      d$Value <- log2_ok(d$Value)
-
    d$PlotStage <- canonical_stage(d$Origin, d$Stage)
    d$PlotStage[d$AppDataset == '24h' & d$Origin == 'oocyte'] <- 'Oocyte'
    d$PlotStage[d$AppDataset == '24h' & d$Origin == 'zygote'] <- 'Zygote'
@@ -691,11 +773,13 @@ server <- function(input,output,session) {
  })
 
  output$short24 <- renderPlot({
+   par(cex.axis=1.2,cex.lab=1.3,mar=c(5.3,5.4,3.0,1.5),mgp=c(3.2,0.85,0))
    d <- shortdata() %>% filter(AppDataset=='24h',PlotStage %in% c('Oocyte','Zygote'))
    d$PlotStage <- ifelse(as.character(d$PlotStage)=='Zygote','2-cell',as.character(d$PlotStage))
    lev <- c('Oocyte','2-cell')
    d$PlotStage <- factor(d$PlotStage,levels=lev)
-   validate(need(any(is.finite(d$Value)),'Protein was not identified in the 24 h dataset.'))
+   validate(need(nrow(d)>0 && any(is.finite(d$Value)),
+                 'No 24 h measurements are available for this protein and selected metric.'))
 
    if(input$axis_mode=='Custom' && is.finite(input$ymin) && is.finite(input$ymax) && input$ymin<input$ymax)
      yl <- c(input$ymin,input$ymax)
@@ -722,18 +806,20 @@ server <- function(input,output,session) {
      x <- groups[[i]]
      if(!length(x)) next
      if(length(x)>1) boxplot(x,at=i,add=TRUE,axes=FALSE,outline=FALSE,
-                            boxwex=.5,col=unname(cols[lev[i]]))
-     points(jitter(rep(i,length(x)),amount=.12),x,pch=16,cex=.7)
+                            boxwex=.76,lwd=1.6,col=unname(cols[lev[i]]))
+     points(jitter(rep(i,length(x)),amount=.12),x,pch=16,cex=.95)
    }
  })
 
  output$short48 <- renderPlot({
+   par(cex.axis=1.2,cex.lab=1.3,mar=c(5.3,5.4,3.0,1.5),mgp=c(3.2,0.85,0))
    d <- shortdata() %>%
      filter(AppDataset=='48h',
             PlotStage %in% c('4-cell','6-cell','8-cell'),
             PlotCondition %in% c('HL','LH','HH'))
 
-   validate(need(any(is.finite(d$Value)),'Protein was not identified in the 48 h dataset.'))
+   validate(need(nrow(d)>0 && any(is.finite(d$Value)),
+                 'No 48 h measurements are available for this protein and selected metric.'))
 
    # Requested order:
    # HL: 4-cell -> 6-cell -> 8-cell
@@ -770,18 +856,18 @@ server <- function(input,output,session) {
      x <- groups[[i]]
      if(!length(x)) next
      if(length(x)>1) boxplot(x,at=i,add=TRUE,axes=FALSE,outline=FALSE,
-                            boxwex=.5,col=unname(box_cols[i]))
-     points(jitter(rep(i,length(x)),amount=.12),x,pch=16,cex=.55)
+                            boxwex=.72,lwd=1.5,col=unname(box_cols[i]))
+     points(jitter(rep(i,length(x)),amount=.12),x,pch=16,cex=.78)
    }
 
    axis(1,at=1:9,
         labels=rep(c('4','6','8'),3),
-        cex.axis=.82)
-   mtext(c('HL','LH','HH'),side=1,at=c(2,5,8),line=2.1,font=2)
-   mtext('Embryo cell Stage',side=1,line=3.4)
+        cex.axis=1.1)
+   mtext(c('HL','LH','HH'),side=1,at=c(2,5,8),line=2.2,font=2,cex=1.15)
+   mtext('Embryo cell Stage',side=1,line=3.7,cex=1.15)
    legend('topright',legend=c('4-cell','6-cell','8-cell'),
           fill=unname(cols[c('4-cell','6-cell','8-cell')]),
-          bty='n',cex=.8)
+          bty='n',cex=1.05)
    abline(v=c(3.5,6.5),lty=3)
    grid()
  })
@@ -870,7 +956,7 @@ server <- function(input,output,session) {
    datatable(
      d,
      rownames = FALSE,
-     selection = 'multiple',
+     selection = list(mode = 'multiple', selected = NULL, target = 'row'),
      filter = 'top',
      escape = FALSE,
      extensions = 'Buttons',
@@ -909,30 +995,7 @@ server <- function(input,output,session) {
            )
          )
        )
-     ),
-     
-     callback = JS("
-    var table = this.api();
-
-    function setIntegerDaySliders() {
-      [3, 4, 5].forEach(function(colIndex) {
-        var column = table.column(colIndex);
-        var filter = $(column.header()).closest('table')
-          .find('thead tr').last().find('th').eq(colIndex);
-
-        var slider = filter.find('.noUi-target');
-
-        if (slider.length && slider[0].noUiSlider) {
-          slider[0].noUiSlider.updateOptions({
-            step: 1,
-            range: {min: 1, max: 5}
-          });
-        }
-      });
-    }
-
-    setTimeout(setIntegerDaySliders, 300);
-  ")
+     )
    ) %>%
      formatPercentage('Max incorp.', 1) %>%
      formatRound('Half-life (d)', 2)
@@ -1053,6 +1116,7 @@ server <- function(input,output,session) {
  })
 
  output$compareplot <- renderPlot({
+   par(cex.axis=1.2,cex.lab=1.3,mar=c(5.3,5.4,3.0,1.5),mgp=c(3.2,0.85,0))
    ids <- comparison_ids()
    validate(need(length(ids)>0,
      'Select multiple proteins in the table and click "Compare selected proteins", or search them above.'))
@@ -1101,7 +1165,7 @@ server <- function(input,output,session) {
      # draw_consecutive handles missing days without bridging gaps.
      zz <- z[is.finite(z$Day) & is.finite(z[[value_col]]),,drop=FALSE]
      if(nrow(zz)) {
-       points(zz$Day, zz[[value_col]], pch=16, col=comparison_cols[labs[i]])
+       points(zz$Day, zz[[value_col]], pch=16, cex=1.2,col=comparison_cols[labs[i]])
        if(nrow(zz) >= 2) {
          for(j in seq_len(nrow(zz)-1)) {
            if(zz$Day[j+1] - zz$Day[j] == 1)
@@ -1117,7 +1181,7 @@ server <- function(input,output,session) {
                         angle=90,code=3,length=.035,col=comparison_cols[labs[i]])
    }
    legend('topright',legend=labs,pch=16,lty=1,lwd=2,
-          col=unname(comparison_cols[labs]),bty='n',cex=.8)
+          col=unname(comparison_cols[labs]),bty='n',cex=1.05)
    grid()
  })
 
