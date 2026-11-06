@@ -4,66 +4,89 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>pSILAC Embryo Atlas</title>
-  <link rel="stylesheet" href="./shinylive/style-resets.css" />
-  <link rel="stylesheet" href="./shinylive/shinylive.css" />
-  <style>
-    #atlas-loading { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; background: #fff; color: #26364a; font-family: system-ui, sans-serif; transition: opacity .4s ease; }
-    #atlas-loading.finished { opacity: 0; pointer-events: none; }
-    .loading-content { text-align: center; padding: 20px; max-width: 400px; }
-    .loading-content video { width: min(260px, 65vw); max-height: 280px; object-fit: contain; display: block; margin: 0 auto 16px; }
-    .loading-content h1 { font-size: 1.3rem; font-weight: 600; margin: 0 0 8px; }
-    .loading-content p { font-size: .95rem; line-height: 1.5; margin: 0; color: #5b6677; }
-    #atlas-show { display: none; margin: 18px auto 0; padding: 9px 16px; border: 1px solid #9aa9bb; border-radius: 6px; background: #fff; cursor: pointer; }
-    #root { height: 100vh; width: 100vw; }
-    @media (prefers-reduced-motion: reduce) { #atlas-loading { transition: none; } }
-  </style>
-  <script src="./shinylive/load-shinylive-sw.js" type="module"></script>
+
+  <script src="./shinylive/load-shinylive-sw.js"
+          type="module"></script>
+
+  <script type="module">
+    import { runExportedApp } from "./shinylive/shinylive.js";
+    runExportedApp({
+      id: "root",
+      appEngine: "r",
+      relPath: ""
+    });
+  </script>
+
+  <link rel="stylesheet"
+        href="./shinylive/style-resets.css" />
+  <link rel="stylesheet"
+        href="./shinylive/shinylive.css" />
 </head>
 <body>
-  <div id="atlas-loading" role="status" aria-live="polite">
-    <div class="loading-content">
-      <video autoplay muted loop playsinline preload="auto" aria-label="Animated owl loading indicator">
-        <source src="./owl-loading.mp4" type="video/mp4" />
-      </video>
-      <h1>Loading pSILAC Embryo Atlas…</h1>
-      <p>Preparing the interactive atlas. The first visit may take longer while R and the datasets load.</p>
-      <button id="atlas-show" type="button">Show atlas / view loading errors</button>
-    </div>
-  </div>
-  <div id="root"></div>
-  <script>
-    (() => {
-      const overlay = document.getElementById('atlas-loading');
-      const reveal = document.getElementById('atlas-show');
-      let hidden = false;
-      function hide() {
-        if (hidden) return;
-        hidden = true;
-        overlay.classList.add('finished');
-        setTimeout(() => overlay.remove(), 450);
-      }
-      reveal.addEventListener('click', hide);
-      // Shinylive creates an iframe for the exported R app. Its load event
-      // signals the app frame is available, but not necessarily that every
-      // Shiny calculation has completed.
-      function attach(frame) {
-        if (frame.dataset.atlasObserved) return;
-        frame.dataset.atlasObserved = '1';
-        frame.addEventListener('load', () => setTimeout(hide, 1500), {once:true});
-      }
-      const root = document.getElementById('root');
-      const observer = new MutationObserver(() => {
-        root.querySelectorAll('iframe').forEach(attach);
-      });
-      observer.observe(root, {subtree:true, childList:true});
-      root.querySelectorAll('iframe').forEach(attach);
-      // Do not trap visitors behind the loader if startup fails.
-      setTimeout(() => { if (!hidden) reveal.style.display = 'block'; }, 45000);
-    })();
-  </script>
-  <script type="module">
-    import { runExportedApp } from './shinylive/shinylive.js';
-    runExportedApp({ id: 'root', appEngine: 'r', relPath: '' });
-  </script>
+
+<style>
+#owl-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+#owl-loader video {
+  width: min(340px, 80vw);
+  max-height: 55vh;
+}
+#owl-loader p {
+  color: #526174;
+  font-size: 17px;
+}
+</style>
+
+<div id="owl-loader">
+  <video autoplay muted loop playsinline>
+    <source src="./owl-loading.mp4" type="video/mp4">
+  </video>
+  <p>Loading pSILAC Embryo Atlas...</p>
+</div>
+
+<script>
+(function () {
+  const started = Date.now();
+
+  function checkReady() {
+    const root = document.getElementById("root");
+    const loader = document.getElementById("owl-loader");
+    if (!root || !loader) return;
+
+    const frame = root.querySelector("iframe");
+    let ready = false;
+
+    if (frame) {
+      try {
+        ready = !!frame.contentDocument?.querySelector(
+          ".shiny-bound-output"
+        );
+      } catch (e) {}
+    }
+
+    if (!ready) {
+      ready = !!root.querySelector(".shiny-bound-output");
+    }
+
+    if (ready && Date.now() - started > 2500) {
+      loader.remove();
+    }
+  }
+
+  setInterval(checkReady, 500);
+})();
+</script>
+
+  <div style="height: 100vh; width: 100vw"
+       id="root"></div>
 </body>
 </html>
